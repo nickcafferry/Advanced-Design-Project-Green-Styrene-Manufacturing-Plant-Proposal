@@ -20,7 +20,7 @@
 
 ## Repositories Transfer Links
 
-[Job-Hunting-Tips]()
+[Job-Hunting-Tips](https://github.com/nickcafferry/Job_Hunting_Tips)
 
 ## Useful References 
 
