@@ -1,9 +1,5 @@
 # DEHYDROGENATION REACTORS FOR STYRENE PRODUCTION
 
-C_{8}H_{10}\longrightarrow C_{6}H_{6} + C_{2}H_{4}
-
-r_{t1}=k_{t1}(P_{EB}-\frac{P_{ST}P_{H_{2}}}{K_{eq}})
-
 ## Reaction scheme:
 ******************
 ### Thermal Reaction:
