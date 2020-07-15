@@ -1,5 +1,13 @@
 **[Project Description](#project description)** |
 **[External Links](#external links)** |
+**[Installation](#installation)** |
+**[Documentation](http://jupyterlab.readthedocs.io)** |
+**[Contributing](#contributing)** |
+**[License](#license)** |
+**[Team](#team)** |
+**[Getting help](#getting-help)** |
+
+
 
 # Advanced Design Project: Green Styrene Manufacturing Plant Proposal
 -----------------------------------------------------------
