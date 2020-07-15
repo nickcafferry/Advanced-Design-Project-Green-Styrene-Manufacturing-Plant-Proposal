@@ -1,6 +1,6 @@
 # Advanced Design Project: Green Styrene Manufacturing Plant Proposal
 -----------------------------------------------------------
-                                   [![Ud44Zd.md.png](https://s1.ax1x.com/2020/07/15/Ud44Zd.md.png)](https://imgchr.com/i/Ud44Zd)
+[![Ud44Zd.md.png](https://s1.ax1x.com/2020/07/15/Ud44Zd.md.png)](https://imgchr.com/i/Ud44Zd)
 ## Project Description
 
 * The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
@@ -17,13 +17,4 @@
 
 * Furthermore, a sustainability analysis was performed to determine the best course of action for dealing with each waste stream. It was found that the byproduct effluent streams were hydrocarbon dense and are therefore combusted to provide energy to the plant, save for benzene and toluene side products. This method reduces the amount of natural gas required by the plant. It was found that it was more profitable to sell the benzene and toluene mixture as BTX used as a feedstock in petroleum production, than to combust them or separate them and sell them individually. Combusting these side products, however, will increase the overall carbon dioxide footprint of the plant. Within the plant design, sustainability measures were taken such as heat integration and water recycling which was found to be more environmentally friendly as water with minor impurities from the plant is not disposed into the environment. These 2 measures also increase overall profits of the plant making it more economically viable to implement these designs. 
 
-* Lastly, the preliminary plant layout was drawn. This was a key part of plant design as it plays an important in ensuring the safest plant operation possible along with plant longevity and economic viability. To generate a preliminary plant layout, all the units were sized. The factors that were taken into consideration include availability of raw materials and utilities, availability of land and labour, socioeconomic and environmental impacts of plant construction and operation, transportation, and political, legislative, and legal considerations. This was done by converting the PFD into a plant layout and sizing each process unit.
-
-## Repositories Transfer Links
-
-[Job-Hunting-Tips](https://github.com/nickcafferry/Job_Hunting_Tips)
-
-## Useful References 
-
-[Markdown](https://www.jianshu.com/p/191d1e21f7ed/)
-
+* Lastly, the preliminary plant layout was drawn. This was a key part of plant design as it plays an important in ensuring the safest plant operation possible along with plant longevity and economic viability. To generate a preliminary plant layout, all the units were sized. The factors that were taken into consideration include availability of raw materials and utilities, availability of land and labour, socioeconomic and environmental impacts of plant construction and operation, transportation, and political, legislative, and legal considerations. This was done by converting the 
