@@ -1,4 +1,4 @@
-**[Reaction_Scheme](#reaction-scheme)** |
+**[Reaction Scheme](#reaction-scheme)** |
 **[Nomenclature](#nomenclature)** |
 **[Key Variable Profiles](#key-variable-profile)** |
 **[Operating Conditions Optimization](#operating-condtions-optimization)** |
