@@ -34,7 +34,7 @@
 **[Thermal Reactions](#thermal-reactions)** |
 **[Catalytic Reactions](#catalytic-reactions)** |
 
-### Thermal-Reaction: 
+### Thermal-Reactions: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
 <a href="https://www.codecogs.com/eqnedit.php?latex=At1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?At1" title="At1" /></a> | The pre-exponential factor for the first thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3hbar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3hbar" title="kmol/m^3hbar" /></a>
@@ -50,3 +50,7 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=rt1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rt1" title="rt1" /></a> | The reaction rate of the first thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3h" title="kmol/m^3h" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=rt2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rt2" title="rt2" /></a> | The reaction rate of the second thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3h" title="kmol/m^3h" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=rt3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rt3" title="rt3" /></a> | The reaction rate of the third thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3h" title="kmol/m^3h" /></a>
+
+--------------------
+### Thermal-Reactions: 
+| Symbol | Meaning | Unit |
