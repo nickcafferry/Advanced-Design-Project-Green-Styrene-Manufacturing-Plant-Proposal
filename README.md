@@ -26,4 +26,3 @@
 
 [Markdown](https://www.jianshu.com/p/191d1e21f7ed/)
 
-![UdhQtx.png](https://s1.ax1x.com/2020/07/15/UdhQtx.png)
