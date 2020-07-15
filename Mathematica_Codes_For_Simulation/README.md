@@ -31,10 +31,10 @@
 
 ## Nomenclature
 *****************
-**[Thermal Reactions](#thermal-reactions)** |
-**[Catalytic Reactions](#catalytic-reactions)** |
+**[Thermal Reactions](#thermal-reaction)** |
+**[Catalytic Reactions](#catalytic-reaction)** |
 
-### Thermal-Reactions: 
+### Thermal-Reaction: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
 <a href="https://www.codecogs.com/eqnedit.php?latex=At1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?At1" title="At1" /></a> | The pre-exponential factor for the first thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3hbar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3hbar" title="kmol/m^3hbar" /></a>
@@ -52,5 +52,5 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=rt3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rt3" title="rt3" /></a> | The reaction rate of the third thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3h" title="kmol/m^3h" /></a>
 
 --------------------
-### Thermal-Reactions: 
+### Catalytic-Reaction: 
 | Symbol | Meaning | Unit |
