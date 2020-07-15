@@ -1,4 +1,4 @@
-**[Project](#project description)** |
+**[Project](#project)** |
 **[External Links](#external links)** |
 **[Installation](#installation)** |
 **[Documentation](http://jupyterlab.readthedocs.io)** |
