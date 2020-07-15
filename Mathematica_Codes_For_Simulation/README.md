@@ -1,6 +1,13 @@
+**[Reaction_Scheme](#reaction-scheme)** |
+**[Nomenclature](#nomenclature)** |
+**[Key Variable Profiles](#key-variable-profile)** |
+**[Operating Conditions Optimization](#operating-condtions-optimization)** |
+**[Reactor Dimensions Optimization](#reactor-dimensions-optimization)** |
+**[Literature Comparsion](#literature-comparsion)** |
+
 # DEHYDROGENATION REACTORS FOR STYRENE PRODUCTION
 
-## Reaction-scheme:
+## Reaction-Scheme:
 ******************
 ### Thermal-Reaction:
 | Thermal Reaction Number | Reaction | Reation Rate |
