@@ -28,15 +28,16 @@
 3 | <a href="https://www.codecogs.com/eqnedit.php?latex=C_{8}H_{10}&space;&plus;&space;H_{2}\longrightarrow&space;C_{7}H_{8}&space;&plus;&space;CH_{4}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{8}H_{10}&space;&plus;&space;H_{2}\longrightarrow&space;C_{7}H_{8}&space;&plus;&space;CH_{4}" title="C_{8}H_{10} + H_{2}\longrightarrow C_{7}H_{8} + CH_{4}" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=r_{C3}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1&plus;K_{EB}P_{EB}&plus;K_{H_{2}}P_{H_{2}}&plus;K_{ST}P_{ST})^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{C3}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1&plus;K_{EB}P_{EB}&plus;K_{H_{2}}P_{H_{2}}&plus;K_{ST}P_{ST})^2}" title="r_{C3}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}" /></a>
 4 | <a href="https://www.codecogs.com/eqnedit.php?latex=C_{8}H_{8}&space;&plus;&space;2H_{2}\longrightarrow&space;C_{7}H_{8}&space;&plus;&space;CH_{4}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{8}H_{8}&space;&plus;&space;2H_{2}\longrightarrow&space;C_{7}H_{8}&space;&plus;&space;CH_{4}" title="C_{8}H_{8} + 2H_{2}\longrightarrow C_{7}H_{8} + CH_{4}" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=r_{C4}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1&plus;K_{EB}P_{EB}&plus;K_{H_{2}}P_{H_{2}}&plus;K_{ST}P_{ST})^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{C4}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1&plus;K_{EB}P_{EB}&plus;K_{H_{2}}P_{H_{2}}&plus;K_{ST}P_{ST})^2}" title="r_{C4}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}" /></a>
 
-
+-------------------
 ## Nomenclature
-*****************
+
 **[Thermal Reactions](#thermal-reaction)** |
 **[Catalytic Reactions](#catalytic-reaction)** |
 **[Adsorption](#adsorption)** |
 **[Partial Pressure of Components](#partial-pressures-of-components)**|
 **[Concentration of Components](#concentration-of-components)** |
 
+---------------------
 ### Thermal-Reaction: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
@@ -74,6 +75,7 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=rc3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rc3" title="rc3" /></a> | The reaction rate of the third catalytic reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/kg\cdot&space;cath" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/kg\cdot&space;cath" title="kmol/kg\cdot cath" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=rc4" target="_blank"><img src="https://latex.codecogs.com/gif.latex?rc4" title="rc4" /></a> | The reaction rate of the fourth catalytic reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/kg\cdot&space;cath" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/kg\cdot&space;cath" title="kmol/kg\cdot cath" /></a>
 
+----------------
 ### Adsorption: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
@@ -87,7 +89,7 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=KST" target="_blank"><img src="https://latex.codecogs.com/gif.latex?KST" title="KST" /></a> | The adsorption equilibrium constant of styrene | <a href="https://www.codecogs.com/eqnedit.php?latex=1/bar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?1/bar" title="1/bar" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=KH2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?KH2" title="KH2" /></a> | The adsorption equilibrium constant of hydrogen | <a href="https://www.codecogs.com/eqnedit.php?latex=1/bar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?1/bar" title="1/bar" /></a>
 
---------------------
+----------------------------------
 ## Partial-Pressures-of-Components
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
