@@ -54,3 +54,6 @@
 --------------------
 ### Catalytic-Reaction: 
 | Symbol | Meaning | Unit |
+|:--:|:--:|:--:|
+<a href="https://www.codecogs.com/eqnedit.php?latex=A1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?A1" title="A1" /></a> | The pre-exponential factor for the first catalytic reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/kg\cdot&space;cath" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/kg\cdot&space;cath" title="kmol/kg\cdot cath" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=A2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?A2" title="A2" /></a> | The pre-exponential factor for the second catalytic reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/kg\cdot&space;cath" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/kg\cdot&space;cath" title="kmol/kg\cdot cath" /></a>
