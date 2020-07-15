@@ -31,4 +31,6 @@
 ### Thermal-Reaction: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
-At1 | The pre-exponential factor for the first thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3hbar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3hbar" title="kmol/m^3hbar" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=At1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?At1" title="At1" /></a> | The pre-exponential factor for the first thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3hbar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3hbar" title="kmol/m^3hbar" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=At2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?At2" title="At2" /></a> | The pre-exponential factor for the second thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3hbar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3hbar" title="kmol/m^3hbar" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=At3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?At3" title="At3" /></a> | The pre-exponential factor for the third thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3hbar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3hbar" title="kmol/m^3hbar" /></a>
