@@ -17,4 +17,4 @@ Thermal Reaction Number | Reaction | Reation Rate
 ### Catalytic Reaction:
 Catalytic Reaction Number | Reaction | Reation Rate
 --|:--:|:--
-1 | 
+1 | <a href="https://www.codecogs.com/eqnedit.php?latex=C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" title="C_{8}H_{10} \iff C_{8}H_{8} + H_{2}" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1&plus;K_{EB}P_{EB}&plus;K_{H_{2}}P_{H_{2}}&plus;K_{ST}P_{ST})^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1&plus;K_{EB}P_{EB}&plus;K_{H_{2}}P_{H_{2}}&plus;K_{ST}P_{ST})^2}" title="r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}" /></a>
