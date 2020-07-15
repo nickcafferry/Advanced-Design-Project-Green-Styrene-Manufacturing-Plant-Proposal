@@ -36,6 +36,13 @@
 **[Adsorption](#adsorption)** |
 **[Partial Pressure of Components](#partial-pressures-of-components)**|
 **[Concentration of Components](#concentration-of-components)** |
+**[Heat of Reactions](#heat-of-reactions)** |
+**[Heat Capacities of Components](#heat-capacities-of-components)** |
+**[Physical Properties of Catalyst](#physical-properties-of-catalyst)** |
+**[Dimensions of Reactors](#dimensions-of-reactors)** |
+**[Physical Properties of Feed Mixtures](#physical-properties-of-feed-mixtures)** |
+**[Initial Flowrates and Temperatures of Components](#initial-flowrates-and-temperatures=of-components)** |
+**[Conversions of Reactants](#conversions-of-reactants)** |
 
 ---------------------
 ### Thermal-Reaction: 
@@ -137,3 +144,8 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=S2BZ" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S2BZ" title="S2BZ" /></a> | The selectivity of benzene in the second reactor | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=S2TO" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S2TO" title="S2TO" /></a> | The selectivity of toluene in the second reactor | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=S2H2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S2H2" title="S2H2" /></a> | The selectivity of hydrogen in the first reactor | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
+
+---------------------------
+### Heat-of-Reaction: 
+| Symbol | Meaning | Unit |
+|:--:|:--:|:--:|
