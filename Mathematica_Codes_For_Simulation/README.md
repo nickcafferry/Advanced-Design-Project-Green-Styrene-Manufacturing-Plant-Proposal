@@ -17,7 +17,7 @@
 3 | <a href="https://www.codecogs.com/eqnedit.php?latex=C_{8}H_{10}&space;&plus;&space;H_{2}&space;\longrightarrow&space;C_{7}H_{8}&space;&plus;&space;CH_{4}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{8}H_{10}&space;&plus;&space;H_{2}&space;\longrightarrow&space;C_{7}H_{8}&space;&plus;&space;CH_{4}" title="C_{8}H_{10} + H_{2} \longrightarrow C_{7}H_{8} + CH_{4}" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=r_{t3}=k_{t3}P_{EB}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{t3}=k_{t3}P_{EB}" title="r_{t3}=k_{t3}P_{EB}" /></a>
 
 *****************
-### Catalytic-Reaction
+### Catalytic-Reaction:
 | Catalytic Reaction Number | Reaction | Reation Rate |
 |:--:|:--:|:--:|
 1 | <a href="https://www.codecogs.com/eqnedit.php?latex=C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" title="C_{8}H_{10} \iff C_{8}H_{8} + H_{2}" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1&plus;K_{EB}P_{EB}&plus;K_{H_{2}}P_{H_{2}}&plus;K_{ST}P_{ST})^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1&plus;K_{EB}P_{EB}&plus;K_{H_{2}}P_{H_{2}}&plus;K_{ST}P_{ST})^2}" title="r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}" /></a>
@@ -27,6 +27,8 @@
 
 
 ## Nomenclature
-
-| Catalytic Reaction Number | Reaction | Reation Rate |
+*****************
+### Thermal-Reaction: 
+| Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
+At1 | The pre-exponential factor for the first thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/m^3hbar" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/m^3hbar" title="kmol/m^3hbar" /></a>
