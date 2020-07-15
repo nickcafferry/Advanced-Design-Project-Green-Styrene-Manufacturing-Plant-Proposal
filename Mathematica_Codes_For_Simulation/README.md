@@ -34,7 +34,7 @@
 **[Thermal Reactions](#thermal-reaction)** |
 **[Catalytic Reactions](#catalytic-reaction)** |
 **[Adsorption](#adsorption)** |
-**[Partial Pressure of Components](#partial-pressure-of-components)**|
+**[Partial Pressure of Components](#partial-pressures-of-components)**|
 **[Concentration of Components](#concentration-of-components)** |
 
 ### Thermal-Reaction: 
