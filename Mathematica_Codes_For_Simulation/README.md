@@ -31,6 +31,9 @@
 
 ## Nomenclature
 *****************
+**[Thermal Reactions](#thermal-reactions)** |
+**[Catalytic Reactions](#catalytic-reactions)** |
+
 ### Thermal-Reaction: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
@@ -40,3 +43,4 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=Et1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Et1" title="Et1" /></a> | The activation energy for the first thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/mol" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/mol" title="kJ/mol" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=Et2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Et2" title="Et2" /></a> | The activation energey for the second thermal reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/mol" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/mol" title="kJ/mol" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=Et3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Et3" title="Et3" /></a> | The activation energey for the third thermal reaction |<a href="https://www.codecogs.com/eqnedit.php?latex=kJ/mol" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/mol" title="kJ/mol" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Green}&space;R}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\color{Green}&space;R}" title="{\color{Green} R}" /></a> | Gas Constant | <a href="https://www.codecogs.com/eqnedit.php?latex={\color{Green}&space;8.314J/molK}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\color{Green}&space;8.314J/molK}" title="{\color{Green} 8.314J/molK}" /></a>
