@@ -42,7 +42,7 @@ This project team members are listed in alphabetical order, with affiliation, an
 This project is done with great help from two Personal Tutors (also the two boarding members of Bentham Corporation Company):
 
 - Richard Porter (Personal Profile [Richard Porter](https://www.ucl.ac.uk/chemical-engineering/people/richard-porter)), Senior Research Associate and Teaching Fellow at Department of Chemical Engineering, University College London.
-- Martynov Sergey(Personal Profile [Martynov Sergey](https://www.ucl.ac.uk/chemical-engineering/people/dr-sergey-martynov)), Research Assoicate at University College London.
+- Martynov Sergey (Personal Profile [Martynov Sergey](https://www.ucl.ac.uk/chemical-engineering/people/dr-sergey-martynov)), Research Assoicate at University College London.
 
 
 ## External-Links
