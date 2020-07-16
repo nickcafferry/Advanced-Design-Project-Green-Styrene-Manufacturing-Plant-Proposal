@@ -151,3 +151,7 @@
 ### Heat-of-Reactions: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
+<a href="https://www.codecogs.com/eqnedit.php?latex=\Delta&space;H1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta&space;H1" title="\Delta H1" /></a> | Reaction enthalpy of the first reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kmol" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kmol" title="kJ/kmol" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\Delta&space;H2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta&space;H2" title="\Delta H2" /></a> |  Reaction enthalpy of the second reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kmol" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kmol" title="kJ/kmol" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\Delta&space;H3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta&space;H3" title="\Delta H3" /></a> |  Reaction enthalpy of the third reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kmol" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kmol" title="kJ/kmol" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\Delta&space;H4" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta&space;H4" title="\Delta H3" /></a> |  Reaction enthalpy of the fourth reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kmol" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kmol" title="kJ/kmol" /></a>
