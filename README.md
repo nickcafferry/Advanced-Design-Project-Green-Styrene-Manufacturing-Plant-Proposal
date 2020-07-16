@@ -11,6 +11,8 @@
 [![Ud44Zd.md.png](https://s1.ax1x.com/2020/07/15/Ud44Zd.md.png)](https://imgchr.com/i/Ud44Zd)
 ## Project-Description
 
+### Appraise
+
 * The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
 
 * To begin, a process route review was conducted where various production routes of styrene manufacturing were critically evaluated to determine the synthetic route to styrene that is the most efficient in implementation, economics, and in styrene production rate. The selected route can be divided into 2 sections: The production of ethylbenzene through benzene alkylation with ethylene as well as ethylbenzene dehydrogenation to produce styrene. Various commercial process and innovative elements for each section were discussed leading to the final process route selection. In the alkylation section, commercial processes and reaction conditions was considered and it was concluded that the reaction should be done in liquid phase in the presence of a beta-zeolite catalyst; to this end, the Lummus/UOP EBOne method represented a solid choice for ethylbenzene production given the process constraints and feedstocks available. After further consideration, it was concluded that dehydrogenation process should be performed in a vapourphase adiabatic reactor in the presence of superheated stream and an iron (III) oxide-based catalyst; industrially known as the Lummus/UOP SMClassic process. 
@@ -27,7 +29,13 @@
 
 * Lastly, the preliminary plant layout was drawn. This was a key part of plant design as it plays an important in ensuring the safest plant operation possible along with plant longevity and economic viability. To generate a preliminary plant layout, all the units were sized. The factors that were taken into consideration include availability of raw materials and utilities, availability of land and labour, socioeconomic and environmental impacts of plant construction and operation, transportation, and political, legislative, and legal considerations. This was done by converting the PFD into a plant layout and sizing each process unit.
 
-### Team
+### Define Phase
+
+### Layout Phase
+
+### Presentation
+
+## Team
 
 This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is assisted by [Wei MEI](https://github.com/nickcafferry/).
 
@@ -51,6 +59,7 @@ This project is done with great help from two Personal Tutors (also the two boar
 
 ## External-Links
 
+For more details, please visit [this website] on Google Drive 
 [Job Hunting Tips](https://github.com/nickcafferry/Job_Hunting_Tips)
 
 
