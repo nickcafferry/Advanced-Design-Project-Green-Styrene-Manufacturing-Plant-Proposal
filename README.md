@@ -15,6 +15,7 @@
 **[Layout Phase](#layout-phase)** |
 **[Presentation](#presentation)** |
 
+![UB0t9H.png](https://s1.ax1x.com/2020/07/16/UB0t9H.png)
 Bentham Coporation requires the production of 100,000 te y-1 of styrene monomer at purity of 99.7 mol%. (See [Project Specification](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Project%20Specification) for more details)
 
 Syteren is a monomer used in the production of polymers including polystrene, acrylonitrile butadiene styrene (ABS) and styrene-butadiene (SBR). Following fluctuations in the price of polystyrene the board would like a recommendation on which polymer should be produced from the styrene monomer.
