@@ -44,7 +44,7 @@ This study is to predict safe separation distances via accident consequence mode
 
 ### Presentation
 
-[![UBt8AJ.th.png](https://s1.ax1x.com/2020/07/16/UBt8AJ.th.png)](https://imgchr.com/i/UBt8AJ)
+[![UBt8AJ.md.png](https://s1.ax1x.com/2020/07/16/UBt8AJ.md.png)](https://imgchr.com/i/UBt8AJ)
 
 ## Team
 
