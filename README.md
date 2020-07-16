@@ -39,7 +39,11 @@ The purpose of this report is to find the optimal dimensions and the optimal ope
 * Running the following codes within the software interface:
 
 ```
-Manipulate[Module{(At1, At2, At3, Et1, Et2, Et3, kt1, kt2, kt3, k1, k2, k3, k4, A1, A2, A3, A4, E1, E2, E3, E4, AEB, AST,AH2, ΔHaEB, ΔHaST, ΔHaH2, KEB, KST, KH2, rt1, rt2, rt3, rc1, rc2, rc3, rc4, Keq, FEB0, FST0,BZ0, FTO0, FH20, FCH40, FC2H40, FH2O0, FT0, PEB, PST, PBZ, PETH, PTO, PH2, PCH4, PC2H4, PH2O, PMTH, C1EB, C1ST, C1BZ, C1ETH, C1TO, C1H2, C1MTH, C1H2O, S1ST, S1BZ, S1TO, S1H2, ΔH1, ΔH2, ΔH3, ΔH4, Cp1, Cp2, Cp3, Cp4, Cp5, Cp6, L, Di, Ac, dp, μ, u, G, ρb, R, ϵ, ρg},
+Manipulate[Module{(At1, At2, At3, Et1, Et2, Et3, kt1, kt2, kt3, k1, k2, k3, k4, A1, A2, A3, A4, E1, E2,
+E3, E4, AEB, AST,AH2, ΔHaEB, ΔHaST, ΔHaH2, KEB, KST, KH2, rt1, rt2, rt3, rc1, rc2, rc3, rc4, Keq, FEB0, 
+FST0,BZ0, FTO0, FH20, FCH40, FC2H40, FH2O0, FT0, PEB, PST, PBZ, PETH, PTO, PH2, PCH4, PC2H4, PH2O, PMTH,
+C1EB, C1ST, C1BZ, C1ETH, C1TO, C1H2, C1MTH, C1H2O, S1ST, S1BZ, S1TO, S1H2, ΔH1, ΔH2, ΔH3, ΔH4, Cp1, Cp2,
+Cp3, Cp4, Cp5, Cp6, L, Di, Ac, dp, μ, u, G, ρb, R, ϵ, ρg},
 
 # Model Construction for the thermal reactions
 At1 = 2.2215 * 10^16; # kmol/m3hbar
