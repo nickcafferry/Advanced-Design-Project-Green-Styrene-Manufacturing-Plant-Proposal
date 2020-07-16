@@ -38,7 +38,7 @@ The purpose of this report is to find the optimal dimensions and the optimal ope
 * Install `[Wolfram Mathematica](https://www.wolfram.com/)` ( Version 11.1 or higher);
 * Running the following codes within the software interface:
 
-```
+```mathematica
 Manipulate[Module{(At1, At2, At3, Et1, Et2, Et3, kt1, kt2, kt3, k1, k2, k3, k4, A1, A2, A3, A4, E1, E2,
 E3, E4, AEB, AST,AH2, ΔHaEB, ΔHaST, ΔHaH2, KEB, KST, KH2, rt1, rt2, rt3, rc1, rc2, rc3, rc4, Keq, FEB0, 
 FST0,BZ0, FTO0, FH20, FCH40, FC2H40, FH2O0, FT0, PEB, PST, PBZ, PETH, PTO, PH2, PCH4, PC2H4, PH2O, PMTH,
