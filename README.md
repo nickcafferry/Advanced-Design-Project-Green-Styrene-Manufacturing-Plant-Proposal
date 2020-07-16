@@ -45,15 +45,139 @@ FST0,BZ0, FTO0, FH20, FCH40, FC2H40, FH2O0, FT0, PEB, PST, PBZ, PETH, PTO, PH2, 
 C1EB, C1ST, C1BZ, C1ETH, C1TO, C1H2, C1MTH, C1H2O, S1ST, S1BZ, S1TO, S1H2, ΔH1, ΔH2, ΔH3, ΔH4, Cp1, Cp2,
 Cp3, Cp4, Cp5, Cp6, L, Di, Ac, dp, μ, u, G, ρb, R, ϵ, ρg},
 
-# Model Construction for the thermal reactions
-At1 = 2.2215 * 10^16; # kmol/m3hbar
+（*Model Construction of The Thermal Reactions*）
+At1 = 2.2215 * 10^16; （**kmol/m3hbar**）
 At2 = 2.4217 * 10^20;
 At3 = 3.8224 * 10^17;
-Et1 = 272.23; # kJ/mol
+Et1 = 272.23; (**kJ/mol**)
 Et2 = 352.79;
 Et3 = 313.06;
 R = 8.314;
 
+kt1 = At1 * Exp[(-Et1 * 10^3)/(R * T[z])]; (**kmol/m3hbar**)
+kt2 = At2 * Exp[(-Et2 * 10^3)/(R * T[z])];
+kt3 = At3 * Exp[(-Et3 * 10^3)/(R * T[z])];
+
+(*Thermal Reaction Rates of Three Reactions*)
+rt1 = kt1 * (PEB - (PST * PH2)/Keq); (**kmol/m3h**)
+rt2 = kt2 * PEB;
+rt3 = kt3 * PEB;
+
+(*Model Construction of The Catalytic Reactions*)
+A1 = 4.594 * 10^9; (**kmol/kg-cath**)
+A2 = 1.060 * 10^15;
+A3 = 1.246 * 10^26;
+A4 = 8.024 * 10^10;
+E1 = 175.38; (**kJ/mol**)
+E2 = 296.29;
+E3 = 474.76;
+E4 = 213.78;
+
+k1 = A1* Exp[(-E1 * 10^3)/(R * T[z])]; (**kmol/kg-cath**)
+k2 = A2* Exp[(-E2 * 10^3)/(R * T[z])];
+k3 = A3* Exp[(-E3 * 10^3)/(R * T[z])];
+k4 = A4* Exp[(-E4 * 10^3)/(R * T[z])];
+
+(*Catalytic Reaction Rates of Four Reactions*)
+rc1 = (k1 * KEB * (PEB - (PST*PH2)/Keq))/(1 + KEB * PEB + KH2 * PH2 + KST * PST)^2;(**kmol/kg-cath**)
+rc2 = (k2 * KEB * PEB)/(1 + KEB * PEB + KH2 * PH2 + KST * PST)^2;
+rc3 = (k3 * KEB * PEB * KH2 * PH2)/(1 + KEB * PEB + KH2 * PH2 + KST * PST)^2;
+rc4 = (k4 * KST * PST * KH2 * PH2)/(1 + KEB * PEB + KH2 * PH2 + KST * PST)^2
+
+(*Model Construction for The Thermodynamic Equilibriums*)
+AEB = 1.014 * 10^-5; (**1/bar**)
+AST = 2.678 * 10^-5;
+AH2 = 4.519 * 10^-7;
+ΔHaEB = -102.22; (**kJ/mol**)
+ΔHaST = -104.56;
+ΔHaH2 = -117.95;
+
+KEB = AEB * Exp[(-ΔHaEB * 10^3)/(R * T[z])
+; (**1/bar**)
+KST = AST * Exp -ΔHaST * 103
+R * T[z]
+;
+KH2 = AH2 * Exp -ΔHaH2 * 103
+R * T[z]
+;
+Keq = Exp -(122 725.157 - 126.267* T[z] - 0.002194* T[z] * T[z])
+R * T[z]
+; (**1/bar**)
+(*(**The initial molar flowrates of components**)*)
+FEB0 = 49.7976* 3600/ 1000; (*Unit:kmol/h*)
+FST0 = 0.00332919* 3.6;
+FBZ0 = 1.464 * 3.6;
+FTO0 = 0.0482245* 3.6;
+FH20 = 0;
+FCH40 = 0;
+FC2H40 = 0;
+FH2O0 = 1080* 3.6;
+FT0 = FEB0 + FST0 + FBZ0 + FTO0 + FH20 + FCH40 + FC2H40 + FH2O0;
+(*Partial pressure of components*)
+PEB = PT[z] *
+FEB0
+FT0
+(1 - (X1EB[z] - X1BZ[z] - X1TO[z]) - X1BZ[z] - X1TO[z])
+1 + FEB0
+FT0
+* (X1TO[z] + X1BZ[z] + X1H2[z])
+;
+(**1/bar**)
+PST = PT[z] *
+FST0
+FT0
++
+FEB0
+FT0
+* (X1EB[z] - X1BZ[z] - X1TO[z])
+1 + FEB0
+FT0
+* (X1TO[z] + X1BZ[z] + X1H2[z])
+;
+PBZ = PT[z] *
+FBZ0
+FT0
++
+FEB0
+FT0
+* X1BZ[z]
+1 + FEB0
+FT0
+* (X1TO[z] + X1BZ[z] + X1H2[z])
+;
+PH2 = PT[z] *
+FH20
+FT0
++
+FEB0
+FT0
+* X1H2[z]
+1 + FEB0
+FT0
+* (X1TO[z] + X1BZ[z] + X1H2[z])
+;
+PETH = PT[z] *
+FC2H40
+FT0
++
+FEB0
+FT0
+* X1BZ[z]
+1 + FEB0
+FT0
+* (X1TO[z] + X1BZ[z] + X1H2[z])
+;
+PTO = PT[z] *
+FTO0
+FT0
++
+FEB0
+FT0
+* X1TO[z]
+1 + FEB0
+FT0
+* (X1TO[z] + X1BZ[z] + X1H2[z])
+;
 
 ```
 
