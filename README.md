@@ -8,7 +8,8 @@
 
 # Advanced Design Project: Green Styrene Manufacturing Plant Proposal
 -----------------------------------------------------------
-[![Ud44Zd.md.png](https://s1.ax1x.com/2020/07/15/Ud44Zd.md.png)](https://imgchr.com/i/Ud44Zd)
+[![UBRXfP.md.png](https://s1.ax1x.com/2020/07/16/UBRXfP.md.png)](https://imgchr.com/i/UBRXfP)
+
 ## Project-Description
 **[Appraise](#appraise)** |
 **[Define Phase](#define-phase)** |
