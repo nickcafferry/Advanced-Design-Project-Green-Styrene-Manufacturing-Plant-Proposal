@@ -192,3 +192,7 @@
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
 <a href="https://www.codecogs.com/eqnedit.php?latex=\mu" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu" title="\mu" /></a> | The viscosity of the mixture | <a href="https://www.codecogs.com/eqnedit.php?latex=kg/ms" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kg/ms" title="kg/ms" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=u" target="_blank"><img src="https://latex.codecogs.com/gif.latex?u" title="u" /></a> | The superficial velocity of the inlet feed stream | <a href="https://www.codecogs.com/eqnedit.php?latex=m/s" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m/s" title="m/s" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=G" target="_blank"><img src="https://latex.codecogs.com/gif.latex?G" title="G" /></a> | The superficial velocity of the inlet feed stream | <a href="https://www.codecogs.com/eqnedit.php?latex=kg/hm^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kg/hm^2" title="kg/hm^2" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\rho&space;g" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\rho&space;g" title="\rho g" /></a> | Density of the gas mixture | <a href="https://www.codecogs.com/eqnedit.php?latex=kg/m^3" target="_blank"><img src="https://latex.codecoegs.com/gif.latex?kg/m^3" title="kg/m^3" /></a>
+
