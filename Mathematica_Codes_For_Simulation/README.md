@@ -8,7 +8,6 @@
 # DEHYDROGENATION REACTORS FOR STYRENE PRODUCTION
 
 [![U0LYzd.md.png](https://s1.ax1x.com/2020/07/16/U0LYzd.md.png)](https://imgchr.com/i/U0LYzd)  
-[![U0LIFU.th.png](https://s1.ax1x.com/2020/07/16/U0LIFU.th.png)](https://imgchr.com/i/U0LIFU)
 
 ## Reaction-Scheme:
 ******************
@@ -149,6 +148,6 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=S2H2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S2H2" title="S2H2" /></a> | The selectivity of hydrogen in the first reactor | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
 
 ---------------------------
-### Heat-of-Reaction: 
+### Heat-of-Reactions: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
