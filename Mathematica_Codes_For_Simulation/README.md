@@ -177,3 +177,13 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=\varepsilon&space;s" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\varepsilon&space;s" title="\varepsilon s" /></a> | Catalyst interval void fraction | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\tau" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tau" title="\tau" /></a> | Tortuosity of the catalyst | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\varepsilon" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\varepsilon" title="\varepsilon" /></a> | Void fraction of the beds | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
+
+---------------------------
+### Dimensions-of-Reactors: 
+| Symbol | Meaning | Unit |
+|:--:|:--:|:--:|
+<a href="https://www.codecogs.com/eqnedit.php?latex=Dr" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Dr" title="Dr" /></a> | Outer diameter of the reactors | <a href="https://www.codecogs.com/eqnedit.php?latex=cm" target="_blank"><img src="https://latex.codecogs.com/gif.latex?cm" title="cm" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Di" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Di" title="Di" /></a> | Inner diameter of the reactors | <a href="https://www.codecogs.com/eqnedit.php?latex=cm" target="_blank"><img src="https://latex.codecogs.com/gif.latex?cm" title="cm" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=z" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z" title="z" /></a> | The height of the reactors | <a href="https://www.codecogs.com/eqnedit.php?latex=m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m" title="m" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Ac" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Ac" title="Ac" /></a> | The cross section area of the reactors | <a href="https://www.codecogs.com/eqnedit.php?latex=m^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m^2" title="m^2" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=L" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L" title="L" /></a> | The total height of the reactors | <a href="https://www.codecogs.com/eqnedit.php?latex=m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m" title="m" /></a>
