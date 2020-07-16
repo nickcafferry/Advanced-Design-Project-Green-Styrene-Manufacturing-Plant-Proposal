@@ -47,10 +47,11 @@ This project team members are listed in alphabetical order, with affiliation, an
 - Ernest Chu (LinkedIn Profile [Ernest Chu](https://www.linkedin.com/in/elmchu/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3B%2FLXHEAHuSO6EtCL56V0M0A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people_connections-connection_profile))
 - Wei MEI (LinkedIn Profile [Wei MEI](https://www.linkedin.com/in/wei-mei-808462130/))
 
-This project is done with great help from two Personal Tutors (also the two boarding members of Bentham Corporation Company):
+This project is done with great help from two Personal Tutors and Prof. Haroun Mahgerefteh:
 
-- Richard Porter (Personal Profile [Richard Porter](https://www.ucl.ac.uk/chemical-engineering/people/richard-porter)), Senior Research Associate and Teaching Fellow at Department of Chemical Engineering, University College London.
-- Martynov Sergey (Personal Profile [Martynov Sergey](https://www.ucl.ac.uk/chemical-engineering/people/dr-sergey-martynov)), Research Assoicate at University College London.
+- Richard Porter (Personal Profile [Richard Porter](https://www.ucl.ac.uk/chemical-engineering/people/richard-porter)), Module Coordinator, Senior Research Associate and Teaching Fellow at Department of Chemical Engineering, University College London.
+- Martynov Sergey (Personal Profile [Martynov Sergey](https://www.ucl.ac.uk/chemical-engineering/people/dr-sergey-martynov)), Bentham Corporation Representative, Research Assoicate at University College London.
+- Haroun Mahgerefteh (Personal Profile [Haroun Mahgerefteh](https://www.ucl.ac.uk/chemical-engineering/people/prof-haroun-mahgerefteh)), Bentham Corporation Representative, Professor of Chemical Engineering University College London.
 
 ## Deployment
 
