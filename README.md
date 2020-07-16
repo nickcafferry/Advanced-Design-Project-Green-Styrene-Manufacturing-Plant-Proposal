@@ -59,7 +59,7 @@ This project is done with great help from two Personal Tutors (also the two boar
 
 ## External-Links
 
-For more details, please visit [this website] on Google Drive 
+For more details, please visit [this website](https://drive.google.com/drive/folders/1P25wyMHKvch4MaTkpnAdxPiI_tEmGBf0) on Google Drive 
 [Job Hunting Tips](https://github.com/nickcafferry/Job_Hunting_Tips)
 
 
