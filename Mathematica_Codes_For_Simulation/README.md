@@ -187,3 +187,8 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=z" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z" title="z" /></a> | The height of the reactors | <a href="https://www.codecogs.com/eqnedit.php?latex=m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m" title="m" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=Ac" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Ac" title="Ac" /></a> | The cross section area of the reactors | <a href="https://www.codecogs.com/eqnedit.php?latex=m^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m^2" title="m^2" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=L" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L" title="L" /></a> | The total height of the reactors | <a href="https://www.codecogs.com/eqnedit.php?latex=m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m" title="m" /></a>
+
+### Physical-Properties-of-Feed-Mixtures: 
+| Symbol | Meaning | Unit |
+|:--:|:--:|:--:|
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mu" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu" title="\mu" /></a> | The viscosity of the mixture | <a href="https://www.codecogs.com/eqnedit.php?latex=kg/ms" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kg/ms" title="kg/ms" /></a>
