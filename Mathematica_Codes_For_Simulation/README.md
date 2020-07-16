@@ -157,7 +157,7 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=\Delta&space;H4" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta&space;H4" title="\Delta H4" /></a> |  Reaction enthalpy of the fourth reaction | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kmol" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kmol" title="kJ/kmol" /></a>
 
 ---------------------------
-### Heat-Capacities of Components: 
+### Heat-Capacities-of-Components: 
 | Symbol | Meaning | Unit |
 |:--:|:--:|:--:|
 <a href="https://www.codecogs.com/eqnedit.php?latex=Cp1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Cp1" title="Cp1" /></a> | Heat capacity of ethylbenzene | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kgK" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kgK" title="kJ/kgK" /></a>
@@ -166,3 +166,14 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=Cp4" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Cp4" title="Cp4" /></a> | Heat capacity of toluene | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kgK" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kgK" title="kJ/kgK" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=Cp5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Cp5" title="Cp5" /></a> | Heat capacity of hydrogen | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kgK" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kgK" title="kJ/kgK" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=Cp6" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Cp6" title="Cp6" /></a> | Heat capacity of water | <a href="https://www.codecogs.com/eqnedit.php?latex=kJ/kgK" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kJ/kgK" title="kJ/kgK" /></a>
+
+---------------------------
+### Physical-Properties-of-Catalyst: 
+| Symbol | Meaning | Unit |
+|:--:|:--:|:--:|
+<a href="https://www.codecogs.com/eqnedit.php?latex=dp" target="_blank"><img src="https://latex.codecogs.com/gif.latex?dp" title="dp" /></a> | Catalyst equivalent pellet diameter | <a href="https://www.codecogs.com/eqnedit.php?latex=m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m" title="m" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\rho&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\rho&space;b" title="\rho b" /></a> | Catalyst bulk diameter | <a href="https://www.codecogs.com/eqnedit.php?latex=kg\cdot&space;cat/m^3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kg\cdot&space;cat/m^3" title="kg\cdot cat/m^3" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\rho&space;s" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\rho&space;s" title="\rho s" /></a> | Catalyst pellet density | <a href="https://www.codecogs.com/eqnedit.php?latex=kg\cdot&space;cat/m^3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kg\cdot&space;cat/m^3" title="kg\cdot cat/m^3" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\varepsilon&space;s" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\varepsilon&space;s" title="\varepsilon s" /></a> | Catalyst interval void fraction | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\tau" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tau" title="\tau" /></a> | Tortuosity of the catalyst | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\varepsilon" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\varepsilon" title="\varepsilon" /></a> | Void fraction of the beds | <a href="https://www.codecogs.com/eqnedit.php?latex=None" target="_blank"><img src="https://latex.codecogs.com/gif.latex?None" title="None" /></a>
