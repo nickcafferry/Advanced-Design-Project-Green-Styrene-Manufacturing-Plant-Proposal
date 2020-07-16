@@ -201,7 +201,7 @@ X1H2, C1EB, C1ST, C1BZ, C1TO, C1H2, C1ETH, C1H2O, C1MTH}, {z, 0, 2}];
 
 Figure1 = Plot[{C1EB /. r101, C1ST /. r101, C1BZ /. r101, C1TO /. r101, C1H2 /. r101, C1ETH /. r101, C1MTH /. r101}, {z, 0, 2}, 
 PlotRange→ All, AxesLabel → {"Reactor height (m)", "Concentration (mol/cum)"}, PlotLegends → {"EB", "ST", "BZ", "TO", "H2",
-"ETH", "MTH"}, PlotLabels → Placed[{"EB", "ST", "BZ", "TO"}, Above]], Column[{Control[{{Dr, 400, "reactor diameter (cm) "}, 100, 
+"ETH", "MTH"}, PlotLabels → Placed[{"EB", "ST", "BZ", "TO"}, Above]]], Column[{Control[{{Dr, 400, "reactor diameter (cm)"}}, 100, 
 800, 10, Appearance → "Labeled"}]}, Left]]
 ```
 
