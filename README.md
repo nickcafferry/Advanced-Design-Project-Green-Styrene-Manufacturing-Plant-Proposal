@@ -60,7 +60,7 @@ This project is done with great help from two Personal Tutors and Prof. Haroun M
 
 - Richard Porter (Personal Profile [Richard Porter](https://www.ucl.ac.uk/chemical-engineering/people/richard-porter)), Module Coordinator, Senior Research Associate and Teaching Fellow at Department of Chemical Engineering, University College London.
 - Martynov Sergey (Personal Profile [Martynov Sergey](https://www.ucl.ac.uk/chemical-engineering/people/dr-sergey-martynov)), Bentham Corporation Representative, Research Assoicate at University College London.
-- Haroun Mahgerefteh (Personal Profile [Haroun Mahgerefteh](https://www.ucl.ac.uk/chemical-engineering/people/prof-haroun-mahgerefteh)), Bentham Corporation Representative, Professor of Chemical Engineering University College London.
+- Haroun Mahgerefteh (Personal Profile [Haroun Mahgerefteh](https://www.ucl.ac.uk/chemical-engineering/people/prof-haroun-mahgerefteh)), Bentham Corporation Representative, Professor of Chemical Engineering, University College London.
 
 ## Deployment
 
