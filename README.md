@@ -12,6 +12,7 @@
 ## About-GSM
 [![UBRXfP.md.png](https://s1.ax1x.com/2020/07/16/UBRXfP.md.png)](https://imgchr.com/i/UBRXfP)
 
+-----------------------------
 ## Project-Description
 **[Appraise](#appraise)** |
 **[Define Phase](#define-phase)** |
@@ -225,6 +226,7 @@ This study is to predict safe separation distances via accident consequence mode
 
 [![UBt8AJ.md.png](https://s1.ax1x.com/2020/07/16/UBt8AJ.md.png)](https://imgchr.com/i/UBt8AJ)
 
+----------------------
 ## Team
 
 This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is assisted by [Wei MEI](https://github.com/nickcafferry/).
@@ -244,10 +246,12 @@ This project is done with great help from two Personal Tutors and Prof. Haroun M
 - Martynov Sergey (Personal Profile [Martynov Sergey](https://www.ucl.ac.uk/chemical-engineering/people/dr-sergey-martynov)), Bentham Corporation Representative, Research Assoicate at University College London.
 - Haroun Mahgerefteh (Personal Profile [Haroun Mahgerefteh](https://www.ucl.ac.uk/chemical-engineering/people/prof-haroun-mahgerefteh)), Bentham Corporation Representative, Professor of Chemical Engineering, University College London.
 
+--------------
 ## Deployment
 
 [Advanced Design Project](https://nickcafferry.github.io/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/)
 
+------------------
 ## External-Links
 
 For more details, please visit [this website](https://drive.google.com/drive/folders/1P25wyMHKvch4MaTkpnAdxPiI_tEmGBf0) on Google Drive 
