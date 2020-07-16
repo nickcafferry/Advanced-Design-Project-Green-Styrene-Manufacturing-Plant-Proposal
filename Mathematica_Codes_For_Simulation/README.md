@@ -208,3 +208,16 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=FC2H40" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FC2H40" title="FC2H40" /></a> | The initial molar flowrate of ethylene |  <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=FH2O0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FH2O0" title="FH2O0" /></a> | The initial molar flowrate of water | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=FT0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FT0" title="FT0" /></a> | The initial molar flowrate of the feed stream | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T" title="T" /></a> | Temperature of gas mixutures | <a href="https://www.codecogs.com/eqnedit.php?latex=K" target="_blank"><img src="https://latex.codecogs.com/gif.latex?K" title="K" /></a>
+
+### Conversions-of-Reactants: 
+| Symbol | Meaning | Unit |
+|:--:|:--:|:--:|
+X1EB | Conversion of ethylbenzene in the first reactor | None
+X1BZ | Conversion of benzene in the first reactor | None
+X1TO | Conversion of toluene in the first reactor | None
+X1H2 | Conversion of hydrogen in the first reactor | None
+X2EB | Conversion of ethylbenzene in the second reactor | None
+X2BZ | COnversion of benzene in the second reactor | None
+X2TO | Conversion of toluene in the second reactor | None
+X2H2 | Conversion of hydrogen in the second reactor | None
