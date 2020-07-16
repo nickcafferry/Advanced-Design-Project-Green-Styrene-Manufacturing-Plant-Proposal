@@ -43,7 +43,7 @@
 **[Physical Properties of Catalyst](#physical-properties-of-catalyst)** |
 **[Dimensions of Reactors](#dimensions-of-reactors)** |
 **[Physical Properties of Feed Mixtures](#physical-properties-of-feed-mixtures)** |
-**[Initial Flowrates and Temperatures of Components](#initial-flowrates-and-temperatures=of-components)** |
+**[Initial Flowrates and Temperatures of Feeds](#initial-flowrates-and-temperatures=of-feeds)** |
 **[Conversions of Reactants](#conversions-of-reactants)** |
 
 ---------------------
@@ -196,3 +196,15 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=G" target="_blank"><img src="https://latex.codecogs.com/gif.latex?G" title="G" /></a> | The superficial velocity of the inlet feed stream | <a href="https://www.codecogs.com/eqnedit.php?latex=kg/hm^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kg/hm^2" title="kg/hm^2" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\rho&space;g" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\rho&space;g" title="\rho g" /></a> | Density of the gas mixture | <a href="https://www.codecogs.com/eqnedit.php?latex=kg/m^3" target="_blank"><img src="https://latex.codecoegs.com/gif.latex?kg/m^3" title="kg/m^3" /></a>
 
+### Initial-Flowrates-and-Temperatures-of-Feeds: 
+| Symbol | Meaning | Unit |
+|:--:|:--:|:--:|
+<a href="https://www.codecogs.com/eqnedit.php?latex=FEB0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FEB0" title="FEB0" /></a> | The initial molar flowrate of ethylbenzene | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=FST0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FST0" title="FST0" /></a> | The initial molar flowrate of styrene | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=FBZ0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FBZ0" title="FBZ0" /></a> | The initial molar flowrate of benzne |  <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=FTO0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FTO0" title="FTO0" /></a> | The initial molar flowrate of toluene |  <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=FH20" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FH20" title="FH20" /></a> | The initial molar flowrate of hydrogen |  <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=FCH40" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FCH40" title="FCH40" /></a> | The initial molar flowrate of methane |  <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=FC2H40" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FC2H40" title="FC2H40" /></a> | The initial molar flowrate of ethylene |  <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=FH2O0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FH2O0" title="FH2O0" /></a> | The initial molar flowrate of water | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=FT0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?FT0" title="FT0" /></a> | The initial molar flowrate of the feed stream | <a href="https://www.codecogs.com/eqnedit.php?latex=kmol/h" target="_blank"><img src="https://latex.codecogs.com/gif.latex?kmol/h" title="kmol/h" /></a>
