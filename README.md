@@ -34,7 +34,7 @@ The aim of this plant design project is to provide critical insights into and re
 #### Summary
 The purpose of this report is to find the optimal dimensions and the optimal operating variables of two dehydrogenation reactors. More specifically, the height and diameter, catalyst amount and characteristics, heat exchange strategy of reactors need to be determined optimally. The operating conditions include temperature and pressure as well as the steam-to-ethylbenzene ratio.
 #### Codes
-See [Wolfram Mathematica Define Phase Code]()
+See [Wolfram Mathematica Define Phase Code](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Mathematica_Codes_For_Simulation)
 
 ### Layout-Phase
 
