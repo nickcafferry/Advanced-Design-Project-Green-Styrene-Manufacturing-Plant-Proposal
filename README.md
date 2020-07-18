@@ -38,7 +38,10 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
 **[Process Block Flow Diagram](#process-block-flow-diagram)** |
 **[Plant Layout](#plant-layout)** |
 
-### Process-Route-Review
+#### Summary
+The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
+
+#### Process-Route-Review
 
 * **Three Methods for Ethylbenzene Manufacture**:
   1. `Alkylation` of benzene with ethylene(favoured):
@@ -70,9 +73,6 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
         <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O" title="C_6H_5CH(CH_3)OH\longrightarrow C_6H_5CH=CH_2+H_2O" /></a>
 
 See [Process Route Review]() for more details.
-
-#### Summary
-The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
 
 #### Process-Block-Flow-Diagram
 
