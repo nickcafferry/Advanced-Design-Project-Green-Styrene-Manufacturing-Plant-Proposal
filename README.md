@@ -15,7 +15,7 @@ As a trans-national chemical contracting company operating in a complex and ever
 
 [![UBRXfP.md.png](https://s1.ax1x.com/2020/07/16/UBRXfP.md.png)](https://imgchr.com/i/UBRXfP)
 
-For more details, please visit [GSM]()
+For more details, please visit [GSM](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/GSM).
 
 **[Return to TOP](#advanced-design-project-green-styrene-manufacturing-plant-proposal)**
 
