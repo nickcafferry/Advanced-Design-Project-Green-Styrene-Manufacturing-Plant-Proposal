@@ -1,10 +1,10 @@
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+
 **[About GSM](#about-GSM)** |
 **[Project Description](#project-description)** |
 **[Team](#team)** |
 **[Deployment](#deployment)** |
 **[External Links](#external-links)** |
-
-
 
 
 # Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal
