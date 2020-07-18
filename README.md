@@ -52,15 +52,13 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
   1. `Dehydrogenation`-the dehydrogenation of ethylbenzene to styrene takes
   
   2. `PO-SM Coproduction` Coproduction (Propylene oxide and Styrene monomer):
-  
-    a). Oxidation of ethylbenzene to ethylbenzene hydroperoxide
+              
+              a). Oxidation of ethylbenzene to ethylbenzene hydroperoxide
     
-    b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α- 
-       phenylethanol and propylene oxide
+              b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α- 
+                  phenylethanol and propylene oxide
        
-    c). Dehydration of α-phenylethanol to styrene
-    
-    
+              c). Dehydration of α-phenylethanol to styrene 
 
 #### Summary
 The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
