@@ -43,7 +43,7 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
 * **Three Methods for Ethylbenzene Manufacture**:
   1. `Alkylation` of benzene with ethylene(favoured):
           
-          <a href="https://www.codecogs.com/eqnedit.php?latex=C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" title="C_6 H_6+ CH_2=CH_2\Longleftrightarrow C_6 H_5CH_2CH_3" /></a>
+      <a href="https://www.codecogs.com/eqnedit.php?latex=C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" title="C_6 H_6+ CH_2=CH_2\Longleftrightarrow C_6 H_5CH_2CH_3" /></a>
           
   2. Recovery of mixed C8 aromatics by `Superfractionation`: Very small fraction
   
