@@ -43,7 +43,7 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
 * **Three Methods for Ethylbenzene Manufacture**:
   1. `Alkylation` of benzene with ethylene(favoured):
 
-  2. Recovery of mixed $$C_8$$
+  2. Recovery of mixed $C_{8}$
 
 
 #### Summary
