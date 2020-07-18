@@ -53,12 +53,12 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
   
   2. `PO-SM Coproduction` Coproduction (Propylene oxide and Styrene monomer):
   
-    1. Oxidation of ethylbenzene to ethylbenzene hydroperoxide
+    a). Oxidation of ethylbenzene to ethylbenzene hydroperoxide
     
-    2. Epoxidation of ethylbenzene hydroperoxide with propylene to form α- 
+    b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α- 
        phenylethanol and propylene oxide
        
-    3. Dehydration of α-phenylethanol to styrene
+    c). Dehydration of α-phenylethanol to styrene
     
     
 
