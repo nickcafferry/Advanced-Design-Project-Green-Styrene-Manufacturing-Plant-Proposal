@@ -20,4 +20,5 @@ workplace will face punitive action; multiple offences will lead to automatic di
 GSM co. recognises its corporate responsibility to protect the environment and conserve precious natural resources. The company closely follows the European Industrial Emissions Directive (2010) as well as the DEFRA Environmental Permitting Regulations (2010) from UK legislation. During plant construction and commissioning, great care is taken to ensure the plant is situated in an area which allows minimisation of the environmental impact of our operations. As a company, we are committed to reducing our carbon footprint and we ensure all feedstocks, inventories and products/byproducts of our processes are stored, transported and disposed of safely and in accordance with the above legislation.
 
 ### Logo
+
 [![UBRXfP.md.png](https://s1.ax1x.com/2020/07/16/UBRXfP.md.png)](https://imgchr.com/i/UBRXfP)
