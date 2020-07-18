@@ -11,7 +11,7 @@
 --------------------------------------------------------------------
 ## About-GSM
 
-As a trans-national chemical contracting company operating in a complex and ever-changing world, GSM chemical co. is committed to adhering to the highest of global standards of performance ethical corporate conduct.
+As a trans-national chemical contracting company operating in a complex and ever-changing world, **GSM chemical co.** is committed to adhering to the highest of global standards of performance ethical corporate conduct.
 
 [![UBRXfP.md.png](https://s1.ax1x.com/2020/07/16/UBRXfP.md.png)](https://imgchr.com/i/UBRXfP)
 
