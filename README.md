@@ -34,8 +34,17 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
 
 ### Appraise
 **[Summary](#summary)** |
+**[Literature Review](#literature-review)** |
 **[Process Block Flow Diagram](#process-block-flow-diagram)** |
 **[Plant Layout](#plant-layout)** |
+
+### Literature-Review
+
+* **Three Methods for Ethylbenzene Manufacture**:
+  1. `Alkylation` of benzene with ethylene(favoured):
+
+  2. Recovery of mixed C_{8}
+
 
 #### Summary
 The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
