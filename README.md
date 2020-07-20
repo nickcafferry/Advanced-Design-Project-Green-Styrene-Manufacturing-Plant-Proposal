@@ -271,7 +271,7 @@ Show[Plot[Conv1[T], {T, 500, 1500}, Frame → True, FrameLabel → {"temperature
 PlotLabels → {Callout["Without steam", {Scaled[0.25], Right}]}, PlotStyle → {Thick, Green}], Plot[Conv[T], {T, 500, 1500}, 
 Frame → True, FrameLabel → {"temperature", "conversion"}, PlotLabels → {Callout["With steam", {Scaled[0.25], Left}]},
 AxesOrigin→ {500, 0}, PlotStyle → {Thick, Red}], ImageSize → {500, 350}], {{P, 1.37, "total pressure in bar"}},
-1, 1.7, 0.01, Appearance → "Labeled"}, {{ratio, 10, "steam to EB flow rate ratio"}, 0, 20, 0.5, Appearance → "Labeled"}, TrackedSymbols ⧴ {ratio, P}]
+1, 1.7, 0.01, Appearance → "Labeled"}, {{ratio, 10, "steam to EB flow rate ratio"}}, 0, 20, 0.5, Appearance → "Labeled"}, TrackedSymbols⧴ {ratio, P}]
 ```
  See [Wolfram Mathematica Define Phase Code](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Mathematica_Codes_For_Simulation) for more details.
 
