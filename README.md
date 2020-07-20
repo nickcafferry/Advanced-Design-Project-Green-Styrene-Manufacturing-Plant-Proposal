@@ -86,8 +86,8 @@ See [Process Route Review](https://github.com/nickcafferry/Advanced-Design-Proje
 #### Summary
 The purpose of this report is to find the optimal dimensions and the optimal operating variables of two dehydrogenation reactors. More specifically, the height and diameter, catalyst amount and characteristics, heat exchange strategy of reactors need to be determined optimally. The operating conditions include temperature and pressure as well as the steam-to-ethylbenzene ratio.
 #### Codes
-* Install [Wolfram Mathematica](https://www.wolfram.com/) ( Version 11.1 or higher);
-* Running the following codes within the software interface:
+* Install [Wolfram Mathematica](https://www.wolfram.com/) ( Version 11.1 or higher) or Wolfram Cloud (App or [Online Version](https://www.wolframcloud.com/));
+* Running codes within the software interface, e.g., you can run the following codes to get concentration profiles for reactor 1:
 
 ```mathematica
 Manipulate[Module{(At1, At2, At3, Et1, Et2, Et3, kt1, kt2, kt3, k1, k2, k3, k4, A1, A2, A3, A4, E1, E2,
@@ -255,8 +255,21 @@ PlotRange→ All, AxesLabel → {"Reactor height (m)", "Concentration (mol/cum)"
 "ETH", "MTH"}, PlotLabels → Placed[{"EB", "ST", "BZ", "TO"}, Above]]], Column[{Control[{{Dr, 400, "reactor diameter (cm)"}}, 100, 
 800, 10, Appearance → "Labeled"}]}, Left]]
 ```
-
-See [Wolfram Mathematica Define Phase Code](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Mathematica_Codes_For_Simulation) for more details.
+ And to get an overview of how temperature, pressure, steam to ethylbenzene ratio on the ethylbenzene conversion, run these codes:
+```mathematica
+Manipulate[
+K[T_] := Exp[A1 + B1 / T + C1 Log[T] + D1 T];
+A1 = -13.2117277;
+B1 = -13122.4699;
+C1 = 4.353627619;
+D1 = -0.00329709;
+F0 = 152.2;
+Fsteam = ratio F0;
+Conv[T_] := 1/(2 F0 (P + K[T]))*(-K[T] Fsteam + Sqrt[(K[T] Fsteam) ^ 2 + 4 F0 (P + K[T]) K[T] (F0 + Fsteam)]);
+Conv1[T_] := 1/(2 F0 (P + K[T]))* (Sqrt[4 F0 (P + K[T]) K[T] (F0)]);
+Show[Plot[Conv1[T], {T, 500, 1500}, Frame → True, FrameLabel → {"temperature", "conversion"}, AxesOrigin→ {500, 0}, PlotLabels → {Callout["Without steam", {Scaled[0.25], Right}]}, PlotStyle → {Thick, Green}], Plot[Conv[T], {T, 500, 1500}, Frame → True, FrameLabel → {"temperature", "conversion"}, PlotLabels → {Callout["With steam", {Scaled[0.25], Left}]}, AxesOrigin→ {500, 0}, PlotStyle → {Thick, Red}], ImageSize → {500, 350}], {{P, 1.37, "total pressure in bar"}, 1, 1.7, 0.01, Appearance → "Labeled"}, {{ratio, 10, "steam to EB flow rate ratio"}, 0, 20, 0.5, Appearance → "Labeled"}, TrackedSymbols ⧴ {ratio, P}]
+```
+ See [Wolfram Mathematica Define Phase Code](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Mathematica_Codes_For_Simulation) for more details.
 
 ### Layout-Phase
 
