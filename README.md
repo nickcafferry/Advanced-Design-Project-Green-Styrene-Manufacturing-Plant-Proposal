@@ -284,7 +284,7 @@ This study is to predict safe separation distances via accident consequence mode
 
 [![UBt8AJ.md.png](https://s1.ax1x.com/2020/07/16/UBt8AJ.md.png)](https://imgchr.com/i/UBt8AJ)
 
-[![Ufx5Y8.md.gif](https://s1.ax1x.com/2020/07/20/Ufx5Y8.md.gif)](https://imgchr.com/i/Ufx5Y8)
+<a href="https://imgchr.com/i/Ufx5Y8"><img src="https://s1.ax1x.com/2020/07/20/Ufx5Y8.md.gif" alt="Ufx5Y8.gif" border="0" /></a>
 
 **[Return to TOP](#advanced-design-project-green-styrene-manufacturing-plant-proposal)**
 
