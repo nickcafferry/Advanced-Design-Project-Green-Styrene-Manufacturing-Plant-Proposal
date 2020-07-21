@@ -1,3 +1,4 @@
+[![Documentation Status](https://readthedocs.org/projects/advanced-design-project-plant-proposal/badge/?version=latest)](https://advanced-design-project-plant-proposal.readthedocs.io/en/latest/?badge=latest)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
 **[About GSM](#about-GSM)** |
