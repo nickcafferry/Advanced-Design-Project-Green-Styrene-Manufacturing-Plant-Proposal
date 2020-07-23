@@ -157,6 +157,19 @@ Due to the fact that there is no shaft work, the energy balance in terms of conv
 
 <a href="https://www.codecogs.com/eqnedit.php?latex={\color{Green}&space;\dot{Q}-&space;F_{A0}{\textstyle&space;\sum_{i=1}^{n}}\theta&space;_{i}\widehat{C_{pi}}(T_{i}-T_{i0})-&space;{\textstyle&space;\sum_{j}^{m}}[\Delta&space;H_{Rx,j}(T_R)&plus;\Delta&space;C_{pj}(T-T_R)]F_{A0}X_j=0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\color{Green}&space;\dot{Q}-&space;F_{A0}{\textstyle&space;\sum_{i=1}^{n}}\theta&space;_{i}\widehat{C_{pi}}(T_{i}-T_{i0})-&space;{\textstyle&space;\sum_{j}^{m}}[\Delta&space;H_{Rx,j}(T_R)&plus;\Delta&space;C_{pj}(T-T_R)]F_{A0}X_j=0}" title="{\color{Green} \dot{Q}- F_{A0}{\textstyle \sum_{i=1}^{n}}\theta _{i}\widehat{C_{pi}}(T_{i}-T_{i0})- {\textstyle \sum_{j}^{m}}[\Delta H_{Rx,j}(T_R)+\Delta C_{pj}(T-T_R)]F_{A0}X_j=0}" /></a>
 
+**Table 3**. Chemical component information. Note: 888.15K is the mean temperature of dehydrogenator.
+
+| Components | Heat Capacity (kJ/kmolK) at T = 888.15K | Enthalpy of formation (kJ/mol) at ambient temperature | i |
+|:--:|:--:|:--:|:--:|
+Ethlybenzene | 297.242 | 29.92 | 1
+Toluene | 247.482 | 50.17 | 0.00127
+Styrene | 269.728 | 147.4 | 0
+Benzene | 200.787 | 82.88 | 0
+Ethylene | 89.4347 | 52.510 | 0
+Methane | 67.801 | -74.52 | 0
+Hydrogen | 29.815 | 0 | 0
+Water | 39.827 | -241.814 | 15.221
+
 #### Process-Block-Flow-Diagram
 
 [![UrFWvt.md.png](https://s1.ax1x.com/2020/07/16/UrFWvt.md.png)](https://imgchr.com/i/UrFWvt)
