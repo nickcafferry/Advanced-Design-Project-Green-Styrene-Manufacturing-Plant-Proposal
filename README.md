@@ -154,7 +154,7 @@ Given that the desired annual production rate of styrene is 100,000 te/year (33.
 - **Energy Balances**
 
 Due to the fact that there is no shaft work, the energy balance in terms of conversion can be written in a simple form as follows:
-
+<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Green}&space;\dot{Q}-&space;F_{A0}{\textstyle&space;\sum_{i=1}^{n}}\theta&space;_{i}\widehat{C_{pi}}(T_{i}-T_{i0})-&space;{\textstyle&space;\sum_{j}^{m}}[\Delta&space;H_{Rx,j}(T_R)&plus;\Delta&space;C_{pj}(T-T_R)]F_{A0}X_j=0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\color{Green}&space;\dot{Q}-&space;F_{A0}{\textstyle&space;\sum_{i=1}^{n}}\theta&space;_{i}\widehat{C_{pi}}(T_{i}-T_{i0})-&space;{\textstyle&space;\sum_{j}^{m}}[\Delta&space;H_{Rx,j}(T_R)&plus;\Delta&space;C_{pj}(T-T_R)]F_{A0}X_j=0}" title="{\color{Green} \dot{Q}- F_{A0}{\textstyle \sum_{i=1}^{n}}\theta _{i}\widehat{C_{pi}}(T_{i}-T_{i0})- {\textstyle \sum_{j}^{m}}[\Delta H_{Rx,j}(T_R)+\Delta C_{pj}(T-T_R)]F_{A0}X_j=0}" /></a>
 
 #### Process-Block-Flow-Diagram
 
