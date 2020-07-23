@@ -1,5 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/advanced-design-project-plant-proposal/badge/?version=latest)](https://advanced-design-project-plant-proposal.readthedocs.io/en/latest/?badge=latest)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+[![GitHub issues](https://img.shields.io/github/issues/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal)](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/issues)
 
 **[About GSM](#about-GSM)** |
 **[Project Description](#project-description)** |
