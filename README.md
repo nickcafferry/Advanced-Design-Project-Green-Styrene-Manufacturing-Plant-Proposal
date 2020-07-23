@@ -77,28 +77,36 @@ See [Process Route Review](https://github.com/nickcafferry/Advanced-Design-Proje
 
 #### Feedstock-and-Market-Review
 
-- **Benzene
+- **Benzene**
     
-    1. Key component in petrochemical industry global demand 46 million tonnes.
+    _1_. Key component in petrochemical industry global demand 46 million tonnes.
     
-    2. 50% used to make ethylbenzene.
+    _2_. 50% used to make ethylbenzene.
     
-    3. Not produced directly but as a by-product of other industries - oil refineries,
+    _3_. Not produced directly but as a by-product of other industries - oil refineries,
     steam cracking of naphthalene, coal used in steel production.
     
-    4. North East Asian Market 40% of Benzene market.
+    _4_. North East Asian Market 40% of Benzene market.
     
-    5. China is the largest producer and consumer of Benzene.
+    _5_. China is the largest producer and consumer of Benzene.
     
-    6. Price of Benzene in China 5,300-5,350 Yuan/te (Q3 2018).
+    _6_. Price of Benzene in China 5,300-5,350 Yuan/te (Q3 2018).
     
-    7. Direct routes to obtain benzene now being explored.
+    _7_. Direct routes to obtain benzene now being explored.
     
-    8. Converted from other aromatics and dehydro-aromatisation reaction with ethane.
+    _8_. Converted from other aromatics and dehydro-aromatisation reaction with ethane.
     
-  - **Ethylene
+ - **Ethylene**
      
-     1. Ehtylene
+     _1_. Ehtylene importance unparalleled in industry/Largest petrochemical by volume in 2018.
+     
+     _2_. Wide variety of uses including in surfactants and plasticisers as well as to produce Ethylbenzene.
+     
+     _3_. Obtained from distillation of natural gas and oil.
+     
+     _4_. Alternative non fossil fuel methods of production.
+     
+     _5_. Prices in China 9,978-10,254 Yuan/te (Q2 2014).
     
 
 #### Process-Block-Flow-Diagram
