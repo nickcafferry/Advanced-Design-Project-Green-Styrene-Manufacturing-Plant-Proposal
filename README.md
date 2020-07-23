@@ -130,6 +130,7 @@ See [Feedstock and Market Review](https://github.com/nickcafferry/Advanced-Desig
 
 #### Material-and-Energy-Balances
 
+**Table 1**. Reaction extents of reactions within dehydrogenation reactor.
 | Reaction | Reaction Extent (mol/s) | Selectivy |
 |:--:|:--:|:--:|
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" title="C_{8}H_{10} \iff C_{8}H_{8} + H_{2}" /></a> | 33.239 | 95.514% (Styrene)
