@@ -158,7 +158,7 @@ See [Feedstock and Market Review](https://github.com/nickcafferry/Advanced-Desig
 #### Summary
 The purpose of this report is to find the optimal dimensions and the optimal operating variables of two dehydrogenation reactors. More specifically, the height and diameter, catalyst amount and characteristics, heat exchange strategy of reactors need to be determined optimally. The operating conditions include temperature and pressure as well as the steam-to-ethylbenzene ratio.
 #### Codes
-* Install [Wolfram Mathematica](https://www.wolfram.com/) ( Version 11.1 or higher) or **Wolfram Cloud** (App or [Online Version](https://www.wolframcloud.com/));
+* Install [Wolfram Mathematica](https://www.wolfram.com/) ( Version 11.0 or higher) or **Wolfram Cloud** (App or [Online Version](https://www.wolframcloud.com/));
 * Running codes within the software interface, e.g., you can run the following codes to get concentration profiles for reactor 1:
 
 ```mathematica
