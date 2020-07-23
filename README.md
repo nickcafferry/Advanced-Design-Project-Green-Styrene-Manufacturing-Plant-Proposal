@@ -40,6 +40,7 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
 **[Summary](#summary)** |
 **[Process Route Review](#process-route-review)** |
 **[Feedstock and Market Review](#feedstock-and-market-review)** |
+**[Material and Energy Balances](#material-and-energy-balances)** |
 **[Process Block Flow Diagram](#process-block-flow-diagram)** |
 **[Plant Layout](#plant-layout)** |
 
@@ -129,6 +130,9 @@ See [Process Route Review](https://github.com/nickcafferry/Advanced-Design-Proje
 See [Feedstock and Market Review](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Feedstock-and-Market-Review) for details.
 
 #### Material-and-Energy-Balances
+
+- **Material Balances**
+
 
 **Table 1**. Reaction extents of reactions within dehydrogenation reactor.
 | Reaction | Reaction Extent (mol/s) | Selectivy |
