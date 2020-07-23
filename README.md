@@ -39,6 +39,7 @@ Syteren is a monomer used in the production of polymers including polystrene, ac
 ### Appraise
 **[Summary](#summary)** |
 **[Process Route Review](#process-route-review)** |
+**[Feedstock and Market Review](#feedstock-and-market-review)** |
 **[Process Block Flow Diagram](#process-block-flow-diagram)** |
 **[Plant Layout](#plant-layout)** |
 
@@ -110,7 +111,11 @@ See [Process Route Review](https://github.com/nickcafferry/Advanced-Design-Proje
      _4_. Alternative non fossil fuel methods of production.
      
      _5_. Prices in China 9,978-10,254 Yuan/te (Q2 2014).
-    
+     
+See [Feedstock and Market Review]() for details.
+
+#### Material-and-Energy-Balances
+
 
 #### Process-Block-Flow-Diagram
 
