@@ -75,6 +75,32 @@ The aim of this plant design project is to provide critical insights into and re
 
 See [Process Route Review](https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Process-Route-Review) for more details.
 
+#### Feedstock-and-Market-Review
+
+- **Benzene
+    
+    1. Key component in petrochemical industry global demand 46 million tonnes.
+    
+    2. 50% used to make ethylbenzene.
+    
+    3. Not produced directly but as a by-product of other industries - oil refineries,
+    steam cracking of naphthalene, coal used in steel production.
+    
+    4. North East Asian Market 40% of Benzene market.
+    
+    5. China is the largest producer and consumer of Benzene.
+    
+    6. Price of Benzene in China 5,300-5,350 Yuan/te (Q3 2018).
+    
+    7. Direct routes to obtain benzene now being explored.
+    
+    8. Converted from other aromatics and dehydro-aromatisation reaction with ethane.
+    
+  - **Ethylene
+     
+     1. Ehtylene
+    
+
 #### Process-Block-Flow-Diagram
 
 [![UrFWvt.md.png](https://s1.ax1x.com/2020/07/16/UrFWvt.md.png)](https://imgchr.com/i/UrFWvt)
