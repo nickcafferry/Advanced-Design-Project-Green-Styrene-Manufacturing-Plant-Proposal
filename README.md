@@ -1,6 +1,7 @@
 [![Documentation Status](https://readthedocs.org/projects/advanced-design-project-plant-proposal/badge/?version=latest)](https://advanced-design-project-plant-proposal.readthedocs.io/en/latest/?badge=latest)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 [![Mathematica](https://img.shields.io/badge/mathematica-v11.0-brightgreen)](https://www.wolfram.com/mathematica/)
+[![Platform](https://img.shields.io/badge/platform-wolframcloud-blue)](https://mathematica.wolframcloud.com/)
 
 **[About GSM](#about-GSM)** |
 **[Project Description](#project-description)** |
