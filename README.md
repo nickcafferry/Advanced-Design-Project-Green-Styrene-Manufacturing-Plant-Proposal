@@ -83,39 +83,53 @@ See [Process Route Review](https://github.com/nickcafferry/Advanced-Design-Proje
 
 - **Benzene**
     
-    _1_. Key component in petrochemical industry global demand 46 million tonnes.
+    _1_.  Key component in petrochemical industry global demand 46 million tonnes.
     
-    _2_. 50% used to make ethylbenzene.
+    _2_.  50% used to make ethylbenzene.
     
-    _3_. Not produced directly but as a by-product of other industries - oil refineries,
+    _3_.  Not produced directly but as a by-product of other industries - oil refineries,
     steam cracking of naphthalene, coal used in steel production.
     
-    _4_. North East Asian Market 40% of Benzene market.
+    _4_.  North East Asian Market 40% of Benzene market.
     
-    _5_. China is the largest producer and consumer of Benzene.
+    _5_.  China is the largest producer and consumer of Benzene.
     
-    _6_. Price of Benzene in China 5,300-5,350 Yuan/te (Q3 2018).
+    _6_.  Price of Benzene in China 5,300-5,350 Yuan/te (Q3 2018).
     
-    _7_. Direct routes to obtain benzene now being explored.
+    _7_.  Direct routes to obtain benzene now being explored.
     
-    _8_. Converted from other aromatics and dehydro-aromatisation reaction with ethane.
+    _8_.  Converted from other aromatics and dehydro-aromatisation reaction with ethane.
     
  - **Ethylene**
      
-     _1_. Ehtylene importance unparalleled in industry/Largest petrochemical by volume in 2018.
+    _1_.  Ehtylene importance unparalleled in industry/Largest petrochemical by volume in 2018.
      
-     _2_. Wide variety of uses including in surfactants and plasticisers as well as to produce Ethylbenzene.
+    _2_.  Wide variety of uses including in surfactants and plasticisers as well as to produce Ethylbenzene.
      
-     _3_. Obtained from distillation of natural gas and oil.
+    _3_.  Obtained from distillation of natural gas and oil.
      
-     _4_. Alternative non fossil fuel methods of production.
+    _4_.  Alternative non fossil fuel methods of production.
      
-     _5_. Prices in China 9,978-10,254 Yuan/te (Q2 2014).
-     
+    _5_.  Prices in China 9,978-10,254 Yuan/te (Q2 2014).
+
+- **Styrene**
+   
+    _Asia_:
+  
+   Supply rose in most parts of northeast Asia as plants in Japan restarted from turnarounds and South Korean manufacturers were running at higher rates, on better margins in comparison with Q1. Only Taiwan saw a drop in production because of maintenance. Western supply levels were higher on the opened arbitrage window and rising run rates after Q1 maintenance plans. Import demand from China and northeast Asia were both healthy owing to healthy importer margins for most of Q2, and wider downstream production margins especially in the ABS and PS sectors respectively.
+
+   _Europe_:
+   
+   Europe styrene was oversupplied during the second quarter. Supply was in abundance as demand was sharply reduced as lockdown measures were enforced across the region to control the spread of the coronavirus. A near halt in end-use automotive and tyre manufacturing and consumption destroyed demand for derivative ABS and SBR. Low PO demand resulted in reduced SM/PO output, but supply was still long because of low demand. Europe styrene demand fell sharply in the second quarter, as manufacturing along the supply chain, and end-use consumption were drastically impacted by enforced lockdowns to contain the spread of the coronavirus. The key end-use automotive sector was particularly affected, destroying demand for styrene derivatives such as ABS and SBR. PS and EPS demand was also slow, but packaging and single-use plastic demand picked up slightly.
+
+   _US_:
+   
+   Supply was tighter in Q2 as US producer AmSty had some equipment issues while restarting its 953,000 tonne/year plant in Saint James, Louisiana, after planned maintenance. Producer INEOS Styrolution began a turnaround in mid-March at its 455,000 tonne/year plant in Texas City, Texas. The company has yet to restart the plant, likely because of demand destruction associated with the pandemic. The tight supply had minimal effect on the market because demand was soft. Overall demand was soft in Q2 as much of the country shut down to prevent the spread of the coronavirus. The North American auto industry shut down in March after an employee at a plant in Michigan contracted the virus. There were some pockets of improved demand related to the pandemic, including for some styrene derivatives such as including ABS for use in ventilators and PS as bans on single-use plastics were eased.
+
 See [Feedstock and Market Review]() for details.
 
 #### Material-and-Energy-Balances
-
+    
 
 #### Process-Block-Flow-Diagram
 
@@ -298,7 +312,7 @@ PlotRange→ All, AxesLabel → {"Reactor height (m)", "Concentration (mol/cum)"
 "ETH", "MTH"}, PlotLabels → Placed[{"EB", "ST", "BZ", "TO"}, Above]]], Column[{Control[{{Dr, 400, "reactor diameter (cm)"}}, 100, 
 800, 10, Appearance → "Labeled"}]}, Left]]
 ```
- And to get an overview of how temperature, pressure, steam to ethylbenzene ratio on the ethylbenzene conversion, run these codes:
+ * And to get an overview of how temperature, pressure, steam to ethylbenzene ratio on the ethylbenzene conversion, run these codes:
 ```mathematica
 Manipulate[
 K[T_] := Exp[A1 + B1 / T + C1 Log[T] + D1 T];
