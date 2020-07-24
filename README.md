@@ -132,7 +132,6 @@ See [Feedstock and Market Review](https://github.com/nickcafferry/Advanced-Desig
 #### Material-and-Energy-Balances
 
 - **Material Balances**
-
 Given that the desired annual production rate of styrene is 100,000 te/year (33.239 mol/s), we can employ back-propagating mehtod to solve material balances for each unit based on certain assumptions.
 
 **Table 1**. Reaction extents of reactions within dehydrogenation reactor.
@@ -154,7 +153,6 @@ Given that the desired annual production rate of styrene is 100,000 te/year (33.
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_{10}H_{14}&space;&plus;&space;C_6H_6\longrightarrow&space;2C_{8}H_{10}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{10}H_{14}&space;&plus;&space;C_6H_6\longrightarrow&space;2C_{8}H_{10}" title="C_{10}H_{14} + C_6H_6\longrightarrow 2C_{8}H_{10}" /></a> | 2.631 | ---
 
 - **Energy Balances**
-
 Due to the fact that there is no shaft work, the energy balance in terms of conversion can be written in a simple form as follows:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex={\color{Green}&space;\dot{Q}-&space;F_{A0}{\textstyle&space;\sum_{i=1}^{n}}\theta&space;_{i}\widehat{C_{pi}}(T_{i}-T_{i0})-&space;{\textstyle&space;\sum_{j}^{m}}[\Delta&space;H_{Rx,j}(T_R)&plus;\Delta&space;C_{pj}(T-T_R)]F_{A0}X_j=0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\color{Green}&space;\dot{Q}-&space;F_{A0}{\textstyle&space;\sum_{i=1}^{n}}\theta&space;_{i}\widehat{C_{pi}}(T_{i}-T_{i0})-&space;{\textstyle&space;\sum_{j}^{m}}[\Delta&space;H_{Rx,j}(T_R)&plus;\Delta&space;C_{pj}(T-T_R)]F_{A0}X_j=0}" title="{\color{Green} \dot{Q}- F_{A0}{\textstyle \sum_{i=1}^{n}}\theta _{i}\widehat{C_{pi}}(T_{i}-T_{i0})- {\textstyle \sum_{j}^{m}}[\Delta H_{Rx,j}(T_R)+\Delta C_{pj}(T-T_R)]F_{A0}X_j=0}" /></a>
