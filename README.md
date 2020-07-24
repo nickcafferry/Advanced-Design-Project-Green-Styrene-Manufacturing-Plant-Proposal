@@ -135,8 +135,8 @@ See [Feedstock and Market Review](https://github.com/nickcafferry/Advanced-Desig
 
 Given that the desired annual production rate of styrene is 100,000 te/year (33.239 mol/s), we can employ back-propagating mehtod to solve material balances for each unit based on certain assumptions.
 
-
 **Table 1**. Reaction extents of reactions within dehydrogenation reactor.
+
 | Reaction | Reaction Extent (mol/s) | Selectivy |
 |:--:|:--:|:--:|
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" title="C_{8}H_{10} \iff C_{8}H_{8} + H_{2}" /></a> | 33.239 | 95.514% (Styrene)
@@ -144,16 +144,15 @@ Given that the desired annual production rate of styrene is 100,000 te/year (33.
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_8H_{10}&plus;2H_2O&space;\longrightarrow&space;C_6H_6&space;&plus;&space;\frac{1}{2}&space;C_2H_4&plus;CO_2&plus;3H_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_8H_{10}&plus;2H_2O&space;\longrightarrow&space;C_6H_6&space;&plus;&space;\frac{1}{2}&space;C_2H_4&plus;CO_2&plus;3H_2" title="C_8H_{10}+2H_2O \longrightarrow C_6H_6 + \frac{1}{2} C_2H_4+CO_2+3H_2" /></a> | 0.4296 | 2.122% (Benzene)
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_8H_{10}&space;&plus;&space;\frac{1}{2}C_6H_6\longrightarrow&space;\frac{1}{2}C_{10}H_8&space;&plus;&space;\frac{1}{2}&space;C_2H_4&plus;\frac{1}{2}C_{10}H_{10}&plus;H_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_8H_{10}&space;&plus;&space;\frac{1}{2}C_6H_6\longrightarrow&space;\frac{1}{2}C_{10}H_8&space;&plus;&space;\frac{1}{2}&space;C_2H_4&plus;\frac{1}{2}C_{10}H_{10}&plus;H_2" title="C_8H_{10} + \frac{1}{2}C_6H_6\longrightarrow \frac{1}{2}C_{10}H_8 + \frac{1}{2} C_2H_4+\frac{1}{2}C_{10}H_{10}+H_2" /></a> | 0.0272 | 0.0785% (Heavy ends)
 
-
 **Table 2**. Reaction extents of reactions within alkylator and transalkylator.
+
 | Reaction | Reaction Extent (mol/s) | Selectivy |
 |:--:|:--:|:--:|
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_{6}&space;&plus;&space;C_2H_4\Leftrightarrow&space;C_{10}H_8" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_{6}&space;&plus;&space;C_2H_4\Leftrightarrow&space;C_{10}H_8" title="C_6H_{6} + C_2H_4\Leftrightarrow C_{10}H_8" /></a> | 31.865 | 91.1% (Ethylbenzene)
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_8H_{10}&space;&plus;&space;C_2H_4\longrightarrow&space;C_{10}H_{14}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_8H_{10}&space;&plus;&space;C_2H_4\longrightarrow&space;C_{10}H_{14}" title="C_8H_{10} + C_2H_4\longrightarrow C_{10}H_{14}" /></a> | 2.631 | 8.2% (Diethylbenzene)
 <a href="https://www.codecogs.com/eqnedit.php?latex=2C_6H_{6}&space;&plus;&space;C_2H_4\longrightarrow&space;C_{14}H_{14}&plus;H_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?2C_6H_{6}&space;&plus;&space;C_2H_4\longrightarrow&space;C_{14}H_{14}&plus;H_{2}" title="2C_6H_{6} + C_2H_4\longrightarrow C_{14}H_{14}+H_{2}" /></a> | 0.225 | 0.7% (Heavy ends)
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_{10}H_{14}&space;&plus;&space;C_6H_6\longrightarrow&space;2C_{8}H_{10}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{10}H_{14}&space;&plus;&space;C_6H_6\longrightarrow&space;2C_{8}H_{10}" title="C_{10}H_{14} + C_6H_6\longrightarrow 2C_{8}H_{10}" /></a> | 2.631 | ---
- 
- 
+
 - **Energy Balances**
 
 Due to the fact that there is no shaft work, the energy balance in terms of conversion can be written in a simple form as follows:
