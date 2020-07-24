@@ -388,7 +388,7 @@ This study is to predict safe separation distances via accident consequence mode
 ----------------------
 ## Team
 
-This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is assisted by [Wei MEI](https://github.com/nickcafferry/).
+This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is done by [Wei MEI](https://github.com/nickcafferry/).
 
 This project team members are listed in alphabetical order, with affiliation, and main areas of contribution:
 
