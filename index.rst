@@ -42,6 +42,19 @@ GSM co. recognises its corporate responsibility to protect the environment and c
 
 Energy integration is maximised when designing processes in order to minimise energy consumption and our plant projects are also planned using principles of inherently safe design and passive hazard protection, which reduces the likelihood of occurrence and overall environmental impact of inventory releases, explosions and fires. We also employ recycle streams in process design, use waste products as fuels and find buyers for byproducts/waste effluent streams from our processes wherever economically viable to do so; thereby reducing waste and reducing the consumption of raw materials.
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: About GSM
+
+   /intro/company-ethics-and-values
+   /intro/safety-management
+
+   /intro/employment-and-social-responsibility
+   /intro/Environmental Responsibility
+
+
+
 Project Description
 ===================
 
