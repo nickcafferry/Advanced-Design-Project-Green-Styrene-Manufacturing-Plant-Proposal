@@ -172,6 +172,14 @@ Methane | 67.801 | -74.52 | 0
 Hydrogen | 29.815 | 0 | 0
 Water | 39.827 | -241.814 | 15.221
 
+**Table 4**. Heat of reaction for three major reactions within dehydrogenation reactor at T = 888.15K (the mean temperature of dehydrogenator).
+
+| Reactions(j=1:3) | <a href="https://www.codecogs.com/eqnedit.php?latex=\Delta&space;C_{pj}(kJ/kmol\cdot&space;K)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta&space;C_{pj}(kJ/kmol\cdot&space;K)" title="\Delta C_{pj}(kJ/kmol\cdot K)" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=\Delta&space;H_{Rx,J}(kJ/mol)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Delta&space;H_{Rx,J}(kJ/mol)" title="\Delta H_{Rx,J}(kJ/mol)" /></a>
+|:--:|:--:|:--:|:--:|
+j=1 | <a href="https://www.codecogs.com/eqnedit.php?latex=C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{8}H_{10}&space;\iff&space;C_{8}H_{8}&space;&plus;&space;H_{2}" title="C_{8}H_{10} \iff C_{8}H_{8} + H_{2}" /></a> | 2.301 | 118.838
+j=2 | <a href="https://www.codecogs.com/eqnedit.php?latex=C_8H_{10}&plus;H_2\longrightarrow&space;C_7H_8&plus;CH_4" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_8H_{10}&plus;H_2\longrightarrow&space;C_7H_8&plus;CH_4" title="C_8H_{10}+H_2\longrightarrow C_7H_8+CH_4" /></a> | 18.041 | -43.626
+j=3 | <a href="https://www.codecogs.com/eqnedit.php?latex=C_8H_{10}\Leftrightarrow&space;C_6H_6&plus;C_2H_4" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_8H_{10}\Leftrightarrow&space;C_6H_6&plus;C_2H_4" title="C_8H_{10}\Leftrightarrow C_6H_6+C_2H_4" /></a> | -7.020 | 101.328
+
 #### Process-Block-Flow-Diagram
 
 [![UrFWvt.md.png](https://s1.ax1x.com/2020/07/16/UrFWvt.md.png)](https://imgchr.com/i/UrFWvt)
