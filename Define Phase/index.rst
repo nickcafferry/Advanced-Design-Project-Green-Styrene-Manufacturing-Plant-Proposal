@@ -22,6 +22,7 @@ include both thermal reactions and catalyst reactions. Since adiabatic reactors 
 process, there is no external heat transfer for the individual unit and therefore, the heat transfer
 resistance can be neglected. As to mass transfer resistance, calculations demonstrate that it is
 also negligible. For the sensitivity of design, the general description of methods has been given.
+
 Furthermore, Wolfram Mathematica 11.1 has been utilised to generate the computational
 solutions of the design equations as well as parametric studies. The key variable profiles,
 including concentration, pressure, temperature and conversion and selectivity as well, are
