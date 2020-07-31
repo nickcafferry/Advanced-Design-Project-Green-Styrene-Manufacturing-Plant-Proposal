@@ -1,21 +1,7 @@
 Advanced Design Project
 =======================
 
-..
-.
-├── manim/
-│   ├── manimlib/
-│   ├── manim_sandbox/
-│   ├── ...
-│   └── manim.py
-└── manim_document_zh/
-    ├── source/
-    │   ├── ...
-    │   └── conf.py
-    ├── ...
-    ├── make.bat
-    └── Makefile 
-..
+
 
 .. toctree::
    :maxdepth: 2
