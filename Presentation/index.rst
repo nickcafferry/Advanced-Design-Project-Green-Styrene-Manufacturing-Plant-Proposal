@@ -1,7 +1,7 @@
 Advanced Design Project
 =======================
 
-```text
+..
 .
 ├── manim/
 │   ├── manimlib/
@@ -15,7 +15,7 @@ Advanced Design Project
     ├── ...
     ├── make.bat
     └── Makefile 
-```
+
 
 .. toctree::
    :maxdepth: 2
