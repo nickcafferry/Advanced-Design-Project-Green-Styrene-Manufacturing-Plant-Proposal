@@ -1,4 +1,4 @@
-This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is assisted by ` Wei MEI <https://github.com/nickcafferry/>`_.
+This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is assisted by ` Wei MEI <https://github.com/nickcafferry/>`_ .
 
 This project team members are listed in alphabetical order, with affiliation, and main areas of contribution:
 
