@@ -5,91 +5,34 @@ Advanced Design Project: Green Styrene Manufacturing Plant Proposal
 
 The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
 
-About GSM
-=========
+.. toctree::
+    :maxdepth: 2
+    :caption: About GSM
 
-Company Ethics and Values
-------------------------
+.. toctree::
+    :maxdepth: 2
+    :caption: Project Description
 
-As a trans-national chemical contracting company operating in a complex and ever-changing world, GSM chemical co. is committed to adhering to the highest of global standards of performance and ethical corporate conduct.The key ethical principles which underpin day-to-day running and company policy of GSM include; Risk management and reduction, professionalism and competence, trust, obligation and liability, organisation and clear communication, regular auditing/review, active whistleblowing, industry regulations, legislation and national/international law, avoidance of conflict of interests as well as social and environmental corporate responsibilities.
+.. toctree::
+    :maxdepth: 2
+    :caption: Appraise
 
-Safety Management
------------------
-GSM goes above and beyond to ensure the safety of its employees, contractors as well as others affected by its business activities. GSM, as a UK registered company, follows IEE & CDM regulations and the UK Health and Safety at Work Act (1974) with a particular focus on S2, S3 and S6 of the act; these ensure health and safety of workers, contractors and members of the public is safeguarded. All process equipment is regularly inspected (at minimum biannually) to ensure any faults are repaired/parts replaced and the plant operates safely during start-up, shutdown, normal operation and, so far as reasonably practicable (SFARP) during ‘abnormal operations’.
+.. toctree::
+    :maxdepth: 2
+    :caption: Define Phase
+    
+.. toctree::
+    :maxdepth: 2
+    :caption: Layout Phase
+    
+.. toctree::
+    :maxdepth: 2
+    :caption: Presentation
 
-Employment and Social Responsibility
-------------------------------------
-
-GSM co. recognises its corporate responsibility to protect the environment and conserve precious natural resources. The company closely follows the European Industrial Emissions Directive (2010) as well as the DEFRA Environmental Permitting Regulations (2010) from UK legislation. During plant construction and commissioning, great care is taken to ensure the plant is situated in an area which allows minimisation of the environmental impact of our operations. As a company, we are committed to reducing our carbon footprint and we ensure all feedstocks, inventories and products/byproducts of our processes are stored, transported and disposed of safely and in accordance with the above legislation.
-
-Energy integration is maximised when designing processes in order to minimise energy consumption and our plant projects are also planned using principles of inherently safe design and passive hazard protection, which reduces the likelihood of occurrence and overall environmental impact of inventory releases, explosions and fires. We also employ recycle streams in process design, use waste products as fuels and find buyers for byproducts/waste effluent streams from our processes wherever economically viable to do so; thereby reducing waste and reducing the consumption of raw materials.
-
-Environmental Responsibility
----------------------------
-
-GSM co. recognises its corporate responsibility to protect the environment and conserve precious natural resources. The company closely follows the European Industrial Emissions Directive (2010) as well as the DEFRA Environmental Permitting Regulations (2010) from UK legislation. During plant construction and commissioning, great care is taken to ensure the plant is situated in an area which allows minimisation of the environmental impact of our operations. As a company, we are committed to reducing our carbon footprint and we ensure all feedstocks, inventories and products/byproducts of our processes are stored, transported and disposed of safely and in accordance with the above legislation.
-
-Energy integration is maximised when designing processes in order to minimise energy consumption and our plant projects are also planned using principles of inherently safe design and passive hazard protection, which reduces the likelihood of occurrence and overall environmental impact of inventory releases, explosions and fires. We also employ recycle streams in process design, use waste products as fuels and find buyers for byproducts/waste effluent streams from our processes wherever economically viable to do so; thereby reducing waste and reducing the consumption of raw materials
-
-Project Description
-===================
-
-Introduction
-------------
-
-One of the most important and versatile monomers produced by the chemical industry today is styrene, as shown in Figure 1. While there is no direct end use of styrene, styrene can be easily polymerised to produce a cheap, colourless, lightweight, and stable (thermally & chemically) plastics such as polystyrene, styrene–acrylonitrile and acrylonitrile–butadiene–styrene (ABS), and styrene–butadiene latex. The styrene monomer (SM) exists as a colourless, viscous, aromatic liquid under ambient conditions and can be found naturally, most notably in cinnamon, coffee crops and in coal tar. The impetus for large scale production of styrene was the large demand for styrene–butadiene latex in World War II. After 1946, styrene production became available for the manufacture of a high purity monomer that can be polymerized to produce polystyrene plastics. Since then styrene has had a sustained growth into the 21st century, estimated at almost 6M te/yr in the US alone at around the turn of the century.
-
-The global demand for styrene is growing quickly in response to an increase in demand for thermoplastics, particularly polystyrene. The use of polystyrene is widespread due to the fact that it is the least expensive thermoplastics in terms of cost per volume passes and is easy to polymerize and copolymerise, resulting in plastics with a broad range of characteristics2. With a stable increase in styrene demand, new technological developments have been made to improve the efficiency and decrease the costs of styrene production in major commercial processes. As Bentham Corporation is considering expanding their industrial synthetics commercial activities to the production of SM in Ordos, China, the aim of this report is to propose a process route for the production of styrene of which is required to have a production rate of 100,000 te/yr and a purity of 99.7%. To achieve this, a comparison of different available technologies in the production of styrene will be discussed in order to choose a production method and develop a block flow diagram for the system best suited for the specifications set by Bentham Corporation. Following the selection of the production method, a preliminary process will be developed based on a preliminary mass and energy balance, cost estimation assessment, and potential hazard and mitigation measures that may occur. This process will be simulated on ASPEN to get a detailed insight on the process and identify points of optimization. Finally, the sustainability of overall process based on the final simulation results will be analysed to identify the most sustainable treatments of the waste streams involved in the process.
-
-Process Route Review
--------------------
-
-The conventional method of industrial styrene production is via dehydrogenation of ethylbenzene (EB). This accounts for more than 85% of global styrene production - the remaining 15% is obtained from styrene-propylene oxide (PO) co-production routes. Although the overall profitability of SM production is higher in the PO-SM route than dehydrogenation, the production of styrene is limited by the market demand for propylene oxide (PO) which is 2/10 of that of styrene by weight1,3. With such a limited market for PO, commercial manufacturers of styrene, such as Bentham cooperation, are best served when using an EB dehydrogenation process industrially instead. While EB can be purchased for direct use from suppliers, the most cost-effective route is the production of EB from benzene and ethylene through a catalytically-aided alkylation. The different process route options for both ethylbenzene production and styrene production will now be critically evaluated in order to propose a recommended route of styrene production for Bentham Corporation.
-
-Ethylbenzene Manufacturing
---------------------------
-
-Thermodynamic Limitations and Side reactions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The first step in the production of commercial EB is the reversible reaction between benzene and ethylene forming EB.
-
-
-EB can react further to form polyethylbenzenes (PEBS) such di-ethylbenzenes (DEBs) and Tri-ethylbenzenes (TEBs). An excess of benzene is typically used to shift the thermodynamic equilibrium to the right-hand side, thereby limiting the available ethylene for further alkylation to PEBs. In addition to transalkylation, isomerization and polymerization may occur producing xylenes and oligomers; these side reactions occur at negligibly low rates because modern industrial catalysts are highly selective for monoalkylation and seldom partake in these side reactions. Alkylation catalysts will be discussed later on in SECTION 2.2.2. To further increase conversion of ethylbenzene, polyethylbenzenes are transalkylated to EB via a transalkylation process:
-
-This reaction should also be done in the presence of excess benzene to shift the thermodynamic equilibrium to the right and increase conversion of PEB. Although alkylation and transalkylation can be carried out in the same reactor, higher EB yield and purity are achieved with a separate alkylator and transalkylator, operating under different conditions optimized for the respective reactions. EB production with 2 separate reactors is optimal for the highest possible yield of EB. Due to the thermodynamic limitations as described above, benzene excess dictates, in both alkylation and transalkylation reactors, the conversion of EB1,3,4,5,6. Having too much benzene excess, however, leads to a large benzene recycle flowrate, increasing feedstock, capital, and operating costs. It is therefore important to strike a balance between the benefits gained from increased conversion and additional costs incurred due to benzene excess.
-
-Benzene Alkylation Catalysts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Commercial production of EB is primarily achieved using two distinct routes of exothermic catalyst-aided alkylation: the traditional method makes use of aluminium chloride catalysts (Friedel-Crafts reaction) and newer methods use more contemporary synthetic zeolite catalysts.
-
-Aluminium Chloride Catalyst
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-In the 1950s, approximately 40% of the global commercial EB production was done though the Friedel-crafts reaction with aluminium chloride (AlCl3) catalysts7. In addition to AlCl3, a wide range of Lewis acid catalysts, including AlBr3, FeCl3, ZrCl4, and BF3, have been used. These catalysts are extremely corrosive and toxic, capable of corroding storage and disposal containers. Additionally, the disposal of unavoidable side products such as the production of hydrogen chloride and oxidation has raised serious environmental concerns8. It is therefore imperative that AlCl3 traces in the reactor effluent streams are removed and recovered for reuse, adding complexity in both the plant design and operation procedures. In the 1980s, however, a new alkylation method using zeolite-based catalysts process was commercialized. These zeolite catalysts boast improved selectivity of EB and lower toxicity and corrosiveness, overcoming the main drawbacks of AlCl31,6,9. Zeolite catalysts are therefore considered advantageous for modern EB production processes.
-
-Zeolite Catalysts
-^^^^^^^^^^^^^^^^^
-
-Over the years, many production processes involving zeolite catalysts have been developed. Each of these processes use their own variation of zeolite catalysts resulting in different operating features. The conventional production processes used today were first developed in the 1990s, including the Mobil-Badger (1990), CD TECH EB (1994), EBMax (1995), and the Lummus EBOne (1996) process. A critical analysis of these process is detailed below.
-
-The Mobil-Badger uses catalyst ZSM-5, a medium pore modified Y zeolite, in a vapour fixed bed reactor for alkylation and transalkylation. Vapour-phase benzene alkylation in Mobil-Badger requires a high benzene/ethylene molar ratio, and high reaction temperatures, around 400oC. This results in high capital costs from larger vapour -phase reactors and high energy costs10,11. Unlike vapour phase alkylation, liquid phase alkylation reduces both the operating temperature (to 240-270oC) and the size of the reactors. Zeolite catalysts for liquid phase operations also have a longer lifetime and are more selective, decreasing the required benzene excess. These characteristics make liquid-phase alkylation more commercially favourable than vapour-phase.
-
-EBOne and EBMax utilize liquid phase alkylation; The EBMax process performs benzene alkylation in liquid phase but transalkylation in vapour phase. EBMax uses a zeolite catalyst known as MCM-22 in the alkylation reactor and ZSM-5 in the transalkylation reactor. MCM-22 has an increased lifetime of 3 years and has a much higher ethylbenzene selectivity than Y zeolites, lowering the required feed ratio of benzene/ethylene to only 4/111. Similarly, Lummus EBOne alkylates benzene in liquid phase while transalkylation is performed in liquid phase. Lummus EBOne uses a modified  zeolite in both alkylation (EBZ-500) and transalkylation (EBZ-100) reactors. zeolites have a comparable selectivity to MCM-22 while giving a higher ethylbenzene yield than both Y and MCM-22 zeolites11,12,13. Using zeolites catalyst, the required feed ratio of benzene/ethylene is 4-6/1 with a lifetime of 2 years 10,13 .Overall EBMax and EBOne have a comparable performance and costs. EBOne may operate both reactors in liquid
-phase but requires a higher benzene excess than EBMax resulting in similar reactor sizing and operating costs. The main difference is that the overall yield of EBOne is 99.6%, 0.1% higher than EBMax10, hence EBOne was the process that was chosen for the
-Bentham Cooperation venture.
-
-In addition to the ethylbenzene processes above, other techniques have been used in industry such as ‘catalytic distillation’ using Y zeolites, also known as the CDTECH EB process. While CDTECH EB has a comparable performance to Lummus EBOne, can use
-dilute feedstocks, has increased catalyst lifetime of 6 years, and a high yield of 99.7%10, this technique has many limitations that makes a fixed bed reactor more favourable. The segregation of ethylene in vapour phase and benzene in liquid phase hinder the mass transfer of ethylene to the catalyst. This lowers the conversion of ethylene to ethylbenzene, thus requiring a large catalyst volume and complex reactor system, substantially increasing capital costs1. The characteristics of each process are summarized in Table 1.
-
-Team
-====
-
-
-Deployment
-==========
-
-
-External Links
-==============
+.. toctree::
+    :maxdepth: 2
+    :caption: Team
+    
+.. toctree::
+    :maxdepth: 2
+    :caption: External Links
