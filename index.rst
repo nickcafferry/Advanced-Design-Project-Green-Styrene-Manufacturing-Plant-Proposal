@@ -23,6 +23,7 @@ The aim of this plant design project is to provide critical insights into and re
     :caption: Appraise
     
     Appraise/index
+    Appraise/Material_and_Enthalpy_Balance/index
 
 .. toctree::
     :maxdepth: 2
