@@ -8,14 +8,17 @@ The aim of this plant design project is to provide critical insights into and re
 .. toctree::
     :maxdepth: 2
     :caption: About GSM
+    GSM/index
 
 .. toctree::
     :maxdepth: 2
     :caption: Project Description
+    Project_Description/index
 
 .. toctree::
     :maxdepth: 2
     :caption: Appraise
+    Appraise/index
 
 .. toctree::
     :maxdepth: 2
