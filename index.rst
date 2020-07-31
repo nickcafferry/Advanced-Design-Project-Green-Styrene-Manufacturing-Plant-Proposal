@@ -41,6 +41,8 @@ The aim of this plant design project is to provide critical insights into and re
     :maxdepth: 2
     :caption: Presentation   
     
+    Presentation/index
+    
 .. toctree::
     :maxdepth: 2
     :caption: Team
