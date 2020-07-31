@@ -396,7 +396,7 @@ This study is to predict safe separation distances via accident consequence mode
 ----------------------
 ## Team
 
-This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is done by [Wei MEI](https://github.com/nickcafferry/).
+This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is assisted by [Wei MEI](https://github.com/nickcafferry/).
 
 This project team members are listed in alphabetical order, with affiliation, and main areas of contribution:
 
@@ -418,7 +418,7 @@ This project is done with great help from two Personal Tutors and Prof. Haroun M
 --------------
 ## Deployment
 
-[Advanced Design Project](https://nickcafferry.github.io/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/)
+[Advanced Design Project](https://advanced-design-project-plant-proposal.readthedocs.io/en/latest/?badge=latest)
 
 **[Return to TOP](#advanced-design-project-green-styrene-manufacturing-plant-proposal)**
 
