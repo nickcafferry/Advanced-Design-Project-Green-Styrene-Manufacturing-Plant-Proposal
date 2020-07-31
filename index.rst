@@ -29,6 +29,8 @@ The aim of this plant design project is to provide critical insights into and re
     :maxdepth: 2
     :caption: Define Phase
     
+    /Define Phase/index
+    
 .. toctree::
     :maxdepth: 2
     :caption: Layout Phase
