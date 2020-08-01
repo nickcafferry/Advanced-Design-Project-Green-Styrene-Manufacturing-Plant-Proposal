@@ -16,7 +16,8 @@ This project is part of Advanced Design Project and is developed by an internati
     * Dhrupal Godhaniya (LinkedIn Profile `Dhrupal Godhaniya <https://www.linkedin.com/in/dhrupal-godhaniya-630598151/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3B%2FLXHEAHuSO6EtCL56V0M0A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people_connections-connection_profile>`_)
     
     * Ernest Chu (LinkedIn Profile `Ernest Chu <https://www.linkedin.com/in/elmchu/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3B%2FLXHEAHuSO6EtCL56V0M0A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people_connections-connection_profile>`_)
-* Wei MEI (LinkedIn Profile `Wei MEI <https://www.linkedin.com/in/wei-mei-808462130/>`_)
+    
+    * Wei MEI (LinkedIn Profile `Wei MEI <https://www.linkedin.com/in/wei-mei-808462130/>`_)
 
 .. admonition:: Note
 
