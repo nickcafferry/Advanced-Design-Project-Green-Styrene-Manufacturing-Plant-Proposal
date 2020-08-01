@@ -3,6 +3,7 @@ Team
 
 This project is part of Advanced Design Project and is developed by an international student team. The maintenance service is assisted by `Wei MEI <https://github.com/nickcafferry/>`_ .
 
+.. admonition:: Team Members
 
 This project team members are listed in alphabetical order, with affiliation, and main areas of contribution:
 
@@ -12,6 +13,8 @@ This project team members are listed in alphabetical order, with affiliation, an
 * Dhrupal Godhaniya (LinkedIn Profile `Dhrupal Godhaniya <https://www.linkedin.com/in/dhrupal-godhaniya-630598151/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3B%2FLXHEAHuSO6EtCL56V0M0A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people_connections-connection_profile>`_)
 * Ernest Chu (LinkedIn Profile `Ernest Chu <https://www.linkedin.com/in/elmchu/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3B%2FLXHEAHuSO6EtCL56V0M0A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people_connections-connection_profile>`_)
 * Wei MEI (LinkedIn Profile `Wei MEI <https://www.linkedin.com/in/wei-mei-808462130/>`_)
+
+.. admonition:: Note
 
 This project is done with great help from two Personal Tutors and Prof. Haroun Mahgerefteh:
 
