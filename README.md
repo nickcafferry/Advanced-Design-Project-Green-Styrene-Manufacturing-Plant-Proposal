@@ -426,7 +426,3 @@ This project is done with great help from two Personal Tutors and Prof. Haroun M
 ## External-Links
 
 For more details, please visit [this website](https://drive.google.com/drive/folders/1P25wyMHKvch4MaTkpnAdxPiI_tEmGBf0) on Google Drive 
-
-[Job Hunting Tips](https://github.com/nickcafferry/Job_Hunting_Tips)
-
-
