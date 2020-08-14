@@ -20,4 +20,10 @@ jobs:
         git clone https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal.git manim
         cd manim
         rm Intro1.mp4
+        
+    - name: Deploy to GitHub pages
+      uses: JamesIves/github-pages-deploy-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: master
 
