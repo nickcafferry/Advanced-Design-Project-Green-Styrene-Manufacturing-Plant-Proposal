@@ -1,0 +1,15 @@
+argparse
+colour
+numpy
+Pillow
+progressbar
+scipy
+tqdm
+opencv-python
+pycairo
+pydub
+pygments
+pyreadline
+sphinx
+sphinx_rtd_theme
+jieba
