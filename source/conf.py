@@ -35,7 +35,7 @@ pygments_style = 'default'
 
 html_static_path = ['assets']
 html_theme = 'sphinx_rtd_theme'
-html_favicon = './GCC.png'
+html_favicon = '../GCC.png'
 html_logo = '/source/GCC.png'
 html_theme_options = {
     'logo_only': False,
