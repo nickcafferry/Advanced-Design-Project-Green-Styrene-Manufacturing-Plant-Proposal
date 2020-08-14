@@ -8,7 +8,7 @@ The aim of this plant design project is to provide critical insights into and re
 .. raw:: html
 
     <video width="560" height="315" controls>
-        <source src="../_static/Intro1.mp4" type="video/mp4">
+        <source src="_static/Intro1.mp4" type="video/mp4">
     </video>
 
 
