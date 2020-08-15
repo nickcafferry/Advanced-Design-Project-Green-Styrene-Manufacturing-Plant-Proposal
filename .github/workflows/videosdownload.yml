@@ -21,7 +21,7 @@ jobs:
         mkdir -p ~/you_get
         export PATH="$PATH:/home/runner/.local/bin:/home/runner/tensorflow-doc-zh/you_get"
         cd ~/you_get/
-        wget -O colab.ipynb 'https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l01c01_introduction_to_colab_and_python.ipynb'
+        wget -O colab.html 'https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l01c01_introduction_to_colab_and_python.ipynb'
     
     - name: Save output as artifacts
       uses: actions/upload-artifact@v2
