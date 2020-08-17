@@ -5,13 +5,6 @@ Advanced Design Project: Green Styrene Manufacturing Plant Proposal
 
 The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
 
-.. raw:: html
-
-    <video width="560" height="315" controls>
-        <source src="_static/Intro1.mp4" type="video/mp4">
-    </video>
-
-
 .. toctree::
     :maxdepth: 2
     :caption: About GSM
