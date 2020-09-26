@@ -1,9 +1,7 @@
 Advanced Design Project: Green Styrene Manufacturing Plant Proposal
 ==================================================================
 
-Copyright |copy| Wei MEI, |MLMS (TM)| |---|
-all rights reserved. 
-|bamboo|
+:strong: Copyright |copy| Wei MEI, |MLMS (TM)| |---| all rights reserved. |bamboo|
 
 .. |copy| unicode:: 0xA9 .. copyright sign
 .. |MLMS (TM)| unicode:: MLMS U+2122
