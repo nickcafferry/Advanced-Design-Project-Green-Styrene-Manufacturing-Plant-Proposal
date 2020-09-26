@@ -8,8 +8,8 @@ project = 'Green Styrene Manufacturing Plant Proposal'
 copyright = '- Wei MEI (Nick Cafferry)'
 author = 'Wei MEI'
 
-version = '0.1.0'
-release = '0.1.0'
+version = '1.0'
+release = '1.0'
 
 extensions = [
     'sphinx.ext.todo',
