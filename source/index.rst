@@ -1,5 +1,6 @@
+=====================================================================
 Advanced Design Project: Green Styrene Manufacturing Plant Proposal
-==================================================================
+====================================================================
 
 Copyright |copy| Wei MEI, |MLMS (TM)| |---| all rights reserved. |bamboo|
 """"""""""""
@@ -15,6 +16,24 @@ Copyright |copy| Wei MEI, |MLMS (TM)| |---| all rights reserved. |bamboo|
 .. image:: https://s1.ax1x.com/2020/07/16/UBRXfP.md.png
 
 The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
+
+About-GSM
+---------
+
+As a trans-national chemical contracting company operating in a complex and ever-changing world, **GSM chemical co.** is committed to adhering to the highest of global standards of performance ethical corporate conduct.
+
+For more details, please visit `GSM <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/GSM>`_
+
+--------------------
+Project-Description
+--------------------
+
+.. image:: https://s1.ax1x.com/2020/07/16/UB0t9H.md.png
+
+Bentham Coporation requires the production of 100,000 te y-1 of styrene monomer at purity of 99.7 mol%. (See `Project Specification <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Project%20Specification>`_ for more details)
+
+Styrene is a monomer used in the production of polymers including polystrene, acrylonitrile butadiene styrene (ABS) and styrene-butadiene (SBR). Following fluctuations in the price of polystyrene the board would like a recommendation on which polymer should be produced from the styrene monomer.
+
 
 .. toctree::
     :maxdepth: 2
@@ -65,5 +84,3 @@ The aim of this plant design project is to provide critical insights into and re
     
     links
 
-.. raw:: html
-   :file: nanotube.html
