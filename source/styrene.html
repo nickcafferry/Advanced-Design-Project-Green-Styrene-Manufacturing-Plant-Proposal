@@ -1,0 +1,175 @@
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js"></script>
+
+<script type="text/javascript">
+
+Jmol._isAsync = false;
+
+// last update 2/18/2014 2:10:06 PM
+
+var jmolApplet0; // set up in HTML table, below
+
+// logic is set by indicating order of USE -- default is HTML5 for this test page, though
+
+var s = document.location.search;
+
+// Developers: The _debugCode flag is checked in j2s/core/core.z.js, 
+// and, if TRUE, skips loading the core methods, forcing those
+// to be read from their individual directories. Set this
+// true if you want to do some code debugging by inserting
+// System.out.println, document.title, or alert commands
+// anywhere in the Java or Jmol code.
+
+Jmol._debugCode = (s.indexOf("debugcode") >= 0);
+
+jmol_isReady = function(applet) {
+	document.title = (applet._id + " - Jmol " + Jmol.___JmolVersion)
+	Jmol._getElement(applet, "appletdiv").style.border="1px solid blue"
+}		
+
+var Info = {
+	width: 300,
+	height: 300,
+	debug: false,
+	color: "0xFFFFFF",
+	addSelectionOptions: false,
+	use: "HTML5",   // JAVA HTML5 WEBGL are all options
+	j2sPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s", // this needs to point to where the j2s directory is.
+	jarPath: "http://www.crystallography.net/cod/lib/jsmol/j2s/java",// this needs to point to where the java directory is.
+	jarFile: "JmolAppletSigned.jar",
+	isSigned: true,
+	script: "set zoomlarge false;set antialiasDisplay;load https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/CID/7501/record/SDF/?record_type=3d&response_type=display",
+	serverURL: "https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php",
+	readyFunction: jmol_isReady,
+	disableJ2SLoadMonitor: true,
+  disableInitialConsole: true,
+  allowJavaScript: true
+	//defaultModel: "$dopamine",
+	//console: "none", // default will be jmolApplet0_infodiv, but you can designate another div here or "none"
+}
+
+$(document).ready(function() {
+  $("#appdiv").html(Jmol.getAppletHtml("jmolApplet0", Info))
+})
+var lastPrompt=0;
+</script>
+
+<div id="appdiv" align="center"><div id="jmolApplet0_appletinfotablediv" style="width:300px;height:300px;position:relative;font-size:14px;text-align:left"> 
+<img id="jmolApplet0_waitimage" srchttps://chemapps.stolaf.edu/jmol/jsmol/j2s/img/cursor_wait.gif" style="position: absolute; bottom: 10px; left: 10px; z-index: 9006; display: none;">
+<div id="jmolApplet0_appletdiv" style="z-index: 9001; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-repeat: no-repeat; background-position: center center; display: block; border: 1px solid blue;">
+<script type="text/javascript">jmolApplet0._cover(false)</script>
+<canvas width="300" height="300" id="jmolApplet0_canvas2d" style="width: 100%; height: 100%; z-index: 9002; cursor: default;"></canvas>
+</div>
+<div id="jmolApplet0_2dappletdiv" style="position:absolute;width:100%;height:100%;overflow:hidden;display:none"></div>
+<div id="jmolApplet0_infotablediv" style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; display: none;">
+<div id="jmolApplet0_infoheaderdiv" style="height: 20px; width: 100%; background: yellow; display: none;">
+<span id="jmolApplet0_infoheaderspan">Jmol._Canvas2D (Jmol) "jmolApplet0"</span>
+<span id="jmolApplet0_infocheckboxspan" style="position:absolute;text-align:right;right:1px;">
+<a href="javascript:Jmol.showInfo(jmolApplet0,false)">[x]</a></span>
+</div>
+<div id="jmolApplet0_infodiv" style="position:absolute;top:20px;bottom:0px;width:100%;height:100%;overflow:auto">
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">loadScript https://chemapps.stolaf.edu/jmol/jsmol/j2s/core/package.js</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">loadScript https://chemapps.stolaf.edu/jmol/jsmol/j2s/core/corejmol.z.js</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">loadScript https://chemapps.stolaf.edu/jmol/jsmol/j2s/J/translation/PO.js</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">loadScript https://chemapps.stolaf.edu/jmol/jsmol/j2s/core/corescript.z.js</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">JSmol exec jmolApplet0 start applet null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol JavaScript applet jmolApplet0__908172194774436__ initializing</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue debug null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue logLevel null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue allowjavascript true</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">AppletRegistry.checkIn(jmolApplet0__908172194774436__)</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">vwrOptions: </span></div>
+<div style="white-space: nowrap;">
+<span style="white-space: nowrap;">
+{ "name":"jmolApplet0","allowJavaScript":true,"applet":true,"documentBase":"https://chemapps.stolaf.edu/jmol/jsmol/jsmol.htm","platform":"J.awtjs2d.Platform","fullName":"jmolApplet0__908172194774436__","codePath":"https://chemapps.stolaf.edu/jmol/jsmol/./j2s/","display":"jmolApplet0_canvas2d","signedApplet":"true","appletReadyCallback":"Jmol._readyCallback","statusListener":"[J.appletjs.Jmol object]","syncId":"908172194774436","bgcolor":"#FFFFFF" }
+</span>
+</div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">setting document base to "https://chemapps.stolaf.edu/jmol/jsmol/jsmol.htm"</span></div>
+<div style="white-space: nowrap;">
+<span style="white-space: nowrap;">Loading language resource https://chemapps.stolaf.edu/jmol/jsmol/./idioma/zh_CN.po</span>
+</div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">FileManager opening url https://chemapps.stolaf.edu/jmol/jsmol/./idioma/zh_CN.po</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">539 translations loaded</span></div>
+<div style="white-space: nowrap;">
+<span style="white-space: nowrap;">Loading language resource https://chemapps.stolaf.edu/jmol/jsmol/./idioma/zh_TW.po</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">FileManager opening url https://chemapps.stolaf.edu/jmol/jsmol/./idioma/zh_TW.po</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">536 translations loaded</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">(C) 2015 Jmol Development</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol Version: 14.31.7  2020-09-22 08:42</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">java.vendor: Java2Script (HTML5)</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">java.version: 2019-06-08 00:17:46 (JSmol/j2s)</span></div>
+<div style="white-space: nowrap;">
+<span style="white-space: nowrap;">os.name: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36</span>
+</div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Access: ALL</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">memory: 0.0/0.0</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">processors available: 1</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">useCommandThread: false</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">appletId:jmolApplet0 (signed)</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue emulate null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">defaults = "Jmol"</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue boxbgcolor null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue bgcolor #FFFFFF</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">backgroundColor = "#FFFFFF"</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue ANIMFRAMECallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue APPLETREADYCallback Jmol._readyCallback</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">APPLETREADYCallback = "Jmol._readyCallback"</span></div>
+<div style="white-space: nowrap;">
+<span style="white-space: nowrap;">StatusManager callback set for APPLETREADYCallback f=Jmol._readyCallback cb=APPLETREADY</span>
+</div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue ATOMMOVEDCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue AUDIOCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue CLICKCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue DRAGDROPCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue ECHOCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue ERRORCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue EVALCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue HOVERCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue IMAGECallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue LOADSTRUCTCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue MEASURECallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue MESSAGECallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue MINIMIZATIONCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue SERVICECallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue PICKCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue RESIZECallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue SCRIPTCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue SYNCCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue STRUCTUREMODIFIEDCallback null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue doTranslate null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">language=zh_CN</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue popupMenu null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue script null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue loadInline null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol getValue load null</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol applet jmolApplet0__908172194774436__ ready</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">script 1 started</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">zoomLarge = false</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">antialiasDisplay = true</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+<div style="white-space: nowrap;">
+<span style="white-space: nowrap;">FileManager.getAtomSetCollectionFromFile(https://chemapps.stolaf.edu/jmol/jsmol/data/caffeine.mol)</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">FileManager opening url https://chemapps.stolaf.edu/jmol/jsmol/data/caffeine.mol</span>
+</div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">The Resolver thinks Mol</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">C8H10N4O2</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">APtclcactv10291122543D 0   0.00000     0.00000</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">C8H10N4O2</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Time for openFile(https://chemapps.stolaf.edu/jmol/jsmol/data/caffeine.mol): 50 ms</span>
+</div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">reading 24 atoms</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">ModelSet: haveSymmetry:false haveUnitcells:false haveFractionalCoord:false</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">1 model in this collection. Use getProperty "modelInfo" or getProperty "auxiliaryInfo" to inspect them.</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Default Van der Waals type for model set to Babel</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">24 atoms created</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">ModelSet: not autobonding; use  forceAutobond=true  to force automatic bond creation</span>
+</div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Time for creating model: 31 ms</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">C8H10N4O2</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Script completed</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">Jmol script terminated</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">loadScript https://chemapps.stolaf.edu/jmol/jsmol/j2s/core/coremenu.z.js</span></div>
+<div style="white-space: nowrap;"><span style="white-space: nowrap;">loadScript https://chemapps.stolaf.edu/jmol/jsmol/j2s/core/coreswing.z.js</span></div>
+</div></div></div></div>
