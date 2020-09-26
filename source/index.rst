@@ -25,7 +25,7 @@ For more details, please visit `GSM <https://github.com/nickcafferry/Advanced-De
 
 
 Project-Description
---------------------
+^^^^^^^^^^^^^^^^^^^
 
 .. image:: https://s1.ax1x.com/2020/07/16/UB0t9H.md.png
 
@@ -33,10 +33,10 @@ Bentham Coporation requires the production of 100,000 te y-1 of styrene monomer 
 
 .. image:: styrene.png
 
-Styrene is a monomer used in the production of polymers including polystrene, acrylonitrile butadiene styrene (ABS) and styrene-butadiene (SBR). Following fluctuations in the price of polystyrene the board would like a recommendation on which polymer should be produced from the styrene monomer.
+Styrene is a monomer used in the production of polymers including polystyrene, acrylonitrile butadiene styrene (ABS) and styrene-butadiene (SBR). Following fluctuations in the price of polystyrene the board would like a recommendation on which polymer should be produced from the styrene monomer.
 
 Appraise
-^^^^^^^^
+--------
 
 Summary
 """""""""
