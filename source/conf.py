@@ -37,7 +37,7 @@ html_static_path = ['assets']
 html_theme = 'agogo'
 html_theme_options = {
     'logo_only': False,
-    'style_nav_header_background': '#343131',
+    'headerbg': '#FF2D2D',
 }
 html_sidebars = {
    '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'],
