@@ -4,7 +4,7 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath("../../manim/"))
 
-project = 'Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal'
+project = 'Green Styrene Manufacturing Plant Proposal'
 copyright = '- Wei MEI (Nick Cafferry)'
 author = 'Wei MEI'
 
