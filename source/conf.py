@@ -36,7 +36,7 @@ pygments_style = 'default'
 html_static_path = ['assets']
 html_theme = 'agogo'
 html_theme_options = {
-    'logo_only': False,
+    'footerbg ': '#FFFF93',
     'headerbg': '#FF2D2D',
 }
 html_sidebars = {
