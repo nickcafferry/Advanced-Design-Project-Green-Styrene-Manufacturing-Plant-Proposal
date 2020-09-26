@@ -34,7 +34,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'remain']
 pygments_style = 'default'
 
 html_static_path = ['assets']
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'scrolls'
 html_favicon = 'GCC.png'
 html_logo = 'GCC.png'
 html_theme_options = {
