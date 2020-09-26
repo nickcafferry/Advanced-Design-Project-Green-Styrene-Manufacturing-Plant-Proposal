@@ -1,4 +1,3 @@
-=====================================================================
 Advanced Design Project: Green Styrene Manufacturing Plant Proposal
 ====================================================================
 
@@ -24,7 +23,7 @@ As a trans-national chemical contracting company operating in a complex and ever
 
 For more details, please visit `GSM <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/GSM>`_
 
---------------------
+
 Project-Description
 --------------------
 
@@ -32,9 +31,17 @@ Project-Description
 
 Bentham Coporation requires the production of 100,000 te y-1 of styrene monomer at purity of 99.7 mol%. (See `Project Specification <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Project%20Specification>`_ for more details)
 
+.. image:: styrene.png
+
 Styrene is a monomer used in the production of polymers including polystrene, acrylonitrile butadiene styrene (ABS) and styrene-butadiene (SBR). Following fluctuations in the price of polystyrene the board would like a recommendation on which polymer should be produced from the styrene monomer.
 
+Appraise
+^^^^^^^^
 
+Summary
+"""""""""
+
+The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
 .. toctree::
     :maxdepth: 2
     :caption: About GSM
