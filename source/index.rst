@@ -42,6 +42,10 @@ For more details, please visit `GSM. <https://github.com/nickcafferry/Advanced-D
 Project Description
 """"""""""""""""""
 
+|Appraise| |Define Phase| |Layout Phase| |Presentation|
+
+.. |Appraise| ref::`<label4>`
+
 .. image:: https://s1.ax1x.com/2020/07/16/UB0t9H.md.png
 
 Bentham Coporation requires the production of 100,000 te y-1 of styrene monomer at purity of 99.7 mol%. (See `Project Specification <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Project%20Specification>`_ for more details).
@@ -56,6 +60,7 @@ Styrene is a monomer used in the production of polymers including `polystyrene <
 .. raw:: html
    :file: styrene_ploymers.html
 
+.. _label4:
 Appraise
 --------
 
