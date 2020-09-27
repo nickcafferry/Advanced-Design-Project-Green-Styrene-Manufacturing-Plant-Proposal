@@ -42,7 +42,11 @@ For more details, please visit `GSM. <https://github.com/nickcafferry/Advanced-D
 Project Description
 """"""""""""""""""
 
-:ref:`Appraise <Appraise>` :ref:`Define Phase <Define-Phase>` :ref:`Layout Phase <Layout-Phase>` :ref:`Presentation <Presentation>`
+|Appraise| |Define Phase| |Layout Phase| |Presentation|
+
+.. |Appraise| replace:: https://advanced-design-project-plant-proposal.readthedocs.io/en/latest/?badge=latest#appraise
+
+`Appraise <>` :ref:`Define Phase <Define-Phase>` :ref:`Layout Phase <Layout-Phase>` :ref:`Presentation <Presentation>`
 
 .. image:: https://s1.ax1x.com/2020/07/16/UB0t9H.md.png
 
