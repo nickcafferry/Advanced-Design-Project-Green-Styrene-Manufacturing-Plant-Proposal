@@ -106,7 +106,10 @@ Process Route Review
    
       <a href="https://www.codecogs.com/eqnedit.php?latex=C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" target="_blank">       <img src="https://latex.codecogs.com/gif.latex?C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" title="C_6 H_6+ CH_2=CH_2\Longleftrightarrow C_6 H_5CH_2CH_3" /></a>
    
+   
+   
    2. Recovery of mixed C8 aromatics by *Superfractionation*: Very small fraction
+   
    3. Production of ethylbenzene from butadiene
    
 - **Methods for Styrene Manufacture**:
@@ -116,6 +119,7 @@ Process Route Review
 .. raw:: html
       
       <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2" title="C_6H_5CH_2CH_3\Longleftrightarrow C_6H_5CH=CH_2+H_2" /></a>
+  
   
    2. *PO-SM Coproduction* Coproduction (Propylene oxide and Styrene monomer):
               
