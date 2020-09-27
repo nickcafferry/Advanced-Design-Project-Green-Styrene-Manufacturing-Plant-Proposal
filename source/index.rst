@@ -95,6 +95,73 @@ Summary
 
 The aim of this plant design project is to provide critical insights into and recommendations of the available synthetic routes to styrene along with market, feedstock, economic, and sustainability analyses of the venture. This has culminated in a preliminary overview of the plant design and operation in the area of Ordos, China, produced for our clients at Bentham Corporation. 
 
+Process Route Review
+^^^^^^^^^^^^^^^^^^^^
+
+- **Three Methods for Ethylbenzene Manufacture**:
+   
+   1. `Alkylation` of benzene with ethylene(favoured):
+
+.. raw:: html
+   
+      <a href="https://www.codecogs.com/eqnedit.php?latex=C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" target="_blank">       <img src="https://latex.codecogs.com/gif.latex?C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" title="C_6 H_6+ CH_2=CH_2\Longleftrightarrow C_6 H_5CH_2CH_3" /></a>
+   
+   2. Recovery of mixed C8 aromatics by *Superfractionation*: Very small fraction
+   3. Production of ethylbenzene from butadiene
+   
+- **Methods for Styrene Manufacture**:
+  
+   1. *Dehydrogenation*-the dehydrogenation of ethylbenzene to styrene takes
+
+.. raw:: html
+      
+      <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2" title="C_6H_5CH_2CH_3\Longleftrightarrow C_6H_5CH=CH_2+H_2" /></a>
+  
+   2. *PO-SM Coproduction* Coproduction (Propylene oxide and Styrene monomer):
+              
+        a). Oxidation of ethylbenzene to ethylbenzene hydroperoxide
+
+.. raw:: html
+   
+     <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH" title="C_6H_5CH_2CH_3+O_2\longrightarrow C_6H_5CH(CH_3)OOH" /></a>
+    
+        b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α-phenylethanol and propylene oxide
+
+.. raw:: html
+
+      <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OOH&plus;CH_2=CHCH_3\longrightarrow&space;C_6H_5CH(CH_3)OH&plus;CH_2OCHCH_3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OOH&plus;CH_2=CHCH_3\longrightarrow&space;C_6H_5CH(CH_3)OH&plus;CH_2OCHCH_3" title="C_6H_5CH(CH_3)OOH+CH_2=CHCH_3\longrightarrow C_6H_5CH(CH_3)OH+CH_2OCHCH_3" /></a>
+        
+       c). Dehydration of α-phenylethanol to styrene 
+
+.. raw:: html
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O" title="C_6H_5CH(CH_3)OH\longrightarrow C_6H_5CH=CH_2+H_2O" /></a>
+
+See `Process Route Review <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Process-Route-Review>`_ for more details.
+
+
+Feedstock and Market Review
+^^^^^^^^^^^^^^^^^^^^
+
+- **Benzene**
+   
+    *1*.  Key component in petrochemical industry global demand 46 million tonnes.
+    
+    *2*.  50% used to make ethylbenzene.
+    
+    *3*.  Not produced directly but as a by-product of other industries - oil refineries,
+    steam cracking of naphthalene, coal used in steel production.
+    
+    *4*.  North East Asian Market 40% of Benzene market.
+    
+    *5*.  China is the largest producer and consumer of Benzene.
+    
+    *6*.  Price of Benzene in China 5,300-5,350 Yuan/te (Q3 2018).
+    
+    *7*.  Direct routes to obtain benzene now being explored.
+    
+    *8*.  Converted from other aromatics and dehydro-aromatisation reaction with ethane.   
+
 .. toctree::
     :maxdepth: 2
     :caption: About GSM
