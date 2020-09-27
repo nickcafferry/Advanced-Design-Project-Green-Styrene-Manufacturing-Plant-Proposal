@@ -131,7 +131,7 @@ Process Route Review
       
          |Dehydration| 
          
-.. |Dehydrogenation| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2
+.. |Dehydrogenation| image:: https://camo.githubusercontent.com/88cff79b8746d080a13fa13fd37902353bd69be7/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f435f362673706163653b485f362b2673706163653b43485f323d43485f325c4c6f6e676c65667472696768746172726f772673706163653b435f362673706163653b485f3543485f3243485f33
    :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2
 
 .. |Oxidation| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH
