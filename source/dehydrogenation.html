@@ -1,0 +1,35 @@
+    <script src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+<style>
+	.hlong *{display:inline-block;vertical-align:middle}
+</style>
+<div align="center" class="hlong">
+    <div style="height: 200px; width: 200px;"  class='viewer_3Dmoljs' data-href='https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/CID/7500/record/SDF/?record_type=3d&response_type=save&response_basename=Conformer3D_CID_7500' data-backgroundcolor='0xffffff' data-style='stick'></div>
+<div>-----></div>
+<div style="height: 200px; width: 200px;"  class='viewer_3Dmoljs' data-href='https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/CID/7501/record/SDF/?record_type=3d&response_type=save&response_basename=Conformer3D_CID_7501' data-backgroundcolor='0xffffff' data-style='stick'></div>
+<div> + </div>
+<div style="height: 200px; width: 200px;"  class='viewer_3Dmoljs' data-href='https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/CID/783/record/SDF/?record_type=2d&response_type=save&response_basename=Structure2D_CID_783' data-backgroundcolor='0xffffff' data-style='stick'></div>
+</div>
+<script>
+      setInterval(function() {
+        if($3Dmol.viewers) if($3Dmol.viewers[0]) {
+          var view = $3Dmol.viewers[0];
+          view.rotate(1);
+        }
+      }, 50);
+    </script>
+<script>
+      setInterval(function() {
+        if($3Dmol.viewers) if($3Dmol.viewers[1]) {
+          var view = $3Dmol.viewers[1];
+          view.rotate(1);
+        }
+      }, 50);
+    </script>
+<script>
+      setInterval(function() {
+        if($3Dmol.viewers) if($3Dmol.viewers[2]) {
+          var view = $3Dmol.viewers[2];
+          view.rotate(1);
+        }
+      }, 50);
+    </script>
