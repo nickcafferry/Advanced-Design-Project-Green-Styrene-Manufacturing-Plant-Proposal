@@ -108,7 +108,7 @@ Process Route Review
    
    3. Production of ethylbenzene from butadiene
 
-.. |alkylation| image:: https://latex.codecogs.com/gif.latex?C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3
+.. |alkylation| image:: https://camo.githubusercontent.com/88cff79b8746d080a13fa13fd37902353bd69be7/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f435f362673706163653b485f362b2673706163653b43485f323d43485f325c4c6f6e676c65667472696768746172726f772673706163653b435f362673706163653b485f3543485f3243485f33
    :target: https://www.codecogs.com/eqnedit.php?latex=C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3
   
 - **Methods for Styrene Manufacture**:
@@ -131,17 +131,17 @@ Process Route Review
       
          |Dehydration| 
          
-.. |Dehydrogenation| image:: https://camo.githubusercontent.com/88cff79b8746d080a13fa13fd37902353bd69be7/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f435f362673706163653b485f362b2673706163653b43485f323d43485f325c4c6f6e676c65667472696768746172726f772673706163653b435f362673706163653b485f3543485f3243485f33
+.. |Dehydrogenation| image:: https://camo.githubusercontent.com/ce1c82f85a55d273fe3a73d024cf062bb61a3b95/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f435f36485f3543485f3243485f335c4c6f6e676c65667472696768746172726f772673706163653b435f36485f3543483d43485f322b485f32
    :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2
 
-.. |Oxidation| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH
+.. |Oxidation| image:: https://camo.githubusercontent.com/ce1c82f85a55d273fe3a73d024cf062bb61a3b95/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f435f36485f3543485f3243485f335c4c6f6e676c65667472696768746172726f772673706163653b435f36485f3543483d43485f322b485f32
    :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH
    
               
-.. |Epoxidation| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OOH&plus;CH_2=CHCH_3\longrightarrow&space;C_6H_5CH(CH_3)OH&plus;CH_2OCHCH_3
+.. |Epoxidation| image:: https://camo.githubusercontent.com/f37b56f7353d45d0019db2990fa8475e2aaac56f/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f435f36485f3543482843485f33294f4f482b43485f323d434843485f335c6c6f6e6772696768746172726f772673706163653b435f36485f3543482843485f33294f482b43485f324f434843485f33
     :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OOH&plus;CH_2=CHCH_3\longrightarrow&space;C_6H_5CH(CH_3)OH&plus;CH_2OCHCH_3
 
-.. |Dehydration| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O
+.. |Dehydration| image:: https://camo.githubusercontent.com/b1163cd79bd689afa70501fde2508413b5fd0642/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f435f36485f3543482843485f33294f485c6c6f6e6772696768746172726f772673706163653b435f36485f3543483d43485f322b485f324f
    :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O
         
 See `Process Route Review <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Process-Route-Review>`_ for more details.
