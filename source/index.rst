@@ -103,43 +103,47 @@ Process Route Review
    1. `Alkylation` of benzene with ethylene(favoured):
       
       |alkylation|
-
-.. |alkylation| image:: https://latex.codecogs.com/gif.latex?C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3" title="C_6 H_6+ CH_2=CH_2\Longleftrightarrow C_6 H_5CH_2CH_3
-   :target: https://www.codecogs.com/eqnedit.php?latex=C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3
-
+      
    2. Recovery of mixed C8 aromatics by *Superfractionation*: Very small fraction
    
    3. Production of ethylbenzene from butadiene
-   
+
+.. |alkylation| image:: https://latex.codecogs.com/gif.latex?C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3
+   :target: https://www.codecogs.com/eqnedit.php?latex=C_6&space;H_6&plus;&space;CH_2=CH_2\Longleftrightarrow&space;C_6&space;H_5CH_2CH_3
+  
 - **Methods for Styrene Manufacture**:
   
    1. *Dehydrogenation*-the dehydrogenation of ethylbenzene to styrene takes
-
-.. raw:: html
-      
-      <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2" title="C_6H_5CH_2CH_3\Longleftrightarrow C_6H_5CH=CH_2+H_2" /></a>
-  
-  
-   2. *PO-SM Coproduction* Coproduction (Propylene oxide and Styrene monomer):
-              
-        a). Oxidation of ethylbenzene to ethylbenzene hydroperoxide
-
-.. raw:: html
    
-     <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH" title="C_6H_5CH_2CH_3+O_2\longrightarrow C_6H_5CH(CH_3)OOH" /></a>
-    
-        b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α-phenylethanol and propylene oxide
+      |Dehydrogenation|
 
-.. raw:: html
+   2. *PO-SM Coproduction* Coproduction (Propylene oxide and Styrene monomer):
+      
+      a). Oxidation of ethylbenzene to ethylbenzene hydroperoxide
+         
+         |Oxidation|
 
-      <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OOH&plus;CH_2=CHCH_3\longrightarrow&space;C_6H_5CH(CH_3)OH&plus;CH_2OCHCH_3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OOH&plus;CH_2=CHCH_3\longrightarrow&space;C_6H_5CH(CH_3)OH&plus;CH_2OCHCH_3" title="C_6H_5CH(CH_3)OOH+CH_2=CHCH_3\longrightarrow C_6H_5CH(CH_3)OH+CH_2OCHCH_3" /></a>
+      b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α-phenylethanol and propylene oxide
         
-       c). Dehydration of α-phenylethanol to styrene 
+         |Epoxidation|
+      
+      c). Dehydration of α-phenylethanol to styrene
+      
+         |Dehydration| 
+         
+.. |Dehydrogenation| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2
+   :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2
 
-.. raw:: html
+.. |Oxidation| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH
+   :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3&plus;O_2\longrightarrow&space;C_6H_5CH(CH_3)OOH
+   
+              
+.. |Epoxidation| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OOH&plus;CH_2=CHCH_3\longrightarrow&space;C_6H_5CH(CH_3)OH&plus;CH_2OCHCH_3
+    :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OOH&plus;CH_2=CHCH_3\longrightarrow&space;C_6H_5CH(CH_3)OH&plus;CH_2OCHCH_3
 
-        <a href="https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O" title="C_6H_5CH(CH_3)OH\longrightarrow C_6H_5CH=CH_2+H_2O" /></a>
-
+.. |Dehydration| image:: https://latex.codecogs.com/gif.latex?C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O
+   :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH(CH_3)OH\longrightarrow&space;C_6H_5CH=CH_2&plus;H_2O
+        
 See `Process Route Review <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Process-Route-Review>`_ for more details.
 
 
