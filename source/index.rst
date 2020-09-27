@@ -42,9 +42,7 @@ For more details, please visit `GSM. <https://github.com/nickcafferry/Advanced-D
 Project Description
 """"""""""""""""""
 
-|Appraise| |Define Phase| |Layout Phase| |Presentation|
-
-.. |Appraise| ref::`<label4>`
+:ref:`Appraise <Appraise>` :ref:`Define Phase <Define-Phase>` :ref:`Layout Phase <Layout-Phase>` :ref:`Presentation <Presentation>`
 
 .. image:: https://s1.ax1x.com/2020/07/16/UB0t9H.md.png
 
@@ -60,7 +58,7 @@ Styrene is a monomer used in the production of polymers including `polystyrene <
 .. raw:: html
    :file: styrene_ploymers.html
 
-.. _label4:
+.. _Appraise:
 Appraise
 --------
 
