@@ -230,6 +230,7 @@
 				{	index: "2019-11-01", value: 160.2},
 				{	index: "2019-12-01", value: 157.3}				
 ]; // Render to visor
+  tfvis.visor().close();
   const surface = tfvis.visor().surface({
     name: 'Barchart Color',
     tab: 'Charts'
@@ -242,7 +243,6 @@
     fontSize: 14,
 	color: ['red','orange','yellow','green','blue','cyan','purple','grey','brown','pink','tomato','sapphire']
   };
-  tfvis.visor().close();
   tfvis.render.barchart(surface, data); // Render to page
 
   const container = document.getElementById('barchart-multicol-cont');
