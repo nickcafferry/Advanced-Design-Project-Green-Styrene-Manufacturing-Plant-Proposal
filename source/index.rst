@@ -128,24 +128,32 @@ Process Route Review
   
 - **Methods for Styrene Manufacture**:
   
-   1. *Dehydrogenation*-the dehydrogenation of ethylbenzene to styrene takes
+   1. *Dehydrogenation*-the dehydrogenation of ethylbenzene to styrene takes:
    
-      |Dehydrogenation|
+      
+                        |Dehydrogenation|
+
 
    2. *PO-SM Coproduction* Coproduction (Propylene oxide and Styrene monomer):
       
       a). Oxidation of ethylbenzene to ethylbenzene hydroperoxide
          
-         |Oxidation|
+         
+                        |Oxidation|
+
 
       b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α-phenylethanol and propylene oxide
         
-         |Epoxidation|
+         
+                        |Epoxidation|
+      
       
       c). Dehydration of α-phenylethanol to styrene
       
-         |Dehydration| 
-         
+        
+                        |Dehydration| 
+        
+        
 .. |Dehydrogenation| image:: https://camo.githubusercontent.com/ce1c82f85a55d273fe3a73d024cf062bb61a3b95/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f435f36485f3543485f3243485f335c4c6f6e676c65667472696768746172726f772673706163653b435f36485f3543483d43485f322b485f32
    :target: https://www.codecogs.com/eqnedit.php?latex=C_6H_5CH_2CH_3\Longleftrightarrow&space;C_6H_5CH=CH_2&plus;H_2
 
