@@ -114,8 +114,8 @@ Using the preliminary mass balance & ASPEN study, a basic economic study was don
        option = {
            title: {
                text: 'Enthalpy of Formation (kJ/mol) at T=298.15K',
-               subtext: 'Perry Chemical Engineerings Handbook',
-               sublink: 'https://www.thriftbooks.com/w/perrys-chemical-engineers-handbook/301686/'
+               subtext: 'Copyright@Wei MEI',
+               sublink: 'https://github.com/nickcafferry'
            },
            tooltip: {
                trigger: 'axis',
