@@ -79,7 +79,64 @@ To begin, a process route review was conducted where various production routes o
 Subsequently, the feedstock market of styrene production was critically evaluated to determine the risks associated with production being affected by feed shortage, fluctuations in demand or price volatility. It was found that the feed prices and supply of benzene and ethylene in China are predicted to remain stable and hence will not influence production costs for at least the next 2-5 years. Additionally, the local + global markets for styrene were evaluated to determine which market(s) the styrene should be sold in to provide the highest profits. To sum up, industrial polystyrene production currently dominates the market of styrene, but due to the uncertain nature of the PS global markets the benefits were evaluated of synthesising product polymers and selling them instead. Upon analysing the markets of SAN resin, styrene-butadiene rubber and SB latex it was concluded the market for SB rubber would be of the greatest commercial interest to Bentham Corporation.
 
 .. raw:: html
-   :file: styrene_prices.html
+
+       <div id="container" style="height: 300px; width: 800px"></div>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+       <script type="text/javascript">
+       var dom = document.getElementById("container");
+       var myChart = echarts.init(dom);
+       var app = {};
+       option = null;
+       option = {
+           title: {
+               text: 'Styrene Market',
+               subtext: 'Copyright@Wei MEI',
+               sublink: 'https://github.com/nickcafferry',
+               left: 'center'
+           },
+           tooltip: {
+               trigger: 'item',
+               formatter: '{a} <br/>{b} : {c} ({d}%)'
+           },
+           legend: {
+               orient: 'vertical',
+               left: 'left',
+               data: ['Polystyrene[solid, foam, film]', 'Styrene Co-polymers[ABS, SAN, etc.]', 'SB Latex', 'SB Rubber', 'Composites', 'Other']
+           },
+           series: [
+               {
+                   name: 'Styrene Application Market (tonnes)',
+                   type: 'pie',
+                   radius: '56%',
+                   center: ['50%', '60%'],
+                   data: [
+                       {value: 16034000, name: 'Polystyrene[solid, foam, film]'},
+                       {value: 5578000, name: 'Styrene Co-polymers[ABS, SAN, etc.]'},
+                       {value: 1322000, name: 'SB Latex'},
+                       {value: 1311000, name: 'SB Rubber'},
+                       {value: 1040000, name: 'Composites'},
+                       {value: 1895000, name: 'Other'}
+                   ],
+                   emphasis: {
+                       itemStyle: {
+                           shadowBlur: 10,
+                           shadowOffsetX: 0,
+                           shadowColor: 'rgba(0, 0, 0, 0.5, 0)'
+                       }
+                   }
+               }
+           ]
+       };;
+       if (option && typeof option === "object") {
+           myChart.setOption(option, true);
+       }
+              </script>
 
 Next, the material and energy balance were also carried out. To do this, a BFD was constructed, and each major operating units’ function and conditions were identified. The mass balance was conducted to predict the required feed input, flowrates within the process, and the outputs of the plant which could then be used for preliminary analysis of the plant economics. The energy balance was done solely on the dehydrogenation part of the process, giving an approximate energy requirement overview and utility usage for this particular section.
 
