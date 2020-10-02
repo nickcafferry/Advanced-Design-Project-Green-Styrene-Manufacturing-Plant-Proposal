@@ -3,7 +3,7 @@ Define Phase
 
 .. raw:: html
 
-       <div id="container_1" style="height: 300px; width: 300px"></div>
+       <div id="container_1" style="height: 300px; width: 800px"></div>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
