@@ -3,7 +3,7 @@ Define Phase
 
 .. raw:: html
 
-       <div id="container" style="height: 300px; width: 300px"></div>
+       <div id="container_1" style="height: 300px; width: 300px"></div>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
@@ -12,7 +12,7 @@ Define Phase
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
        <script type="text/javascript">
-       var dom = document.getElementById("container");
+       var dom = document.getElementById("container_1");
        var myChart = echarts.init(dom);
        var app = {};
        option = null;
@@ -112,7 +112,7 @@ Energy Balance
 .. raw:: html
 
 
-       <div id="container" style="height: 400px; width: 800px"></div>
+       <div id="container_2" style="height: 400px; width: 800px"></div>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
@@ -121,7 +121,7 @@ Energy Balance
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
        <script type="text/javascript">
-       var dom = document.getElementById("container");
+       var dom = document.getElementById("container_2");
        var myChart = echarts.init(dom);
        var app = {};
        option = null;
