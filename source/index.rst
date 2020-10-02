@@ -93,7 +93,84 @@ Using the preliminary mass balance & ASPEN study, a basic economic study was don
 
 
 .. raw:: html
-   :file: enthalpy_of_formation.html
+
+
+       <div id="container" style="height: 80%; width: 800px"></div>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+       <script type="text/javascript">
+       var dom = document.getElementById("container");
+       var myChart = echarts.init(dom);
+       var app = {};
+       option = null;
+       var labelRight = {
+           position: 'right'
+       };
+       option = {
+           title: {
+               text: 'Enthalpy of Formation (kJ/mol) at T=298.15K',
+               subtext: 'Perry Chemical Engineerings Handbook',
+               sublink: 'https://www.thriftbooks.com/w/perrys-chemical-engineers-handbook/301686/'
+           },
+           tooltip: {
+               trigger: 'axis',
+               axisPointer: {            
+                   type: 'shadow' 
+               }
+           },
+           visualMap: {
+               inRange: {color: ['blue','red']}
+                       },
+           grid: {
+               top: 80,
+               bottom: 30
+           },
+           xAxis: {
+               type: 'value',
+               position: 'top',
+               splitLine: {
+                   lineStyle: {
+                       type: 'dashed'
+                   }
+               }
+           },
+           yAxis: {
+               type: 'category',
+               axisLine: {show: false},
+               axisLabel: {show: false},
+               axisTick: {show: false},
+               splitLine: {show: false},
+               data: ['ethylbenzene', 'toluene', 'styrene', 'benzene', 'ethylene', 'methane', 'hydrogen', 'water']
+           },
+           series: [
+               {
+                   name: 'Enthalpy of Formation (kJ/mol)',
+                   type: 'bar',
+                   stack: 'total',
+                   label: {
+                       show: true,
+                       formatter: '{b}'
+                   },
+                   data: [
+                       {value: 29.92, visualMap: false, label: labelRight}, {value: 50.17, visualMap: false}, {value: 147.4, visualMap: false}, {value: 82.88, visualMap: false}, {value: 52.510, visualMap: false}, 
+                       {value: -74.52, label: labelRight},
+                       {value: 0, visualMap: false, label: labelRight},
+                       {value: -241.814, label: labelRight}
+                   ]
+               }
+           ]
+       };
+       ;
+       if (option && typeof option === "object") {
+           myChart.setOption(option, true);
+       }
+              </script>
+
 
 
 Following this, an initial HAZID study was carried out in order to determine the process hazards and to get an idea of the magnitude of their associated risks. Many of the materials used and products/byproducts formed in this process are flammable/harmful/toxic. Some reactors and columns involved operate at elevated temperatures and pressures, increasing the risk to employees and the public.
