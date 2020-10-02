@@ -124,7 +124,7 @@ Using the preliminary mass balance & ASPEN study, a basic economic study was don
                }
            },
            visualMap: {
-               inRange: {color: ['blue','yellow','red']}
+               inRange: {color: ['blue','red']}
                        },
            grid: {
                top: 80,
