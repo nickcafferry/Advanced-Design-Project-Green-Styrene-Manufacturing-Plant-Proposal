@@ -346,8 +346,7 @@ Feedstock and Market Review
     :maxdepth: 2
     :caption: Appraise
     
-    ../Appraise/index
-    Appraise/Material_and_Enthalpy_Balance/index
+    Appraise_index
 
 .. toctree::
     :maxdepth: 2
