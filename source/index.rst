@@ -95,7 +95,7 @@ Using the preliminary mass balance & ASPEN study, a basic economic study was don
 .. raw:: html
 
 
-       <div id="container" style="height: 80%; width: 800px"></div>
+       <div id="container" style="height: 600px; width: 800px"></div>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
