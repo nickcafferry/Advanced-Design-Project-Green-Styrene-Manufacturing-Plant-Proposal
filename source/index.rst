@@ -133,9 +133,34 @@ Subsequently, the feedstock market of styrene production was critically evaluate
                }
            ]
        };;
-       if (option && typeof option === "object") {
-           myChart.setOption(option, true);
-       }
+       app.currentIndex = -1;
+
+        setInterval(function () {
+            var dataLen = option.series[0].data.length;
+
+            myChart.dispatchAction({
+                type: 'downplay',
+                seriesIndex: 0,
+                dataIndex: app.currentIndex
+            });
+            app.currentIndex = (app.currentIndex + 1) % dataLen;
+
+            myChart.dispatchAction({
+                type: 'highlight',
+                seriesIndex: 0,
+                dataIndex: app.currentIndex
+            });
+
+            myChart.dispatchAction({
+                type: 'showTip',
+                seriesIndex: 0,
+                dataIndex: app.currentIndex
+            });
+        }, 1000);
+        if (option && typeof option === "object") {
+            myChart.setOption(option, true);
+        }
+
               </script>
 
 Next, the material and energy balance were also carried out. To do this, a BFD was constructed, and each major operating units’ function and conditions were identified. The mass balance was conducted to predict the required feed input, flowrates within the process, and the outputs of the plant which could then be used for preliminary analysis of the plant economics. The energy balance was done solely on the dehydrogenation part of the process, giving an approximate energy requirement overview and utility usage for this particular section.
