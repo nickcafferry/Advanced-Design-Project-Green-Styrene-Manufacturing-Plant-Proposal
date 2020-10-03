@@ -1,7 +1,7 @@
 Green Styrene Manufacturing Plant Proposal
 ====================================================================
 
-|Documentation Status| |MIT License| |Wolfram Cloud| |Software|
+|Documentation Status| |MIT License| |Mathematica| |Wolfram Cloud| |Software|
 
 .. |Documentation Status| image:: https://readthedocs.org/projects/advanced-design-project-plant-proposal/badge/?version=latest
    :target: https://advanced-design-project-plant-proposal.readthedocs.io/en/latest/?badge=latest
@@ -14,6 +14,9 @@ Green Styrene Manufacturing Plant Proposal
 
 .. |Software| image:: https://img.shields.io/badge/aspen%20plus-v10-brightgreen
    :target: https://www.aspentech.com/products/engineering/aspen-plus/
+
+.. |Mathematica| image:: https://img.shields.io/badge/mathematica-v11.0-brightgreen
+   :target: https://www.wolfram.com/mathematica/
 
 
 Copyright |copy| Wei MEI, |MLMS (TM)| |---| all rights reserved. |bamboo|
