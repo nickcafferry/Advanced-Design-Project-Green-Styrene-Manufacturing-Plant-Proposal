@@ -1,0 +1,82 @@
+
+       <div id="container" style="height: 300px; width: 800px"></div>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+       <script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+option = {
+    title: {
+        text: 'Styrene Market',
+        subtext: 'Copyright@Wei MEI',
+        sublink: 'https://github.com/nickcafferry',
+        left: 'center'
+    },
+    tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b} : {c} ({d}%)'
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['Polystyrene[solid, foam, film]', 'Styrene Co-polymers[ABS, SAN, etc.]', 'SB Latex', 'SB Rubber', 'Composites', 'Other']
+    },
+    series: [
+        {
+            name: 'Styrene Application Market (tonnes)',
+            type: 'pie',
+            radius: '56%',
+            center: ['50%', '60%'],
+            data: [
+                {value: 16034000, name: 'Polystyrene[solid, foam, film]'},
+                {value: 5578000, name: 'Styrene Co-polymers[ABS, SAN, etc.]'},
+                {value: 1322000, name: 'SB Latex'},
+                {value: 1311000, name: 'SB Rubber'},
+                {value: 1040000, name: 'Composites'},
+                {value: 1895000, name: 'Other'}
+            ],
+            emphasis: {
+                itemStyle: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5, 0)'
+                }
+            }
+        }
+    ]
+};;
+app.currentIndex = -1;
+
+        setInterval(function () {
+            var dataLen = option.series[0].data.length;
+            // 取消之前高亮的图形
+            myChart.dispatchAction({
+                type: 'downplay',
+                seriesIndex: 0,
+                dataIndex: app.currentIndex
+            });
+            app.currentIndex = (app.currentIndex + 1) % dataLen;
+            // 高亮当前图形
+            myChart.dispatchAction({
+                type: 'highlight',
+                seriesIndex: 0,
+                dataIndex: app.currentIndex
+            });
+            // 显示 tooltip
+            myChart.dispatchAction({
+                type: 'showTip',
+                seriesIndex: 0,
+                dataIndex: app.currentIndex
+            });
+        }, 1000);
+        if (option && typeof option === "object") {
+            myChart.setOption(option, true);
+        }
+       </script>
