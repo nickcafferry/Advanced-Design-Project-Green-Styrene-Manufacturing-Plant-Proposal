@@ -28,3 +28,7 @@ This project is part of Advanced Design Project and is developed by an internati
     * Martynov Sergey (Personal Profile `Martynov Sergey <https://www.ucl.ac.uk/chemical-engineering/people/dr-sergey-martynov>`_), Bentham Corporation Representative, Research Assoicate at University College London.
     
     * Haroun Mahgerefteh (Personal Profile `Haroun Mahgerefteh <https://www.ucl.ac.uk/chemical-engineering/people/prof-haroun-mahgerefteh>`_), Bentham Corporation Representative, Professor of Chemical Engineering, University College London.
+
+
+.. literalinclude:: Wei_MEI_DEFINE_SOURCE_CODE.m
+   :language: mathematica
