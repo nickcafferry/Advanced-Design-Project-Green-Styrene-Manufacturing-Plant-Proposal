@@ -93,7 +93,7 @@ Subsequently, the feedstock market of styrene production was critically evaluate
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
        <script type="text/javascript">
        var dom = document.getElementById("container");
-       var myChart = echarts.init(dom);
+       var myChart1 = echarts.init(dom);
        var app = {};
        option = null;
        option = {
@@ -141,27 +141,27 @@ Subsequently, the feedstock market of styrene production was critically evaluate
         setInterval(function () {
             var dataLen = option.series[0].data.length;
 
-            myChart.dispatchAction({
+            myChart1.dispatchAction({
                 type: 'downplay',
                 seriesIndex: 0,
                 dataIndex: app.currentIndex
             });
             app.currentIndex = (app.currentIndex + 1) % dataLen;
 
-            myChart.dispatchAction({
+            myChart1.dispatchAction({
                 type: 'highlight',
                 seriesIndex: 0,
                 dataIndex: app.currentIndex
             });
 
-            myChart.dispatchAction({
+            myChart1.dispatchAction({
                 type: 'showTip',
                 seriesIndex: 0,
                 dataIndex: app.currentIndex
             });
         }, 1000);
         if (option && typeof option === "object") {
-            myChart.setOption(option, true);
+            myChart1.setOption(option, true);
         }
 
               </script>
