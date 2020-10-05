@@ -6,7 +6,6 @@
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
-       <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=xfhhaTThl11qYVrqLZii6w8qE5ggnhrY&__ec_v__=20190126"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
        <script type="text/javascript">
 var dom = document.getElementById("container1");
@@ -424,9 +423,9 @@ option = {
  [1.998627104734048, 0.4165420628855627], [1.9993135319588609, 0.41655440147625294], [1.9999999591836735, 0.4165667275396239]]}],
     xAxis: [
         {type: 'value', gridIndex: 0, name: 'reactor height (m)'},
-        {type: 'value', gridIndex: 1, name: 'reactor height (m)'},
+        {type: 'value', gridIndex: 1, name: 'height (m)'},
         {type: 'value', gridIndex: 2, name: 'reactor height (m)'},
-        {type: 'value', gridIndex: 3, name: 'reactor height (m)'}
+        {type: 'value', gridIndex: 3, name: 'height (m)'}
     ],
     yAxis: [
         {gridIndex: 0, name: 'Concentration (mol/m^3)'},
@@ -441,49 +440,49 @@ option = {
             {left: sizeValue, top: sizeValue}
         ],
     series: [
-        {name: "EB Concentration",type: 'line', xAxisIndex: 0, yAxisIndex: 0,
+        {name: "EB",type: 'line', xAxisIndex: 0, yAxisIndex: 0,
         symbolSize: symbolSize, datasetIndex: 0, 
                 encode: {
                  x: 'reactor height (m)',
                  y: 'ethylbenzene concentration (mol/m^3)',
                  tooltip: [0, 1, 2, 3, 4]
         }, seriesLayoutBy: 'column'},
-        {name: "ST Concentration",type: 'line', xAxisIndex: 1, yAxisIndex: 1,
+        {name: "ST",type: 'line', xAxisIndex: 1, yAxisIndex: 1,
         symbolSize: symbolSize, datasetIndex: 1,
                 encode: {
                  x: 'reactor height (m)',
                  y: 'styrene concentration (mol/m^3)',
                  tooltip: [0, 1, 2, 3, 4]
         }, seriesLayoutBy: 'column'},
-        {name: "BZ Concetration", type: 'line', xAxisIndex: 2, yAxisIndex: 2,
+        {name: "BZ", type: 'line', xAxisIndex: 2, yAxisIndex: 2,
         symbolSize: symbolSize, datasetIndex: 2,
                  encode: {
                  x: 'reactor height (m)',
                  y: 'benzene concentration (mol/m^3)',
                  tooltip: [0, 1, 2, 3, 4]
         }, seriesLayoutBy: 'column'},
-        {name: "TO Concetratio", type: 'line', xAxisIndex: 2, yAxisIndex: 2,
+        {name: "TO", type: 'line', xAxisIndex: 2, yAxisIndex: 2,
         symbolSize: symbolSize, datasetIndex: 3,
                  encode: {
                  x: 'reactor height (m)',
                  y: 'toluene concentration (mol/m^3)',
                  tooltip: [0, 1, 2, 3, 4]
         }},
-        {name: "H2 Concetration", type: 'line', xAxisIndex: 1, yAxisIndex: 1,
+        {name: "H2", type: 'line', xAxisIndex: 1, yAxisIndex: 1,
         symbolSize: symbolSize, datasetIndex: 4,
                  encode: {
                  x: 'reactor height (m)',
                  y: 'hydrogen concentration (mol/m^3)',
                  tooltip: [0, 1, 2, 3, 4]
         }},
-        {name: "ETH Concetration", type: 'line', xAxisIndex: 3, yAxisIndex: 3,
+        {name: "ETH", type: 'line', xAxisIndex: 3, yAxisIndex: 3,
         symbolSize: symbolSize, datasetIndex: 5,
                  encode: {
                  x: 'reactor height (m)',
                  y: 'ethylene concentration (mol/m^3)',
                  tooltip: [0, 1, 2, 3, 4]
         }},
-                {name: "MTH Concetration", type: 'line', xAxisIndex: 1, yAxisIndex: 1,
+                {name: "MTH", type: 'line', xAxisIndex: 1, yAxisIndex: 1,
         symbolSize: symbolSize, datasetIndex: 6,
                  encode: {
                  x: 'reactor height (m)',
