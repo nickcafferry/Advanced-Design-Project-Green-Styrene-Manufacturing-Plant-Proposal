@@ -182,9 +182,6 @@ Energy Balance
                }
            ]
        };
-       myChart.on('click', function (params) {
-       window.open('https://pubchem.ncbi.nlm.nih.gov/compound/' + encodeURIComponent(params.name));
-});
        ;
        if (option && typeof option === "object") {
            myChart.setOption(option, true);
