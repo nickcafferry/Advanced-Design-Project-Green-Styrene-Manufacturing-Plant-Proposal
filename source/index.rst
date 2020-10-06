@@ -135,7 +135,7 @@ Subsequently, the feedstock market of styrene production was critically evaluate
                    }
                }
            ]
-       };;
+       };
        app.currentIndex = -1;
 
         setInterval(function () {
