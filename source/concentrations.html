@@ -491,7 +491,61 @@ option = {
         }}
     ]
 };
-;
+app.currentIndex = -1;
+setInterval(function () {
+    var dataLen = 2000; 
+
+    myChart.dispatchAction({
+        type: 'downplay',
+        seriesIndex: 0,
+        dataIndex: app.currentIndex
+    });
+    app.currentIndex = (app.currentIndex + 1) % dataLen;
+
+    myChart.dispatchAction({
+        type: 'highlight',
+        seriesIndex: 0,
+        dataIndex: app.currentIndex
+    });
+
+    myChart.dispatchAction({
+        type: 'showTip',
+        seriesIndex: 0,
+        dataIndex: app.currentIndex
+    });
+    
+    myChart.dispatchAction({
+        type: 'downplay',
+        seriesIndex: 1,
+        dataIndex: app.currentIndex
+    });
+    app.currentIndex = (app.currentIndex + 1) % dataLen;
+
+    myChart.dispatchAction({
+        type: 'highlight',
+        seriesIndex: 1,
+        dataIndex: app.currentIndex
+    });
+
+    myChart.dispatchAction({
+        type: 'showTip',
+        seriesIndex: 1,
+        dataIndex: app.currentIndex
+    });
+    
+    myChart.dispatchAction({
+        type: 'downplay',
+        seriesIndex: 5,
+        dataIndex: app.currentIndex
+    });
+    app.currentIndex = (app.currentIndex + 1) % dataLen;
+
+    myChart.dispatchAction({
+        type: 'highlight',
+        seriesIndex: 5,
+        dataIndex: app.currentIndex
+    })
+}, 2000);;
 if (option && typeof option === "object") {
     myChart.setOption(option, true);
 }
