@@ -95,8 +95,8 @@ Subsequently, the feedstock market of styrene production was critically evaluate
        var dom = document.getElementById("container");
        var myChart1 = echarts.init(dom);
        var app = {};
-       option = null;
-       option = {
+       option1 = null;
+       option1 = {
            title: {
                text: 'Styrene Market',
                subtext: 'Copyright@Wei MEI',
@@ -139,7 +139,7 @@ Subsequently, the feedstock market of styrene production was critically evaluate
        app.currentIndex = -1;
 
         setInterval(function () {
-            var dataLen = option.series[0].data.length;
+            var dataLen = option1.series[0].data.length;
 
             myChart1.dispatchAction({
                 type: 'downplay',
@@ -160,8 +160,8 @@ Subsequently, the feedstock market of styrene production was critically evaluate
                 dataIndex: app.currentIndex
             });
         }, 1000);
-        if (option && typeof option === "object") {
-            myChart1.setOption(option, true);
+        if (option1 && typeof option1 === "object") {
+            myChart1.setOption(option1, true);
         }
 
               </script>
