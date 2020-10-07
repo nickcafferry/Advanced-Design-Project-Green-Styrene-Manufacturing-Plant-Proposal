@@ -176,15 +176,15 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 :strong:`Material balance equations`:
 
-+---------+----------+----------+
-| |MBEL1| |   |M1|   |          |
-+---------+----------+----------+
-| |MBEL2| |   |M2|   |          | 
-+---------+----------+----------+
-| |MBEL3| |   |M3|   |          |
-+---------+----------+----------+
-| |MBEL4| |   |M4|   |          |
-+---------+----------+----------+
++---------+----------+----------+----------+
+| |MBEL1| |   |M1|   |  |ML1|   |  |MR1|   |
++---------+----------+----------+----------+
+| |MBEL2| |   |M2|   |  |ML2|   |  |MR2|   |
++---------+----------+----------+----------+
+| |MBEL3| |   |M3|   |  |ML3|   |  |MR3|   |
++---------+----------+----------+----------+
+| |MBEL4| |   |M4|   |  |ML4|   |  |MR4|   |
++---------+----------+----------+----------+
 
 .. |MBEL1| replace:: :math:`\frac{\mathrm{d} X_{EB}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}+r_{c2}+r_{c3}+(r_{t1}+r_{t2}+r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
 
@@ -194,9 +194,31 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 .. |MBEL4| replace:: :math:`\frac{\mathrm{d} X_{H_{2}}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}-r_{c3}-2r_{c4}+(r_{t1}-r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
 
-.. |M1| replace:: :math:`\mathrm{C_{8}H_{10}\longleftrightarrow C_{8}H_{8}+H_{2}}`
+.. |M1| replace:: :math:`C_{8}H_{10}\longleftrightarrow C_{8}H_{8}+H_{2}`
 
-.. |M2| replace:: :math:`\mathrm{C_{8}H_{10}\longleftrightarrow C_{8}H_{8}+H_{2}}`
+.. |M2| replace:: :math:`C_{8}H_{10}\longrightarrow C_{6}H_{6}+C_{2}H_{4}`
+
+.. |M3| replace:: :math:`C_{8}H_{10}+H_{2}\longrightarrow C_{7}H_{8}+CH_{4}`
+
+.. |M4| replace:: :math:`C_{8}H_{8}+2H_{2}\longrightarrow C_{7}H_{8}+CH_{4}`
+
+
+.. |ML1| replace:: :math:`r_{t1}=k_{t1}(P_{EB}-\frac{P_{ST}P_{H_{2}}}{K_{eq}})`
+
+.. |ML2| replace:: :math:`r_{t2}=k_{t2}P_{EB}`
+
+.. |ML3| replace:: :math:`r_{t3}=k_{t3}P_{EB}`
+
+.. |ML4| replace:: :math:`C_{8}H_{8}+2H_{2}\longrightarrow C_{7}H_{8}+CH_{4}`
+
+
+.. |MR1| replace:: :math:`r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}`
+
+.. |MR2| replace:: :math:`r_{C2}=\frac{k_{2}K_{EB}P_{EB}}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}`
+
+.. |MR3| replace:: :math:`r_{C3}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}`
+
+.. |MR4| replace:: :math:`r_{C4}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}`
 
 Using the preliminary mass balance & ASPEN study, a basic economic study was done to provide an initial estimation of CAPEX and OPEX costs and the predicted profit of the plant. The plant CAPEX was calculated with the cost curve method and its results were further refined with the factorial method, giving a good indication of individual unit costs. The OPEX costs were calculated based on the available utilities and wages in China (2018). From the preliminary economics calculations, it was estimated that annual profit would be expected to be approx. US$23,800,000/yr.
 
