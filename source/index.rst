@@ -176,15 +176,15 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 :strong:`Material balance equations`:
 
-+---------+----------+
-| |MBEL1| |          |
-+---------+----------+
-| |MBEL2| |          |
-+---------+----------+
-| |MBEL3| |          |
-+---------+----------+
-| |MBEL4| |          |
-+---------+----------+
++---------+----------+----------+
+| |MBEL1| |   |M1|   |          |
++---------+----------+----------+
+| |MBEL2| |   |M2|   |          | 
++---------+----------+----------+
+| |MBEL3| |   |M3|   |          |
++---------+----------+----------+
+| |MBEL4| |   |M4|   |          |
++---------+----------+----------+
 
 .. |MBEL1| replace:: :math:`\frac{\mathrm{d} X_{EB}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}+r_{c2}+r_{c3}+(r_{t1}+r_{t2}+r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
 
@@ -194,13 +194,9 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 .. |MBEL4| replace:: :math:`\frac{\mathrm{d} X_{H_{2}}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}-r_{c3}-2r_{c4}+(r_{t1}-r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
 
-:math:`\frac{\mathrm{d} X_{EB}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}+r_{c2}+r_{c3}+(r_{t1}+r_{t2}+r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
+.. |M1| replace:: :math:`\mathrm{C_{8}H_{10}\longleftrightarrow C_{8}H_{8}+H_{2}}`
 
-:math:`\frac{\mathrm{d} X_{BZ}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c2}+r_{t2}\frac{\varepsilon _{B}}{\rho _{B}}`
-
-:math:`\frac{\mathrm{d} X_{TO}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c3}+r_{c4}+r_{t3}\frac{\varepsilon _{B}}{\rho _{B}}`
-
-:math:`\frac{\mathrm{d} X_{H_{2}}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}-r_{c3}-2r_{c4}+(r_{t1}-r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
+.. |M2| replace:: :math:`\mathrm{C_{8}H_{10}\longleftrightarrow C_{8}H_{8}+H_{2}}`
 
 Using the preliminary mass balance & ASPEN study, a basic economic study was done to provide an initial estimation of CAPEX and OPEX costs and the predicted profit of the plant. The plant CAPEX was calculated with the cost curve method and its results were further refined with the factorial method, giving a good indication of individual unit costs. The OPEX costs were calculated based on the available utilities and wages in China (2018). From the preliminary economics calculations, it was estimated that annual profit would be expected to be approx. US$23,800,000/yr.
 
