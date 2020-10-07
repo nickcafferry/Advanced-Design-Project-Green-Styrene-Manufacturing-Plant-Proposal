@@ -189,7 +189,7 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
                                                                            +---------+----------+
                                                                            
                                                                            
-
+:strong:`Chemical Reaction Rate and Thermal Reaction Rate`:
                                                                            +----------+----------+
                                                                            |   |T3|   |   |T4|   |
                                                                            +----------+----------+
