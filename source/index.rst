@@ -215,21 +215,21 @@ Process Route Review
   
    1. *Dehydrogenation*-the dehydrogenation of ethylbenzene to styrene takes:
    
-       :math:`C_6H_5CH_2CH_3Longleftrightarrow C_6H_5CH=CH_2+H_2`
+       :math:`C_6H_5CH_2CH_3\Longleftrightarrow C_6H_5CH=CH_2+H_2`
 
    2. *PO-SM Coproduction* Coproduction (Propylene oxide and Styrene monomer):
       
       a). Oxidation of ethylbenzene to ethylbenzene hydroperoxide
          
-         :math:`C_6H_5CH_2CH_3+O_2longrightarrow C_6H_5CH(CH_3)OOH`
+         :math:`C_6H_5CH_2CH_3+O_2\longrightarrow C_6H_5CH(CH_3)OOH`
 
       b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α-phenylethanol and propylene oxide
         
-         :math:`C_6H_5CH(CH_3)OOH+CH_2=CHCH_3longrightarrow C_6H_5CH(CH_3)OH+CH_2OCHCH_3`
+         :math:`C_6H_5CH(CH_3)OOH+CH_2=CHCH_3\longrightarrow C_6H_5CH(CH_3)OH+CH_2OCHCH_3`
       
       c). Dehydration of α-phenylethanol to styrene
       
-        :math:`C_6H_5CH(CH_3)OHlongrightarrow C_6H_5CH=CH_2+H_2O`
+        :math:`C_6H_5CH(CH_3)OH\longrightarrow C_6H_5CH=CH_2+H_2O`
         
 See `Process Route Review <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Process-Route-Review>`_ for more details.
 
