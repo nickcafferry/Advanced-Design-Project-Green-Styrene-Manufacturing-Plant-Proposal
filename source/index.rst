@@ -177,6 +177,8 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 :strong:`Material balance equations`:
 
                                                                            +---------+----------+
+                                                                           |  |T1|   |   |T2|   |
+                                                                           +---------+----------+
                                                                            | |MBEL1| |   |M1|   |
                                                                            +---------+----------+
                                                                            | |MBEL2| |   |M2|   |
@@ -187,6 +189,9 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
                                                                            +---------+----------+
                                                                            
                                                                            
+
+                                                                           +----------+----------+
+                                                                           |   |T3|   |   |T4|   |
                                                                            +----------+----------+
                                                                            |  |ML1|   |  |MR1|   |
                                                                            +----------+----------+
@@ -196,6 +201,10 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
                                                                            +----------+----------+
                                                                            |  |ML4|   |  |MR4|   |
                                                                            +----------+----------+
+
+.. |T1| replace:: :math:`\mathbf{{\color{Red} Equations}}`
+
+.. |T2| replace:: :math:`\mathbf{{\color{Red} Reactions}}`
 
 .. |MBEL1| replace:: :math:`\frac{\mathrm{d} X_{EB}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}+r_{c2}+r_{c3}+(r_{t1}+r_{t2}+r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
 
@@ -220,7 +229,7 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 .. |ML3| replace:: :math:`r_{t3}=k_{t3}P_{EB}`
 
-.. |ML4| replace:: :math:`K_{eq}=  Exp{-(\frac{122725.157-126.167T-0.002194T^2}{8.314T} )}`
+.. |ML4| replace:: :math:`K_{eq}=  Exp{(-(\frac{122725.157-126.167T-0.002194T^2}{8.314T} ))}`
 
 
 .. |MR1| replace:: :math:`r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}`
@@ -230,6 +239,10 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 .. |MR3| replace:: :math:`r_{C3}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}`
 
 .. |MR4| replace:: :math:`r_{C4}=\frac{k_{3}K_{EB}P_{EB}K_{H_{2}}P_{H_{2}}}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}`
+
+.. |T3| replace:: :math:`\mathbf{{\color{Red} Thermal\: \: reaction \: rate}}`
+
+.. |T4| replace:: :math:`\mathbf{{\color{Red} Catalytic\: \: reaction \: rate}} `
 
 Using the preliminary mass balance & ASPEN study, a basic economic study was done to provide an initial estimation of CAPEX and OPEX costs and the predicted profit of the plant. The plant CAPEX was calculated with the cost curve method and its results were further refined with the factorial method, giving a good indication of individual unit costs. The OPEX costs were calculated based on the available utilities and wages in China (2018). From the preliminary economics calculations, it was estimated that annual profit would be expected to be approx. US$23,800,000/yr.
 
