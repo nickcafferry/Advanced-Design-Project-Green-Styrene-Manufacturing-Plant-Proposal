@@ -205,7 +205,7 @@ Process Route Review
    
    1. `Alkylation` of benzene with ethylene(favoured):
       
-      |alkylation|
+      :math:`C_6 H_6+ CH_2=CH_2\Longleftrightarrow C_6 H_5CH_2CH_3`
       
    2. Recovery of mixed C8 aromatics by *Superfractionation*: Very small fraction
    
