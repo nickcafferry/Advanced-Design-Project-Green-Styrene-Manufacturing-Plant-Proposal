@@ -190,17 +190,17 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
                                                                            
                                                                            
 :strong:`Chemical Reaction Rate and Thermal Reaction Rate`:
-                                                                           +----------+----------+
-                                                                           |   |T3|   |   |T4|   |
-                                                                           +----------+----------+
-                                                                           |  |ML1|   |  |MR1|   |
-                                                                           +----------+----------+
-                                                                           |  |ML2|   |  |MR2|   |
-                                                                           +----------+----------+
-                                                                           |  |ML3|   |  |MR3|   |
-                                                                           +----------+----------+
-                                                                           |  |ML4|   |  |MR4|   |
-                                                                           +----------+----------+
+                                                                           +------------+------------+
+                                                                           |    |T3|    |    |T4|    |
+                                                                           +------------+------------+
+                                                                           |   |ML1|    |    |MR1|   |
+                                                                           +------------+------------+
+                                                                           |   |ML2|    |    |MR2|   |
+                                                                           +------------+------------+
+                                                                           |   |ML3|    |    |MR3|   |
+                                                                           +------------+------------+
+                                                                           |   |ML4|    |    |MR4|   |
+                                                                           +------------+------------+
 
 .. |T1| replace:: :math:`\mathbf{{\color{Red} Equations}}`
 
@@ -242,7 +242,7 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 .. |T3| replace:: :math:`\mathbf{{\color{Red} Thermal\: \: reaction \: rate}}`
 
-.. |T4| replace:: :math:`\mathbf{{\color{Red} Catalytic\: \: reaction \: rate}} `
+.. |T4| replace:: :math:`\mathbf{{\color{Red} Catalytic\: \: reaction \: rate}}`
 
 Using the preliminary mass balance & ASPEN study, a basic economic study was done to provide an initial estimation of CAPEX and OPEX costs and the predicted profit of the plant. The plant CAPEX was calculated with the cost curve method and its results were further refined with the factorial method, giving a good indication of individual unit costs. The OPEX costs were calculated based on the available utilities and wages in China (2018). From the preliminary economics calculations, it was estimated that annual profit would be expected to be approx. US$23,800,000/yr.
 
