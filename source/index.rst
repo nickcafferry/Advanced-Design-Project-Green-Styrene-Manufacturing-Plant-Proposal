@@ -174,6 +174,10 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
    <img src="https://camo.githubusercontent.com/fe6ff8376469db8b07270d4173f28d4cefb47bc8/68747470733a2f2f73312e617831782e636f6d2f323032302f30372f31362f5572465776742e6d642e706e67">
    </div>
 
+:strong:`Material balance equations`:
+
+:math:`\frac{\mathrm{d} X_{EB}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}+r_{c2}+r_{c3}+(r_{t1}+r_{t2}+r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
+
 Using the preliminary mass balance & ASPEN study, a basic economic study was done to provide an initial estimation of CAPEX and OPEX costs and the predicted profit of the plant. The plant CAPEX was calculated with the cost curve method and its results were further refined with the factorial method, giving a good indication of individual unit costs. The OPEX costs were calculated based on the available utilities and wages in China (2018). From the preliminary economics calculations, it was estimated that annual profit would be expected to be approx. US$23800000/yr.
 
 .. raw:: html
