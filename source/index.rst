@@ -176,25 +176,26 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 :strong:`Material balance equations`:
 
-+---------+----------+
-| |MBEL1| |   |M1|   |
-+---------+----------+
-| |MBEL2| |   |M2|   |
-+---------+----------+
-| |MBEL3| |   |M3|   |
-+---------+----------+
-| |MBEL4| |   |M4|   |
-+---------+----------+
-
-+----------+----------+
-|  |ML1|   |  |MR1|   |
-+----------+----------+
-|  |ML2|   |  |MR2|   |
-+----------+----------+
-|  |ML3|   |  |MR3|   |
-+----------+----------+
-|  |ML4|   |  |MR4|   |
-+----------+----------+
+                                                                           +---------+----------+
+                                                                           | |MBEL1| |   |M1|   |
+                                                                           +---------+----------+
+                                                                           | |MBEL2| |   |M2|   |
+                                                                           +---------+----------+
+                                                                           | |MBEL3| |   |M3|   |
+                                                                           +---------+----------+
+                                                                           | |MBEL4| |   |M4|   |
+                                                                           +---------+----------+
+                                                                           
+                                                                           
+                                                                           +----------+----------+
+                                                                           |  |ML1|   |  |MR1|   |
+                                                                           +----------+----------+
+                                                                           |  |ML2|   |  |MR2|   |
+                                                                           +----------+----------+
+                                                                           |  |ML3|   |  |MR3|   |
+                                                                           +----------+----------+
+                                                                           |  |ML4|   |  |MR4|   |
+                                                                           +----------+----------+
 
 .. |MBEL1| replace:: :math:`\frac{\mathrm{d} X_{EB}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}+r_{c2}+r_{c3}+(r_{t1}+r_{t2}+r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
 
@@ -219,7 +220,7 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 .. |ML3| replace:: :math:`r_{t3}=k_{t3}P_{EB}`
 
-.. |ML4| replace:: :math:`C_{8}H_{8}+2H_{2}\longrightarrow C_{7}H_{8}+CH_{4}`
+.. |ML4| replace:: :math:`K_{eq}=  Exp{-(\frac{122725.157-126.167T-0.002194T^2}{8.314T} )}`
 
 
 .. |MR1| replace:: :math:`r_{C1}=\frac{k_{1}K_{EB}(P_{EB}-\frac{P_{ST}P_{H2}}{K_{eq}})}{(1+K_{EB}P_{EB}+K_{H_{2}}P_{H_{2}}+K_{ST}P_{ST})^2}`
