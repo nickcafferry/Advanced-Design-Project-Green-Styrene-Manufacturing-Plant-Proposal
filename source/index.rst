@@ -215,7 +215,7 @@ Process Route Review
   
    1. *Dehydrogenation*-the dehydrogenation of ethylbenzene to styrene takes:
    
-     :maht:`C_6H_5CH_2CH_3Longleftrightarrow C_6H_5CH=CH_2+H_2`
+       :math:`C_6H_5CH_2CH_3Longleftrightarrow C_6H_5CH=CH_2+H_2`
 
    2. *PO-SM Coproduction* Coproduction (Propylene oxide and Styrene monomer):
       
