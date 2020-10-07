@@ -9,9 +9,9 @@
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
        <script type="text/javascript">
 var dom = document.getElementById("container_2");
-var myChart = echarts.init(dom);
+var myChart3 = echarts.init(dom);
 var app2 = {};
-option = null;
+option3 = null;
 
 var labelSetting = {
     normal: {
@@ -25,7 +25,7 @@ var labelSetting = {
 };
 
 
-option = {
+option3 = {
     legend: {
         data: ['Material Balance Equation Number', 'Reaction Number']
     },
@@ -112,29 +112,29 @@ option = {
 app2.currentIndex = -1;
 
 setInterval(function () {
-    var dataLen = option.series[0].data.length;
+    var dataLen = option3.series[0].data.length;
 
-    myChart.dispatchAction({
+    myChart3.dispatchAction({
         type: 'downplay',
         seriesIndex: 0,
         dataIndex: app2.currentIndex
     });
     app2.currentIndex = (app2.currentIndex + 1) % dataLen;
 
-    myChart.dispatchAction({
+    myChart3.dispatchAction({
         type: 'highlight',
         seriesIndex: 0,
         dataIndex: app2.currentIndex
     });
 
-    myChart.dispatchAction({
+    myChart3.dispatchAction({
         type: 'showTip',
         seriesIndex: 0,
         dataIndex: app2.currentIndex
     });
 }, 1000);
 ;
-if (option && typeof option === "object") {
-    myChart.setOption(option, true);
+if (option3 && typeof option3 === "object") {
+    myChart3.setOption(option3, true);
 }
        </script>
