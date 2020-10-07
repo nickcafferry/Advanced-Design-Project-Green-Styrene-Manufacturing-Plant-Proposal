@@ -176,6 +176,24 @@ Next, the material and energy balance were also carried out. To do this, a BFD w
 
 :strong:`Material balance equations`:
 
++=========+
+| |MBEL1| |
++---------+
+| |MBEL2| |
++---------+
+| |MBEL3| |
++---------+
+| |MBEL4| |
++---------+
+
+.. |MBEL1| math::`\frac{\mathrm{d} X_{EB}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}+r_{c2}+r_{c3}+(r_{t1}+r_{t2}+r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
+
+.. |MBEL2| math::`\frac{\mathrm{d} X_{BZ}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c2}+r_{t2}\frac{\varepsilon _{B}}{\rho _{B}}`
+
+.. |MBEL3| math::`\frac{\mathrm{d} X_{TO}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c3}+r_{c4}+r_{t3}\frac{\varepsilon _{B}}{\rho _{B}}`
+
+.. |MBEL4| math::`\frac{\mathrm{d} X_{H_{2}}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}-r_{c3}-2r_{c4}+(r_{t1}-r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
+
 :math:`\frac{\mathrm{d} X_{EB}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c1}+r_{c2}+r_{c3}+(r_{t1}+r_{t2}+r_{t3})\frac{\varepsilon _{B}}{\rho _{B}}`
 
 :math:`\frac{\mathrm{d} X_{BZ}}{\mathrm{d} (W/F_{EB}^{0})} = r_{c2}+r_{t2}\frac{\varepsilon _{B}}{\rho _{B}}`
