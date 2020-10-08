@@ -1,5 +1,5 @@
 
-       <div id="container_4" style="height: 560px; width: 800px"></div>
+       <div id="container_4" style="height: 600px; width: 800px"></div>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
@@ -9,9 +9,9 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
        <script type="text/javascript">
 var dom = document.getElementById("container_4");
-var myChart = echarts.init(dom);
+var myChart4 = echarts.init(dom);
 var app = {};
-option = null;
+option4 = null;
 var labelSetting = {
     normal: {
         show: true,
@@ -24,7 +24,7 @@ var labelSetting = {
 };
 
 
-option = {
+option4 = {
     legend: {
         data: ['Thermal Reaction Rate', 'Catalytic Reaction Rate']
     },
@@ -108,7 +108,7 @@ option = {
         }]
     }]
 };;
-if (option && typeof option === "object") {
-    myChart.setOption(option, true);
+if (option4 && typeof option4 === "object") {
+    myChart4.setOption(option4, true);
 }
        </script>
