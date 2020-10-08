@@ -3,6 +3,7 @@
 [![Mathematica](https://img.shields.io/badge/mathematica-v11.0-brightgreen)](https://www.wolfram.com/mathematica/)
 [![Wolfram Cloud](https://img.shields.io/badge/platform-wolfram%20cloud-blue)](https://www.wolframcloud.com/)
 [![Software](https://img.shields.io/badge/aspen%20plus-v10-brightgreen)](https://www.aspentech.com/products/engineering/aspen-plus/)
+[![Gitter](https://badges.gitter.im/Green-Styrene-Manufacturing-Plant-Proposal/community.svg)](https://gitter.im/Green-Styrene-Manufacturing-Plant-Proposal/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 **[About GSM](#about-GSM)** |
 **[Project Description](#project-description)** |
