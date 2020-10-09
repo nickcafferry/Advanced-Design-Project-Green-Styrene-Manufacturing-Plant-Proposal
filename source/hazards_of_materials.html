@@ -1,0 +1,52 @@
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script> 
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+  <style>
+    article {
+      max-width: 960px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      padding: 40px;
+    }
+
+    script.show-script {
+      display: none;
+      max-width: 720px;
+      background-color: floralwhite;
+      font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace;
+      font-size: 12px;
+      margin-left: -40px;
+      white-space: pre;
+    }
+
+    article div {
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      margin-top: 60px;
+    }
+  </style>
+
+     <div id="table-cont" class="vega-embed"><div class="vega-bindings"></div></div>
+     <script class='show-script'>
+{
+  const headers = ['Chemical', 'Toxicity limit (TWA/ppm)', 'Lower Flammability limit', 'Upper Flammability limit'];
+  const values = [['Benzene', 0.1, 1.3, 7.9], ['Ethylene', 1, 2.7, 36], ['Ethylbenzene', 100, 1.0, 6.7], ['Ethane', 1000, 3, 12.4],['Sulphur', 'n/a', 0.17, 6.83],['Hydrogen', 'n/a', 4, 75],['Carbon dioxide', 5000, 'n/a', 'n/a'],['Methane', 1000, 5, 17],['Toluene', 100, 1.2, 7.1],['Styrene', 100, 1.1, 6.1]]; // Render to visor
+
+  const surface = {
+    name: 'Table',
+    tab: 'Charts'
+  };
+  tfvis.visor().close();
+  tfvis.render.table(surface, {
+    headers,
+    values
+  }); // Render to page
+
+  const container = document.getElementById('table-cont');
+  tfvis.render.table(container, {
+    headers,
+    values
+  });
+}
+</script>
