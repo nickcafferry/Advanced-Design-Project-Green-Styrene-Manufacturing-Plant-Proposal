@@ -29,6 +29,3 @@ This project is part of Advanced Design Project and is developed by an internati
     
     * Haroun Mahgerefteh (Personal Profile `Haroun Mahgerefteh <https://www.ucl.ac.uk/chemical-engineering/people/prof-haroun-mahgerefteh>`_), Bentham Corporation Representative, Professor of Chemical Engineering, University College London.
 
-
-.. literalinclude:: Wei_MEI_DEFINE_SOURCE_CODE.nb
-   :language: mathematica
