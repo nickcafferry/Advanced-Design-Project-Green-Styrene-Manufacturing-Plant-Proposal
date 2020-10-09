@@ -184,6 +184,9 @@ Using the preliminary mass balance & ASPEN study, a basic economic study was don
 Following this, an initial HAZID study was carried out in order to determine the process hazards and to get an idea of the magnitude of their associated risks. Many of the materials used and products/byproducts formed in this process are flammable/harmful/toxic. Some reactors and columns involved operate at elevated temperatures and pressures, increasing the risk to employees and the public.
 
 .. raw:: html
+   :file: wastes_and_actions.html
+
+.. raw:: html
    :file: hazards_of_materials.html
 
 To provide an in-depth look at the process route as a whole, it was modelled on `ASPEN V10 <https://www.aspentech.com/products/engineering/aspen-plus/>`_. Using the simulation, optimization and sensitivity analysis was performed in order to determine the profitable unit configurations and conditions, including modelling the effects of heat integration and feed excesses. Heat integration, done through the pinch analysis, was implemented on the final design of the plant to minimize utility costs. The preliminary mass and energy balance were subsequently compared to the simulation results, with the aim of identifying the cause of any differences. The overall profit was found to be US$21,788,100/yr.
