@@ -1,0 +1,52 @@
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script> 
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+  <style>
+    article {
+      max-width: 960px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      padding: 40px;
+    }
+
+    script.show-script {
+      display: none;
+      max-width: 720px;
+      background-color: floralwhite;
+      font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace;
+      font-size: 12px;
+      margin-left: -40px;
+      white-space: pre;
+    }
+
+    article div {
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      margin-top: 60px;
+    }
+  </style>
+
+     <div id="table-cont" class="vega-embed"><div class="vega-bindings"></div></div>
+     <script class='show-script'>
+{
+  const headers = ['Waste Stream', 'Proposed Action'];
+  const values = [['Offgas from Alkylation Section', 'Process Flare + FGRS (Incinerate)'], ['Offgas from Dehydrogenation Section', 'Process Flare + FGRS (Incinerate)'], ['Heavy keys', 'Incinerate'], ['Tar', 'Incinerate'],['Water from Decanter','Recycle'],['Benzene/Toluene mixture','Sold as BTX']]; // Render to visor
+
+  const surface = {
+    name: 'Table',
+    tab: 'Charts'
+  };
+  tfvis.visor().close();
+  tfvis.render.table(surface, {
+    headers,
+    values
+  }); // Render to page
+
+  const container = document.getElementById('table-cont');
+  tfvis.render.table(container, {
+    headers,
+    values
+  });
+}
+</script>
