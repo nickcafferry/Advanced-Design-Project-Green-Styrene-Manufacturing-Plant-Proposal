@@ -189,11 +189,8 @@ Following this, an initial HAZID study was carried out in order to determine the
 To provide an in-depth look at the process route as a whole, it was modelled on `ASPEN V10 <https://www.aspentech.com/products/engineering/aspen-plus/>`_. Using the simulation, optimization and sensitivity analysis was performed in order to determine the profitable unit configurations and conditions, including modelling the effects of heat integration and feed excesses. Heat integration, done through the pinch analysis, was implemented on the final design of the plant to minimize utility costs. The preliminary mass and energy balance were subsequently compared to the simulation results, with the aim of identifying the cause of any differences. The overall profit was found to be US$21,788,100/yr.
 
 .. raw:: html
-      
-      <div align="center">
-      <img src="https://camo.githubusercontent.com/8dd8dd6033ff0641ea3caf9c8965dc855928021a/68747470733a2f2f73312e617831782e636f6d2f323032302f30372f31362f554242444d522e6d642e706e67">
-      </div>
-
+   :file: Aspen_Model.html
+   
 Furthermore, a sustainability analysis was performed to determine the best course of action for dealing with each waste stream. It was found that the byproduct effluent streams were hydrocarbon dense and are therefore combusted to provide energy to the plant, save for benzene and toluene side products. This method reduces the amount of natural gas required by the plant. It was found that it was more profitable to sell the benzene and toluene mixture as BTX used as a feedstock in petroleum production, than to combust them or separate them and sell them individually. Combusting these side products, however, will increase the overall carbon dioxide footprint of the plant. Within the plant design, sustainability measures were taken such as heat integration and water recycling which was found to be more environmentally friendly as water with minor impurities from the plant is not disposed into the environment. These 2 measures also increase overall profits of the plant making it more economically viable to implement these designs.
 
 .. raw:: html
