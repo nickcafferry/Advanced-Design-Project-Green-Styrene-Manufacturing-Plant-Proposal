@@ -241,8 +241,6 @@ Process Route Review
         
 See `Process Route Review <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Process-Route-Review>`_ for more details.
 
-.. raw:: html
-   :file: Oxidation_of_ethylbenzene.html
 
 Feedstock and Market Review
 ^^^^^^^^^^^^^^^^^^^^
