@@ -231,6 +231,9 @@ Process Route Review
          
          :math:`C_6H_5CH_2CH_3+O_2\longrightarrow C_6H_5CH(CH_3)OOH`
 
+.. raw:: html
+   :file: Oxidation_of_ethylbenzene.html
+
       b). Epoxidation of ethylbenzene hydroperoxide with propylene to form α-phenylethanol and propylene oxide
         
          :math:`C_6H_5CH(CH_3)OOH+CH_2=CHCH_3\longrightarrow C_6H_5CH(CH_3)OH+CH_2OCHCH_3`
