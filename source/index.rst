@@ -278,7 +278,7 @@ Feedstock and Market Review
 
 - **Styrene**
    
-    *Asia*:
+   *Asia*:
   
    Supply rose in most parts of northeast Asia as plants in Japan restarted from turnarounds and South Korean manufacturers were running at higher rates, on better margins in comparison with Q1. Only Taiwan saw a drop in production because of maintenance. Western supply levels were higher on the opened arbitrage window and rising run rates after Q1 maintenance plans. Import demand from China and northeast Asia were both healthy owing to healthy importer margins for most of Q2, and wider downstream production margins especially in the ABS and PS sectors respectively.
 
@@ -290,7 +290,7 @@ Feedstock and Market Review
    
    Supply was tighter in Q2 as US producer AmSty had some equipment issues while restarting its 953,000 tonne/year plant in Saint James, Louisiana, after planned maintenance. Producer INEOS Styrolution began a turnaround in mid-March at its 455,000 tonne/year plant in Texas City, Texas. The company has yet to restart the plant, likely because of demand destruction associated with the pandemic. The tight supply had minimal effect on the market because demand was soft. Overall demand was soft in Q2 as much of the country shut down to prevent the spread of the coronavirus. The North American auto industry shut down in March after an employee at a plant in Michigan contracted the virus. There were some pockets of improved demand related to the pandemic, including for some styrene derivatives such as including ABS for use in ventilators and PS as bans on single-use plastics were eased.
 
-See _`Feedstock and Market Review <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Feedstock-and-Market-Review>`_ for details.
+See `Feedstock and Market Review <https://github.com/nickcafferry/Advanced-Design-Project-Green-Styrene-Manufacturing-Plant-Proposal/tree/master/Feedstock-and-Market-Review>`_ for details.
 
 .. toctree::
     :maxdepth: 2
