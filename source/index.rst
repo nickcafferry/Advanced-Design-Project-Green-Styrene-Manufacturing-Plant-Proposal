@@ -330,6 +330,10 @@ Codes
       Appearance → "Labeled"}, {{ratio, 10, "steam to EB flow rate ratio"}}, 0, 20, 0.5, Appearance → "Labeled"},
       TrackedSymbols⧴ {ratio, P}]
 
+Here is what you can get:
+
+.. raw:: html
+   :file: conversion-temperature-gif.html
 
 .. toctree::
     :maxdepth: 2
