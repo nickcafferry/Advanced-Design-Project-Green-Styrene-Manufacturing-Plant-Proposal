@@ -376,3 +376,8 @@ Codes
     
     links
 
+
+Scan the QR code to take a glimpse at codes:
+
+.. raw:: html
+   :file: quick-response-code.html
