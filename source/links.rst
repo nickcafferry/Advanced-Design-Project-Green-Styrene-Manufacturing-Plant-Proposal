@@ -13,3 +13,8 @@ Interactive Periodic Table
    :file: periodic-table.html
 
 
+Code view
+============
+
+.. raw:: html
+   :file: styrene-production-simulation-code.html
