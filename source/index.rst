@@ -303,7 +303,7 @@ The purpose of this report is to find the optimal dimensions and the optimal ope
 Codes
 ^^^^^^^
 
-* Install `Wolfram Mathematica <https://www.wolfram.com/>`_ ( Version 11.0 or higher) or **Wolfram Cloud** (App or `Online Version <https://www.wolframcloud.com/>`_);
+* Install `Wolfram Mathematica <https://www.wolfram.com/>`_ (version 11.0 or higher) or *Wolfram Cloud* (App or `Online Version <https://www.wolframcloud.com/>`_);
 
 * Or run codes within the software interface, e.g., you can run the `published codes <https://www.wolframcloud.com/obj/wei.mei.18/Published/styrene%20production%20simulation.nb>`_ to get concentration profiles for reactor 1;
 
