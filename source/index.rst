@@ -307,9 +307,14 @@ Codes
 
 * Or run codes within the software interface, e.g., you can run the `published codes <https://www.wolframcloud.com/obj/wei.mei.18/Published/styrene%20production%20simulation.nb>`_ to get concentration profiles for reactor 1;
 
+* Or you can scan the QR code to take a glimpse at these codes:
+
+.. raw:: html
+   :file: quick-response-code.html
+
 * And to get an overview of how temperature, pressure, steam to ethylbenzene ratio on the ethylbenzene conversion, run these codes:
 
-.. code:: python
+.. code:: mathematica
 
       Manipulate[
       K[T_] := Exp[A1 + B1 / T + C1 Log[T] + D1 T];
@@ -383,8 +388,3 @@ Here is what you can get:
     
     links
 
-
-Scan the QR code to take a glimpse at codes:
-
-.. raw:: html
-   :file: quick-response-code.html
