@@ -7,4 +7,9 @@ Deployment
 Links
 =====
 
+Interactive Periodic Table:
+
+.. raw:: html
+   :file: periodic-table.html
+
 For more details, please visit `this website <https://drive.google.com/drive/folders/1P25wyMHKvch4MaTkpnAdxPiI_tEmGBf0>`_ on Google Drive 
