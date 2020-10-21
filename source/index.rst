@@ -310,6 +310,7 @@ Codes
 .. raw:: html
    :file: quick-response-code.html
 
+----
 
 * And to get an overview of how temperature, pressure, steam to ethylbenzene ratio on the ethylbenzene conversion, run these codes:
 
