@@ -309,7 +309,7 @@ Codes
 
 * And to get an overview of how temperature, pressure, steam to ethylbenzene ratio on the ethylbenzene conversion, run these codes:
 
-.. code:: mathematica
+.. code:: python
 
       Manipulate[
       K[T_] := Exp[A1 + B1 / T + C1 Log[T] + D1 T];
@@ -321,11 +321,14 @@ Codes
       Fsteam = ratio F0;
       Conv[T_] := 1/(2 F0 (P + K[T]))*(-K[T] Fsteam + Sqrt[(K[T] Fsteam) ^ 2 + 4 F0 (P + K[T]) K[T] (F0 + Fsteam)]);
       Conv1[T_] := 1/(2 F0 (P + K[T]))* (Sqrt[4 F0 (P + K[T]) K[T] (F0)]);
-      Show[Plot[Conv1[T], {T, 500, 1500}, Frame → True, FrameLabel → {"temperature", "conversion"}, AxesOrigin→ {500, 0}, 
-      PlotLabels → {Callout["Without steam", {Scaled[0.25], Right}]}, PlotStyle → {Thick, Green}], Plot[Conv[T], {T, 500, 1500}, 
-      Frame → True, FrameLabel → {"temperature", "conversion"}, PlotLabels → {Callout["With steam", {Scaled[0.25], Left}]},
-      AxesOrigin→ {500, 0}, PlotStyle → {Thick, Red}], ImageSize → {500, 350}], {{P, 1.37, "total pressure in bar"}},
-      1, 1.7, 0.01, Appearance → "Labeled"}, {{ratio, 10, "steam to EB flow rate ratio"}}, 0, 20, 0.5, Appearance → "Labeled"}, TrackedSymbols⧴ {ratio, P}]
+      Show[Plot[Conv1[T], {T, 500, 1500}, Frame → True, FrameLabel → {"temperature", "conversion"}, 
+      AxesOrigin→ {500, 0}, PlotLabels → {Callout["Without steam", {Scaled[0.25], Right}]}, 
+      PlotStyle → {Thick, Green}], Plot[Conv[T], {T, 500, 1500}, Frame → True, 
+      FrameLabel → {"temperature", "conversion"}, PlotLabels → {Callout["With steam", {Scaled[0.25], Left}]},
+      AxesOrigin→ {500, 0}, PlotStyle → {Thick, Red}], ImageSize → {500, 350}], 
+      {{P, 1.37, "total pressure in bar"}}, 1, 1.7, 0.01, 
+      Appearance → "Labeled"}, {{ratio, 10, "steam to EB flow rate ratio"}}, 0, 20, 0.5, Appearance → "Labeled"},
+      TrackedSymbols⧴ {ratio, P}]
 
 
 .. toctree::
