@@ -90,5 +90,4 @@ Table 1.
 
 --------------------------------------
 
-.. raw:: html
-   :file: styrene_prices.html
+
