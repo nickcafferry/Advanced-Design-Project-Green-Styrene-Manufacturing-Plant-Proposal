@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+
+<html lang="Chinese">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Define Phase &#8212; Green Styrene Manufacturing Plant Proposal 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/agogo.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="shortcut icon" href="_static/GCC.svg"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Team" href="team.html" />
+    <link rel="prev" title="Appraise" href="Appraise_index.html" /> 
+  </head><body>
+    <div class="header-wrapper" role="banner">
+      <div class="header">
+          <p class="logo"><a href="index.html">
+            <img class="logo" src="_static/GCC.svg" alt="Logo"/>
+          </a></p>
+        <div class="headertitle"><a
+          href="index.html">Green Styrene Manufacturing Plant Proposal 1.0 documentation</a></div>
+        <div class="rel" role="navigation" aria-label="related navigation">
+          <a href="Appraise_index.html" title="Appraise"
+             accesskey="P">previous</a> |
+          <a href="team.html" title="Team"
+             accesskey="N">next</a> |
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a>
+        </div>
+       </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="content">
+        <div class="document">
+            
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="define-phase">
+<h1>Define Phase<a class="headerlink" href="#define-phase" title="Permalink to this headline">¶</a></h1>
+<div id="container_1" style="height: 300px; width: 800px"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+<script type="text/javascript">
+var dom = document.getElementById("container_1");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+function func(x) {
+    return Math.exp(-13.211-13122.47/x + 4.35 * Math.log(x)-0.0033 * x);
+}
+
+function fstream(r) {
+    return 152.2*r;
+}
+
+option = {
+    tooltip: {},
+    backgroundColor: '#fff',
+    visualMap: {
+        show: false,
+        dimension: 2,
+        min: 0,
+        max: 0.5,
+        inRange: {
+            color: ['blue', 'yellow', 'red']
+        }
+    },
+    xAxis3D: {
+        type: 'value',
+        name: 'Temperature T(K)'
+    },
+    yAxis3D: {
+        type: 'value',
+        name: 'Pressure P(bar)'
+    },
+    zAxis3D: {
+        type: 'value',
+        name: 'Conversion'
+    },
+    grid3D: {
+        viewControl: {
+            //projection: 'orthographic'
+        }
+    },
+    series: [{
+        name: 'Steam',
+        type: 'surface',
+        wireframe: {
+            // show: false
+        },
+        equation: {
+            x: {
+                step: 10,
+                min: 200,
+                max: 1600
+            },
+            y: {
+                step: 0.1,
+                min: 1,
+                max: 10
+            },
+            z: function (x, y) {
+                return 1/(2*152.2*(y+func(x))) * (-func(x)*fstream(10)+Math.sqrt(Math.pow(func(x)*fstream(10), 2)+4*152.2*(y+func(x))*func(x)*(152.2+fstream(10))));
+            }
+        }
+    },
+    {
+        name: 'No Steam',
+        type: 'surface',
+        wireframe: {
+            // show: false
+        },
+        equation: {
+            x: {
+                step: 10,
+                min: 200,
+                max: 1600
+            },
+            y: {
+                step: 0.1,
+                min: 1,
+                max: 10
+            },
+            z: function (x, y) {
+                return 1/(2*152.2*(y+func(x))) * (Math.sqrt(4*152.2*(y+func(x))*func(x)*152.2));
+            }
+        }
+    }
+    ]
+}
+;;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script><div class="section" id="energy-balance">
+<h2>Energy Balance<a class="headerlink" href="#energy-balance" title="Permalink to this headline">¶</a></h2>
+<div id="container_2" style="height: 400px; width: 800px"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+<script type="text/javascript">
+var dom = document.getElementById("container_2");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+var labelRight = {
+    position: 'right'
+};
+option = {
+    title: {
+        text: 'Enthalpy of Formation (kJ/mol) at T=298.15K',
+        subtext: 'Copyright@Wei MEI',
+        sublink: 'https://github.com/nickcafferry'
+    },
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    visualMap: {
+        inRange: {color: ['blue','red']}
+                },
+    grid: {
+        top: 80,
+        bottom: 30
+    },
+    xAxis: {
+        type: 'value',
+        position: 'top',
+        splitLine: {
+            lineStyle: {
+                type: 'dashed'
+            }
+        }
+    },
+    yAxis: {
+        type: 'category',
+        axisLine: {show: false},
+        axisLabel: {show: false},
+        axisTick: {show: false},
+        splitLine: {show: false},
+        data: ['ethylbenzene', 'toluene', 'styrene', 'benzene', 'ethylene', 'methane', 'hydrogen', 'water']
+    },
+    series: [
+        {
+            name: 'Enthalpy of Formation (kJ/mol)',
+            type: 'bar',
+            stack: 'total',
+            label: {
+                show: true,
+                formatter: '{b}'
+            },
+            data: [
+                {value: 29.92, visualMap: false, label: labelRight}, {value: 50.17, visualMap: false}, {value: 147.4, visualMap: false}, {value: 82.88, visualMap: false}, {value: 52.510, visualMap: false},
+                {value: -74.52, label: labelRight},
+                {value: 0, visualMap: false, label: labelRight},
+                {value: -241.814, label: labelRight}
+            ]
+        }
+    ]
+};
+myChart.setOption(option);
+myChart.on('click', function (params) {
+window.open('https://pubchem.ncbi.nlm.nih.gov/compound/' + encodeURIComponent(params.name));
+});;
+
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script></div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="sidebar">
+          
+          <h3>Table of Contents</h3>
+          <p class="caption"><span class="caption-text">Appraise</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Appraise_index.html">Appraise</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Define Phase</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Define Phase</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#energy-balance">Energy Balance</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Team</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="team.html">Team</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Links</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="links.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="links.html#interactive-periodic-table">Interactive Periodic Table</a></li>
+<li class="toctree-l1"><a class="reference internal" href="links.html#code-view">Code view</a></li>
+</ul>
+
+          <div role="search">
+            <h3 style="margin-top: 1.5em;">Search</h3>
+            <form class="search" action="search.html" method="get">
+                <input type="text" name="q" />
+                <input type="submit" value="Go" />
+            </form>
+          </div>
+
+        </div>
+        <div class="clearer"></div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="footer">
+        <div class="left">
+          <div role="navigation" aria-label="related navigaton">
+            <a href="Appraise_index.html" title="Appraise"
+              >previous</a> |
+            <a href="team.html" title="Team"
+              >next</a> |
+            <a href="genindex.html" title="General Index"
+              >index</a>
+          </div>
+          <div role="note" aria-label="source link">
+              <br/>
+              <a href="_sources/Define_Phase_Index.rst.txt"
+                rel="nofollow">Show Source</a>
+          </div>
+        </div>
+
+        <div class="right">
+          
+    <div class="footer" role="contentinfo">
+        &#169; Copyright - Wei MEI (Nick Cafferry).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0+.
+    </div>
+        </div>
+        <div class="clearer"></div>
+      </div>
+    </div>
+
+  </body>
+</html>
