@@ -888,7 +888,7 @@
 
 <script>
   if (PubChem3D_WebGL) {
-    var M1 = new PubChem3D_WebGL.Molecule({
+    var M4 = new PubChem3D_WebGL.Molecule({
       canvas: document.getElementById('render-canvas4'),
       settings: {
         quality: 'High',
@@ -897,12 +897,12 @@
       }
     })
     setTimeout(function() {
-      M1.addMain(sdf4)
-      M1.animate(true)
+      M4.addMain(sdf4)
+      M4.animate(true)
     },10)
 
 
-    var M2 = new PubChem3D_WebGL.Molecule({
+    var M5 = new PubChem3D_WebGL.Molecule({
       canvas: document.getElementById('render-canvas5'),
       settings: {
         quality: 'High',
@@ -911,11 +911,11 @@
       }
     })
     setTimeout(function() {
-      M2.addMain(sdf5)
-	M2.animate(true)
+      M5.addMain(sdf5)
+	M5.animate(true)
     },10)
 
-    var M3 = new PubChem3D_WebGL.Molecule({
+    var M6 = new PubChem3D_WebGL.Molecule({
       canvas: document.getElementById('render-canvas6'),
       settings: {
         quality: 'High',
@@ -924,8 +924,8 @@
       }
     })
     setTimeout(function() {
-      M3.addMain(sdf6)
-	M3.animate(true)
+      M6.addMain(sdf6)
+	M6.animate(true)
     },10)
   }
 </script>
