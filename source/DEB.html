@@ -1,0 +1,931 @@
+    <script src="https://pubchem.ncbi.nlm.nih.gov/pcfe/structure-3d-webgl/structure-3d-webgl.min.js"></script>
+    <script>
+      // example SDF
+	var sdf1 = '6325\n' +
+
+'  -OEChem-10302003123D\n' +
+
+'\n' +
+
+'  6  5  0     0  0  0  0  0  0999 V2000\n' +
+
+'   -0.6672    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    0.6672    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -1.2213   -0.9290    0.0708 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -1.2212    0.9290   -0.0708 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.2213    0.9290   -0.0708 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.2213   -0.9290    0.0708 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'  1  2  2  0  0  0  0\n' +
+
+'  1  3  1  0  0  0  0\n' +
+
+'  1  4  1  0  0  0  0\n' +
+
+'  2  5  1  0  0  0  0\n' +
+
+'  2  6  1  0  0  0  0\n' +
+
+'M  END\n' +
+
+'> <PUBCHEM_COMPOUND_CID>\n' +
+
+'6325\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_RMSD>\n' +
+
+'0.4\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_DIVERSEORDER>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_MMFF94_PARTIAL_CHARGES>\n' +
+
+'6\n' +
+
+'1 -0.3\n' +
+
+'2 -0.3\n' +
+
+'3 0.15\n' +
+
+'4 0.15\n' +
+
+'5 0.15\n' +
+
+'6 0.15\n' +
+
+'\n' +
+
+'> <PUBCHEM_EFFECTIVE_ROTOR_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_PHARMACOPHORE_FEATURES>\n' +
+
+'2\n' +
+
+'1 1 hydrophobe\n' +
+
+'1 2 hydrophobe\n' +
+
+'\n' +
+
+'> <PUBCHEM_HEAVY_ATOM_COUNT>\n' +
+
+'2\n' +
+
+'\n' +
+
+'> <PUBCHEM_ATOM_DEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_ATOM_UDEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_BOND_DEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_BOND_UDEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_ISOTOPIC_ATOM_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_COMPONENT_COUNT>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_CACTVS_TAUTO_COUNT>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_ID>\n' +
+
+'000018B500000001\n' +
+
+'\n' +
+
+'> <PUBCHEM_MMFF94_ENERGY>\n' +
+
+'0.1306\n' +
+
+'\n' +
+
+'> <PUBCHEM_FEATURE_SELFOVERLAP>\n' +
+
+'11.86\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_FINGERPRINT>\n' +
+
+'21015797 1 8574413327516572042\n' +
+
+'260 1 8574713502780882945\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_MULTIPOLES>\n' +
+
+'41.16\n' +
+
+'1.06\n' +
+
+'0.62\n' +
+
+'0.62\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_SELFOVERLAP>\n' +
+
+'58.377\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_VOLUME>\n' +
+
+'31.7\n' +
+
+'\n' +
+
+'> <PUBCHEM_COORDINATE_TYPE>\n' +
+
+'2\n' +
+
+'5\n' +
+
+'10\n' +
+
+'\n' +
+
+'$$$$'
+      
+	var sdf2 = '7500\n' +
+
+'  -OEChem-10202005113D\n' +
+
+'\n' +
+
+' 18 18  0     0  0  0  0  0  0999 V2000\n' +
+
+'    2.0237    0.0001    0.5593 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    0.5579    0.0001    0.2841 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -0.1277    1.2081    0.1555 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -0.1275   -1.2079    0.1556 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.8549   -0.0001   -0.7210 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -1.4987    1.2079   -0.1017 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -1.4985   -1.2080   -0.1016 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -2.1841   -0.0001   -0.2303 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.2907    0.8744    1.1662 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.2907   -0.8738    1.1666 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    0.3951    2.1560    0.2518 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    0.3953   -2.1558    0.2519 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.6442   -0.8858   -1.3298 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    3.9222   -0.0001   -0.4784 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.6441    0.8854   -1.3301 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -2.0324    2.1484   -0.2024 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -2.0322   -2.1486   -0.2023 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -3.2515   -0.0003   -0.4308 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'  1  2  1  0  0  0  0\n' +
+
+'  1  5  1  0  0  0  0\n' +
+
+'  1  9  1  0  0  0  0\n' +
+
+'  1 10  1  0  0  0  0\n' +
+
+'  2  3  2  0  0  0  0\n' +
+
+'  2  4  1  0  0  0  0\n' +
+
+'  3  6  1  0  0  0  0\n' +
+
+'  3 11  1  0  0  0  0\n' +
+
+'  4  7  2  0  0  0  0\n' +
+
+'  4 12  1  0  0  0  0\n' +
+
+'  5 13  1  0  0  0  0\n' +
+
+'  5 14  1  0  0  0  0\n' +
+
+'  5 15  1  0  0  0  0\n' +
+
+'  6  8  2  0  0  0  0\n' +
+
+'  6 16  1  0  0  0  0\n' +
+
+'  7  8  1  0  0  0  0\n' +
+
+'  7 17  1  0  0  0  0\n' +
+
+'  8 18  1  0  0  0  0\n' +
+
+'M  END\n' +
+
+'> <PUBCHEM_COMPOUND_CID>\n' +
+
+'7500\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_RMSD>\n' +
+
+'0.4\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_DIVERSEORDER>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_MMFF94_PARTIAL_CHARGES>\n' +
+
+'12\n' +
+
+'1 0.14\n' +
+
+'11 0.15\n' +
+
+'12 0.15\n' +
+
+'16 0.15\n' +
+
+'17 0.15\n' +
+
+'18 0.15\n' +
+
+'2 -0.14\n' +
+
+'3 -0.15\n' +
+
+'4 -0.15\n' +
+
+'6 -0.15\n' +
+
+'7 -0.15\n' +
+
+'8 -0.15\n' +
+
+'\n' +
+
+'> <PUBCHEM_EFFECTIVE_ROTOR_COUNT>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_PHARMACOPHORE_FEATURES>\n' +
+
+'2\n' +
+
+'1 5 hydrophobe\n' +
+
+'6 2 3 4 6 7 8 rings\n' +
+
+'\n' +
+
+'> <PUBCHEM_HEAVY_ATOM_COUNT>\n' +
+
+'8\n' +
+
+'\n' +
+
+'> <PUBCHEM_ATOM_DEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_ATOM_UDEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_BOND_DEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_BOND_UDEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_ISOTOPIC_ATOM_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_COMPONENT_COUNT>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_CACTVS_TAUTO_COUNT>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_ID>\n' +
+
+'00001D4C00000001\n' +
+
+'\n' +
+
+'> <PUBCHEM_MMFF94_ENERGY>\n' +
+
+'15.4513\n' +
+
+'\n' +
+
+'> <PUBCHEM_FEATURE_SELFOVERLAP>\n' +
+
+'10.148\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_FINGERPRINT>\n' +
+
+'12716758 59 18341332197748650170\n' +
+
+'12897270 3 18411140246867516748\n' +
+
+'15310529 11 16805316686901692769\n' +
+
+'16714656 1 18410576184211629989\n' +
+
+'16945 1 18410849967060156099\n' +
+
+'20645464 45 17916849305690653698\n' +
+
+'21040471 1 18266731381549254529\n' +
+
+'23235685 24 18410571743431912125\n' +
+
+'23552423 10 18188207576977407498\n' +
+
+'2748010 2 18049994790752230295\n' +
+
+'29004967 10 16343702140538849138\n' +
+
+'369184 2 18412537713124381058\n' +
+
+'5084963 1 18343301457227968120\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_MULTIPOLES>\n' +
+
+'164.64\n' +
+
+'3.35\n' +
+
+'1.35\n' +
+
+'0.75\n' +
+
+'1.82\n' +
+
+'0\n' +
+
+'-0.02\n' +
+
+'0\n' +
+
+'-0.63\n' +
+
+'-0.59\n' +
+
+'0.02\n' +
+
+'0.25\n' +
+
+'0\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_SELFOVERLAP>\n' +
+
+'332.872\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_VOLUME>\n' +
+
+'93\n' +
+
+'\n' +
+
+'> <PUBCHEM_COORDINATE_TYPE>\n' +
+
+'2\n' +
+
+'5\n' +
+
+'10\n' +
+
+'\n' +
+
+'$$$$'
+
+      var sdf3 = '8657\n' +
+
+'  -OEChem-10302002543D\n' +
+
+'\n' +
+
+' 24 24  0     0  0  0  0  0  0999 V2000\n' +
+
+'    0.1133   -0.6577    0.2323 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    0.1135    0.6577   -0.2318 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.3939   -1.3830    0.4873 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.3942    1.3822   -0.4872 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -1.0949   -1.3153    0.4641 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -1.0945    1.3155   -0.4640 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.8894   -2.1328   -0.7455 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.8904    2.1327    0.7450 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -2.3028   -0.6573    0.2319 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -2.3026    0.6580   -0.2321 C   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.1787   -0.7205    0.8639 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.2424   -2.1090    1.2976 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.1788    0.7192   -0.8635 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.2430    2.1076   -1.2980 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -1.1109   -2.3409    0.8234 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -1.1102    2.3411   -0.8235 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.1595   -2.8826   -1.0698 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.8263   -2.6517   -0.5187 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.0704   -1.4597   -1.5891 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    1.1607    2.8829    1.0689 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.8274    2.6512    0.5177 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'    2.0712    1.4601    1.5890 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -3.2434   -1.1694    0.4119 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'   -3.2432    1.1702   -0.4125 H   0  0  0  0  0  0  0  0  0  0  0  0\n' +
+
+'  1  2  1  0  0  0  0\n' +
+
+'  1  3  1  0  0  0  0\n' +
+
+'  1  5  2  0  0  0  0\n' +
+
+'  2  4  1  0  0  0  0\n' +
+
+'  2  6  2  0  0  0  0\n' +
+
+'  3  7  1  0  0  0  0\n' +
+
+'  3 11  1  0  0  0  0\n' +
+
+'  3 12  1  0  0  0  0\n' +
+
+'  4  8  1  0  0  0  0\n' +
+
+'  4 13  1  0  0  0  0\n' +
+
+'  4 14  1  0  0  0  0\n' +
+
+'  5  9  1  0  0  0  0\n' +
+
+'  5 15  1  0  0  0  0\n' +
+
+'  6 10  1  0  0  0  0\n' +
+
+'  6 16  1  0  0  0  0\n' +
+
+'  7 17  1  0  0  0  0\n' +
+
+'  7 18  1  0  0  0  0\n' +
+
+'  7 19  1  0  0  0  0\n' +
+
+'  8 20  1  0  0  0  0\n' +
+
+'  8 21  1  0  0  0  0\n' +
+
+'  8 22  1  0  0  0  0\n' +
+
+'  9 10  2  0  0  0  0\n' +
+
+'  9 23  1  0  0  0  0\n' +
+
+' 10 24  1  0  0  0  0\n' +
+
+'M  END\n' +
+
+'> <PUBCHEM_COMPOUND_CID>\n' +
+
+'8657\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_RMSD>\n' +
+
+'0.4\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_DIVERSEORDER>\n' +
+
+'1\n' +
+
+'2\n' +
+
+'5\n' +
+
+'4\n' +
+
+'3\n' +
+
+'\n' +
+
+'> <PUBCHEM_MMFF94_PARTIAL_CHARGES>\n' +
+
+'12\n' +
+
+'1 -0.14\n' +
+
+'10 -0.15\n' +
+
+'15 0.15\n' +
+
+'16 0.15\n' +
+
+'2 -0.14\n' +
+
+'23 0.15\n' +
+
+'24 0.15\n' +
+
+'3 0.14\n' +
+
+'4 0.14\n' +
+
+'5 -0.15\n' +
+
+'6 -0.15\n' +
+
+'9 -0.15\n' +
+
+'\n' +
+
+'> <PUBCHEM_EFFECTIVE_ROTOR_COUNT>\n' +
+
+'2\n' +
+
+'\n' +
+
+'> <PUBCHEM_PHARMACOPHORE_FEATURES>\n' +
+
+'3\n' +
+
+'1 7 hydrophobe\n' +
+
+'1 8 hydrophobe\n' +
+
+'6 1 2 5 6 9 10 rings\n' +
+
+'\n' +
+
+'> <PUBCHEM_HEAVY_ATOM_COUNT>\n' +
+
+'10\n' +
+
+'\n' +
+
+'> <PUBCHEM_ATOM_DEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_ATOM_UDEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_BOND_DEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_BOND_UDEF_STEREO_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_ISOTOPIC_ATOM_COUNT>\n' +
+
+'0\n' +
+
+'\n' +
+
+'> <PUBCHEM_COMPONENT_COUNT>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_CACTVS_TAUTO_COUNT>\n' +
+
+'1\n' +
+
+'\n' +
+
+'> <PUBCHEM_CONFORMER_ID>\n' +
+
+'000021D100000001\n' +
+
+'\n' +
+
+'> <PUBCHEM_MMFF94_ENERGY>\n' +
+
+'20.788\n' +
+
+'\n' +
+
+'> <PUBCHEM_FEATURE_SELFOVERLAP>\n' +
+
+'15.223\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_FINGERPRINT>\n' +
+
+'1 1 18269274723980252182\n' +
+
+'100427 49 18265893545072457356\n' +
+
+'12423570 1 15728108373311646799\n' +
+
+'12524768 44 18407477769256200279\n' +
+
+'13380535 76 18263633138365980499\n' +
+
+'161256 15 18335430070796451191\n' +
+
+'16945 1 18411982459604654471\n' +
+
+'20711978 78 18342733018290479541\n' +
+
+'20711985 344 17190391802599797950\n' +
+
+'20871998 184 17330000607977631392\n' +
+
+'21040471 1 18047194338641342116\n' +
+
+'23211744 41 17698732724152330172\n' +
+
+'23552423 10 18114188535720466167\n' +
+
+'241688 4 17834955265555255128\n' +
+
+'2748010 2 18260548926872439607\n' +
+
+'4663303 62 18272652346502112390\n' +
+
+'5084963 1 17838636782609277936\n' +
+
+'7364860 26 18343302565260880640\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_MULTIPOLES>\n' +
+
+'205.8\n' +
+
+'3.02\n' +
+
+'2.43\n' +
+
+'0.84\n' +
+
+'0.81\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'0\n' +
+
+'-1.68\n' +
+
+'0\n' +
+
+'-0.21\n' +
+
+'0\n' +
+
+'0.61\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_SELFOVERLAP>\n' +
+
+'415.43\n' +
+
+'\n' +
+
+'> <PUBCHEM_SHAPE_VOLUME>\n' +
+
+'117.9\n' +
+
+'\n' +
+
+'> <PUBCHEM_COORDINATE_TYPE>\n' +
+
+'2\n' +
+
+'5\n' +
+
+'10\n' +
+
+'\n' +
+
+'$$$$'
+
+</script>
+
+<style>
+	.hlong *{display:inline-block;vertical-align:middle}
+</style>
+<div align="center" class="hlong">
+    <div>
+        <div style="width: 200px; height: 200px;">
+            <canvas id="render-canvas4" style="width: 200px; height: 200px; border: solid 1px #ccc;"></canvas>
+        </div>
+	</div>
+
+<div>+</div>
+
+    <div>
+        <div style="width: 200px; height: 200px;">
+            <canvas id="render-canvas5" style="width: 200px; height: 200px; border: solid 1px #ccc;"></canvas>
+        </div>
+	</div>
+
+<div>-----></div>
+
+    <div>
+        <div style="width: 200px; height: 200px;">
+            <canvas id="render-canvas6" style="width: 200px; height: 200px; border: solid 1px #ccc;"></canvas>
+        </div>
+	</div>
+
+    </div>
+
+
+<script>
+  if (PubChem3D_WebGL) {
+    var M1 = new PubChem3D_WebGL.Molecule({
+      canvas: document.getElementById('render-canvas4'),
+      settings: {
+        quality: 'High',
+        backgroundColor: 'Transparent',
+        model: 'Ball and Stick'
+      }
+    })
+    setTimeout(function() {
+      M1.addMain(sdf1)
+      M1.animate(true)
+    },10)
+
+
+    var M2 = new PubChem3D_WebGL.Molecule({
+      canvas: document.getElementById('render-canvas5'),
+      settings: {
+        quality: 'High',
+        backgroundColor: 'Transparent',
+        model: 'Ball and Stick'
+      }
+    })
+    setTimeout(function() {
+      M2.addMain(sdf2)
+	M2.animate(true)
+    },10)
+
+    var M3 = new PubChem3D_WebGL.Molecule({
+      canvas: document.getElementById('render-canvas6'),
+      settings: {
+        quality: 'High',
+        backgroundColor: 'Transparent',
+        model: 'Ball and Stick'
+      }
+    })
+    setTimeout(function() {
+      M3.addMain(sdf3)
+	M3.animate(true)
+    },10)
+  }
+</script>
